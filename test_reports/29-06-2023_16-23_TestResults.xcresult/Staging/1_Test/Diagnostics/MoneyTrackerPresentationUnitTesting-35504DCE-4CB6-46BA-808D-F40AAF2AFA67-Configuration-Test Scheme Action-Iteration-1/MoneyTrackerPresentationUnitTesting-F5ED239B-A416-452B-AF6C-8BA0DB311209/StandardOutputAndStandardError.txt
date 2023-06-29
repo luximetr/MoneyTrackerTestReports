@@ -71,3 +71,83 @@ Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddS
 Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddSecondCategory]' started.
 Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddSecondCategory]' passed (0.193 seconds).
 Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_Thai_Light]' passed (0.267 seconds).
+Test Suite 'AddTemplateScreenTests' passed at 2023-06-29 16:24:57.341.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 1.894 (1.896) seconds
+Test Suite 'StatisticMenuScreenUnitTesting' started at 2023-06-29 16:24:57.343
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_English_Dark]' started.
+2023-06-29 16:24:57.348974+0800 xctest[88040:53672032] [TableView] Warning once only: UITableView was told to layout its visible cells and other contents without being in the view hierarchy (the table view or one of its superviews has not been added to a window). This may cause bugs by forcing views inside the table view to load and perform layout without accurate information (e.g. table view bounds, trait collection, layout margins, safe area insets, etc), and will also cause unnecessary performance overhead due to extra layout passes. Make a symbolic breakpoint at UITableViewAlertForLayoutOutsideViewHierarchy to catch this in the debugger and see what caused this to occur, so you can avoid this action altogether if possible, or defer it until the table view has been added to a window. Table view: <UITableView: 0x126052200; frame = (0 48; 393 804); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x600003b468e0>; backgroundColor = UIExtendedSRGBColorSpace 0.106 0.11 0.118 1; layer = <CALayer: 0x6000034cc620>; contentOffset: {0, 0}; contentSize: {393, 120}; adjustedContentInset: {0, 0, 0, 0}; dataSource: <_TtC6AUIKitP33_D811B2E810C50E74E7FFEB2E8E44C5FB24UITableViewDelegateProxy: 0x600003647630>>
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_English_Dark]' passed (0.202 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhoneX_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhoneX_Ukrainian_Light]' passed (0.146 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_EnglishToUkrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_EnglishToUkrainian_Light]' passed (0.165 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_English_LightToDark]' passed (0.170 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_Ukrainian_Dark]' passed (0.184 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhoneSEFirstGet_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhoneSEFirstGet_Ukrainian_Light]' passed (0.106 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_Thai_Dark]' passed (0.206 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testStatisticMenuScreen_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testStatisticMenuScreen_iPhone14Pro_English_Light]' passed (0.197 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_English_DarkToLight]' passed (0.141 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_Thai_Light]' passed (0.186 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.StatisticMenuScreenUnitTesting testSettingsMenuScreen_iPhone14Pro_Ukrainian_Light]' passed (0.161 seconds).
+Test Suite 'StatisticMenuScreenUnitTesting' passed at 2023-06-29 16:24:59.210.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 1.865 (1.867) seconds
+Test Suite 'ArchivedCataegoriesListScreen10CategoriesTests' started at 2023-06-29 16:24:59.214
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_Ukrainian_Light]' passed (0.174 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_English_Light]' passed (0.186 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_Thai_Dark]' passed (0.187 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_Ukrainian_Dark]' passed (0.177 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_Thai_Light]' passed (0.474 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_English_DarkToLight]' passed (0.205 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_English_Dark]' passed (0.194 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCataegoriesListScreen10CategoriesTests test10ArchivedCategories_iPhone14Pro_English_LightToDark]' passed (0.215 seconds).
+Test Suite 'ArchivedCataegoriesListScreen10CategoriesTests' passed at 2023-06-29 16:25:01.032.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 1.812 (1.819) seconds
+Test Suite 'InterfaceSettingsScreenOpenAppOnTests' started at 2023-06-29 16:25:01.034
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenOpenAppOnTests testInterfaceSettings_openAppOnDashboard_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenOpenAppOnTests testInterfaceSettings_openAppOnDashboard_iPhone14Pro_English_Light]' passed (0.206 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenOpenAppOnTests testInterfaceSettings_openAppOnAddRecords_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenOpenAppOnTests testInterfaceSettings_openAppOnAddRecords_iPhone14Pro_English_Light]' passed (0.150 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenOpenAppOnTests testInterfaceSettings_openAppOnDashboard_iPhone14Pro_EnglishToUkrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenOpenAppOnTests testInterfaceSettings_openAppOnDashboard_iPhone14Pro_EnglishToUkrainian_Light]' passed (0.198 seconds).
+Test Suite 'InterfaceSettingsScreenOpenAppOnTests' passed at 2023-06-29 16:25:01.591.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.554 (0.557) seconds
+Test Suite 'ArchivedBalanceAccountsListScreenEditAccountTests' started at 2023-06-29 16:25:01.593
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedBalanceAccountsListScreenEditAccountTests testEditArchivedBalanceAccountsScreenWith2Accounts]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedBalanceAccountsListScreenEditAccountTests testEditArchivedBalanceAccountsScreenWith2Accounts]' passed (0.191 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedBalanceAccountsListScreenEditAccountTests testEditArchivedBalanceAccountsScreenWith1Account]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedBalanceAccountsListScreenEditAccountTests testEditArchivedBalanceAccountsScreenWith1Account]' passed (0.217 seconds).
+Test Suite 'ArchivedBalanceAccountsListScreenEditAccountTests' passed at 2023-06-29 16:25:02.002.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.409 (0.409) seconds
+Test Suite 'RemoveConfirmationAlertScreenTests' started at 2023-06-29 16:25:02.012
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_English_Dark]' passed (0.058 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_Ukrainian_Dark]' passed (0.061 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_Thai_Light]' passed (0.079 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_English_Light]' passed (0.043 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_Thai_Dark]' passed (0.034 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveConfirmationAlertScreenTests testRemoveConfirmationAlert_iPhone14Pro_Ukrainian_Light]' passed (0.031 seconds).
+Test Suite 'RemoveConfirmationAlertScreenTests' passed at 2023-06-29 16:25:02.319.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.306 (0.307) seconds
+2023-06-29 16:25:04.833882+0800 xctest[88040:53672032] [client] Timed out waiting for the exit barrier block. activeSendTransactions=0

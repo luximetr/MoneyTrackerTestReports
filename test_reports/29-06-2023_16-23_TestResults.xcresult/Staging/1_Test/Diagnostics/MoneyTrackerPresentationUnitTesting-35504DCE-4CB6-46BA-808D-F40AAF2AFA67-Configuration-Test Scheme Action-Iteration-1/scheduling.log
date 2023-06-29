@@ -51,3 +51,100 @@
 2023-06-29 08:24:56 +0000: Dispatching tests <XCTTestIdentifier ["AddRecordsScreenAddReplenishmentTests"] container, class> to worker: 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
 2023-06-29 08:24:56 +0000: Worker 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
 2023-06-29 08:24:56 +0000: Dispatching tests <XCTTestIdentifier ["SelectCurrencyScreenTests"] container, class> to worker: 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:57 +0000: Worker 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:57 +0000: Dispatching tests <XCTTestIdentifier ["StatisticMenuScreenUnitTesting"] container, class> to worker: 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:57 +0000: Worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:57 +0000: Dispatching tests <XCTTestIdentifier ["TemplatesListScreenTemplatesTests"] container, class> to worker: 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:57 +0000: Worker 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:57 +0000: Dispatching tests <XCTTestIdentifier ["EditAccountScreenTests"] container, class> to worker: 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:57 +0000: Worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:57 +0000: Dispatching tests <XCTTestIdentifier ["HistoryListScreenEmptyTests"] container, class> to worker: 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:58 +0000: Worker 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:58 +0000: Dispatching tests <XCTTestIdentifier ["AddAccountScreenTests"] container, class> to worker: 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:58 +0000: Worker 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:58 +0000: Dispatching tests <XCTTestIdentifier ["SelectCategoryToMoveScreenTests"] container, class> to worker: 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:59 +0000: Worker 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:59 +0000: Dispatching tests <XCTTestIdentifier ["ArchivedCataegoriesListScreen10CategoriesTests"] container, class> to worker: 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:59 +0000: Worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:59 +0000: Dispatching tests <XCTTestIdentifier ["CategoriesListScreenEmptyTests"] container, class> to worker: 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:59 +0000: Worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:59 +0000: Dispatching tests <XCTTestIdentifier ["CreateCategoryScreenUnitTesting"] container, class> to worker: 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:59 +0000: Worker 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:59 +0000: Dispatching tests <XCTTestIdentifier ["ArchivedCategoriesListScreenEmptyTests"] container, class> to worker: 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:24:59 +0000: Worker 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:24:59 +0000: Dispatching tests <XCTTestIdentifier ["DataManagementScreenTests"] container, class> to worker: 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:00 +0000: Worker 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:00 +0000: Dispatching tests <XCTTestIdentifier ["InterfaceSettingsScreenAppearanceTests"] container, class> to worker: 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:00 +0000: Worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:00 +0000: Dispatching tests <XCTTestIdentifier ["InterfaceSettingsScreenAppIconTests"] container, class> to worker: 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:00 +0000: Worker 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:00 +0000: Dispatching tests <XCTTestIdentifier ["HistoryListScreenDeleteExpenseTests"] container, class> to worker: 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["InterfaceSettingsScreenOpenAppOnTests"] container, class> to worker: 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["BalanceAccountsListScreenAddAccountTests"] container, class> to worker: 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["BalanceAccountsListScreenEditAccountTests"] container, class> to worker: 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["RemoveCategoryAlertTests"] container, class> to worker: 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["ArchivedBalanceAccountsListScreenAddAccountTests"] container, class> to worker: 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["HistoryListScreenAddExpenseTests"] container, class> to worker: 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["CategoriesListScreenAddCategoryTests"] container, class> to worker: 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["ArchivedBalanceAccountsListScreenEditAccountTests"] container, class> to worker: 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["CategoriesListScreenEditCategoryTests"] container, class> to worker: 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["TemplatesListScreenUpdateTemplateTests"] container, class> to worker: 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["InterfaceSettingsScreenStartMonthOnTests"] container, class> to worker: 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x121c4bdc0 [88033: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["TemplatesListScreenAddTemplateTests"] container, class> to worker: 0x121c4bdc0 [88033: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["PresentationAddRecordsTests"] container, class> to worker: 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:01 +0000: Worker 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:01 +0000: Dispatching tests <XCTTestIdentifier ["ArchivedCategoriesListScreenAddCategoryTests"] container, class> to worker: 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Worker 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Dispatching tests <XCTTestIdentifier ["RemoveConfirmationAlertScreenTests"] container, class> to worker: 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Dispatching tests <XCTTestIdentifier ["ArchivedCategoriesListScreenEditCategoryTests"] container, class> to worker: 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Dispatching tests <XCTTestIdentifier ["SelectExpenseCategoriesScreenTests"] container, class> to worker: 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Worker 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Dispatching tests <XCTTestIdentifier ["SfSymbolsAppearanceImagesUnitTesting"] container, class> to worker: 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Worker 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Dispatching tests <XCTTestIdentifier ["RemoveDataAlertTests"] container, class> to worker: 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Dispatching tests <XCTTestIdentifier ["PresentationAddAccountTests"] container, class> to worker: 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Worker 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Dispatching tests <XCTTestIdentifier ["PresentationAddCategoryTests"] container, class> to worker: 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Dispatching tests <XCTTestIdentifier ["PresentationDataManagementTests"] container, class> to worker: 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Worker 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Dispatching tests <XCTTestIdentifier ["PresentationCategoriesListTests"] container, class> to worker: 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
+2023-06-29 08:25:02 +0000: Scheduler finished dispatching test classes
+2023-06-29 08:25:02 +0000: Worker 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Telling worker 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] to shutdown
+2023-06-29 08:25:02 +0000: Worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Telling worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] to shutdown
+2023-06-29 08:25:02 +0000: Worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Telling worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] to shutdown
+2023-06-29 08:25:02 +0000: Worker 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Telling worker 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] to shutdown
+2023-06-29 08:25:02 +0000: Worker 0x121c4bdc0 [88033: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Telling worker 0x121c4bdc0 [88033: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] to shutdown
+2023-06-29 08:25:02 +0000: Worker 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Telling worker 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] to shutdown
+2023-06-29 08:25:02 +0000: Worker 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully.
+2023-06-29 08:25:02 +0000: Telling worker 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] to shutdown
+2023-06-29 08:25:05 +0000: Worker 0x121a4a4b0 [88039: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully
+2023-06-29 08:25:05 +0000: Worker 0x120ed8940 [88041: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully
+2023-06-29 08:25:05 +0000: Worker 0x121c4bdc0 [88033: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully
+2023-06-29 08:25:05 +0000: Worker 0x12194eb00 [88036: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully
+2023-06-29 08:25:05 +0000: Worker 0x121b53b60 [88038: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully
+2023-06-29 08:25:05 +0000: Worker 0x150e81560 [88037: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully
+2023-06-29 08:25:05 +0000: Worker 0x15288e830 [88040: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully
+2023-06-29 08:25:05 +0000: Finished executing tests (cancelled: No)

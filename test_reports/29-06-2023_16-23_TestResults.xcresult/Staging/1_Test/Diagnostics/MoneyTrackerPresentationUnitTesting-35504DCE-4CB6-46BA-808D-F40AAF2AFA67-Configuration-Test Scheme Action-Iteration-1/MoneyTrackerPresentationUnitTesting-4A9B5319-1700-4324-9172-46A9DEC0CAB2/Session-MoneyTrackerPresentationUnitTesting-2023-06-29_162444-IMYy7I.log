@@ -1379,3 +1379,953 @@ Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenTotalAmo
 16:24:56.965 xctest[88041:53672034] <XCTWaiter: 0x600001185260, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
 16:24:56.965 xctest[88041:53672034] cleaning up failable invocation block completion
 16:24:56.965 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001185260, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenTotalAmountViewTests testInterfaceSettings_totalAmountViewDefaultCurrency_updated3DaysAgo_iPhone14Pro_English_Light]' passed (0.315 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenTotalAmountViewTests testInterfaceSettings_totalAmountViewOriginalCurrency_iPhone14Pro_Thai_Light]' started.
+16:24:57.276 xctest[88041:53672034] <XCTWaiter: 0x600001185260, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:57.277 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:57.277 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001185260, state: XCTWaiterStateFinished>
+16:24:57.277 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:57.279 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["InterfaceSettingsScreenTotalAmountViewTests", "testInterfaceSettings_totalAmountViewDefaultCurrency_updated3DaysAgo_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.3151220083236694
+16:24:57.279 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["InterfaceSettingsScreenTotalAmountViewTests", "testInterfaceSettings_totalAmountViewOriginalCurrency_iPhone14Pro_Thai_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000023059e0>
+16:24:57.277 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenTotalAmountViewTests testInterfaceSettings_totalAmountViewOriginalCurrency_iPhone14Pro_Thai_Light
+16:24:57.278 xctest[88041:53672034] <XCTWaiter: 0x600001189ff0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:57.278 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:57.278 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001189ff0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenTotalAmountViewTests testInterfaceSettings_totalAmountViewOriginalCurrency_iPhone14Pro_Thai_Light]' passed (0.265 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenTotalAmountViewTests testInterfaceSettings_totalAmountViewDefaultCurrency_updatedJustNow_iPhone14Pro_Thai_Light]' started.
+16:24:57.544 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["InterfaceSettingsScreenTotalAmountViewTests", "testInterfaceSettings_totalAmountViewOriginalCurrency_iPhone14Pro_Thai_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.2646329402923584
+16:24:57.544 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["InterfaceSettingsScreenTotalAmountViewTests", "testInterfaceSettings_totalAmountViewDefaultCurrency_updatedJustNow_iPhone14Pro_Thai_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000023d1320>
+16:24:57.541 xctest[88041:53672034] <XCTWaiter: 0x6000011993b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:57.542 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:57.542 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011993b0, state: XCTWaiterStateFinished>
+16:24:57.542 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:57.543 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenTotalAmountViewTests testInterfaceSettings_totalAmountViewDefaultCurrency_updatedJustNow_iPhone14Pro_Thai_Light
+16:24:57.546 xctest[88041:53672034] <XCTWaiter: 0x600001181f80, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:57.546 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:57.546 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001181f80, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.InterfaceSettingsScreenTotalAmountViewTests testInterfaceSettings_totalAmountViewDefaultCurrency_updatedJustNow_iPhone14Pro_Thai_Light]' passed (0.175 seconds).
+Test Suite 'InterfaceSettingsScreenTotalAmountViewTests' passed at 2023-06-29 16:24:57.718.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 2.280 (2.284) seconds
+16:24:57.720 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["InterfaceSettingsScreenTotalAmountViewTests", "testInterfaceSettings_totalAmountViewDefaultCurrency_updatedJustNow_iPhone14Pro_Thai_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1754150390625
+16:24:57.720 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["InterfaceSettingsScreenTotalAmountViewTests"] container, class> didFinishAt:2023-06-29 08:24:57 +0000 runCount:12 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:2.280404925346375 totalDuration:2.284190058708191
+16:24:57.718 xctest[88041:53672034] <XCTWaiter: 0x6000011b4fc0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:57.718 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:57.718 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011b4fc0, state: XCTWaiterStateFinished>
+16:24:57.718 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:57.718 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:24:57.729 xctest[88041:53672118] Test driver received request to execute test identifiers <XCTTestIdentifier ["HistoryListScreenEmptyTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+Test Suite 'HistoryListScreenEmptyTests' started at 2023-06-29 16:24:57.736
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Dark]' started.
+16:24:57.738 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests"] container, class> didStartAt:2023-06-29 08:24:57 +0000
+16:24:57.736 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteWillStart:]
+16:24:57.736 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Dark
+16:24:57.740 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_English_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000022f09e0>
+16:24:57.740 xctest[88041:53672034] <XCTWaiter: 0x600001181b20, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:57.740 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:57.741 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001181b20, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Dark]' passed (0.261 seconds).
+16:24:57.997 xctest[88041:53672034] <XCTWaiter: 0x600001190230, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:57.997 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:57.997 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001190230, state: XCTWaiterStateFinished>
+16:24:57.998 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Light]' started.
+16:24:57.999 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_English_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.2612679004669189
+16:24:57.999 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Thai_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002266820>
+16:24:57.998 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Light
+16:24:57.999 xctest[88041:53672034] <XCTWaiter: 0x6000011b2990, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:57.999 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:57.999 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011b2990, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Light]' passed (0.277 seconds).
+16:24:58.275 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Thai_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.2769960165023804
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Light]' started.
+16:24:58.275 xctest[88041:53672034] <XCTWaiter: 0x6000011821b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:58.275 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Ukrainian_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002305b60>
+16:24:58.275 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:58.275 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011821b0, state: XCTWaiterStateFinished>
+16:24:58.275 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:58.275 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Light
+16:24:58.276 xctest[88041:53672034] <XCTWaiter: 0x60000119b6b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:58.276 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:58.276 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000119b6b0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Light]' passed (0.295 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Light]' started.
+16:24:58.570 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Ukrainian_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.2945550680160522
+16:24:58.571 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002230120>
+16:24:58.569 xctest[88041:53672034] <XCTWaiter: 0x600001180f50, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:58.569 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:58.569 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001180f50, state: XCTWaiterStateFinished>
+16:24:58.570 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:58.570 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Light
+16:24:58.572 xctest[88041:53672034] <XCTWaiter: 0x6000011820d0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:58.572 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:58.572 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011820d0, state: XCTWaiterStateFinished>
+16:24:58.820 xctest[88041:53672034] <XCTWaiter: 0x600001182760, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:58.820 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:58.820 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001182760, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Light]' passed (0.254 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Dark]' started.
+16:24:58.825 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.2536120414733887
+16:24:58.826 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Thai_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000220af40>
+16:24:58.825 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:58.825 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Dark
+16:24:58.825 xctest[88041:53672034] <XCTWaiter: 0x60000118a680, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:58.825 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:58.825 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000118a680, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Dark]' passed (0.269 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark]' started.
+16:24:59.094 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Thai_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.2688119411468506
+16:24:59.095 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002265a20>
+16:24:59.093 xctest[88041:53672034] <XCTWaiter: 0x600001181570, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:59.093 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:59.093 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001181570, state: XCTWaiterStateFinished>
+16:24:59.094 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:59.094 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark
+16:24:59.094 xctest[88041:53672034] <XCTWaiter: 0x6000011ba140, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:59.094 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:59.094 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011ba140, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark]' passed (0.247 seconds).
+16:24:59.341 xctest[88041:53672034] <XCTWaiter: 0x6000011b7a30, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:59.341 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:59.341 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011b7a30, state: XCTWaiterStateFinished>
+16:24:59.341 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:59.342 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.2469639778137207
+Test Suite 'HistoryListScreenEmptyTests' passed at 2023-06-29 16:24:59.342.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 1.602 (1.606) seconds
+16:24:59.342 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:24:59.343 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests"] container, class> didFinishAt:2023-06-29 08:24:59 +0000 runCount:6 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:1.602206945419312 totalDuration:1.605805993080139
+16:24:59.343 xctest[88041:53672197] Test driver received request to execute test identifiers <XCTTestIdentifier ["CreateCategoryScreenUnitTesting"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+Test Suite 'CreateCategoryScreenUnitTesting' started at 2023-06-29 16:24:59.344
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light]' started.
+16:24:59.345 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting"] container, class> didStartAt:2023-06-29 08:24:59 +0000
+16:24:59.344 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteWillStart:]
+16:24:59.344 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light
+16:24:59.345 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000220bb40>
+16:24:59.345 xctest[88041:53672034] <XCTWaiter: 0x600001194460, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:59.345 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:59.345 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001194460, state: XCTWaiterStateFinished>
+16:24:59.635 xctest[88041:53672034] <XCTWaiter: 0x6000011fc000, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:59.635 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:59.636 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.2911440134048462
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light]' passed (0.291 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName]' started.
+16:24:59.635 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011fc000, state: XCTWaiterStateFinished>
+16:24:59.635 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:59.636 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName
+16:24:59.637 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002326f80>
+16:24:59.637 xctest[88041:53672034] <XCTWaiter: 0x6000011fc070, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:59.637 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:59.637 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011fc070, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName]' passed (0.205 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure]' started.
+16:24:59.842 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName"] leaf, method, swift> didFinishWithStatus:passed duration:0.2053729295730591
+16:24:59.843 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002207460>
+16:24:59.841 xctest[88041:53672034] <XCTWaiter: 0x600001188310, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:59.841 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:59.841 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001188310, state: XCTWaiterStateFinished>
+16:24:59.841 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:24:59.842 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure
+16:24:59.844 xctest[88041:53672034] <XCTWaiter: 0x6000011a8a10, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:24:59.844 xctest[88041:53672034] cleaning up failable invocation block completion
+16:24:59.844 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011a8a10, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure]' passed (0.594 seconds).
+16:25:00.436 xctest[88041:53672034] <XCTWaiter: 0x60000119ad10, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:00.436 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:00.436 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000119ad10, state: XCTWaiterStateFinished>
+16:25:00.436 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon]' started.
+16:25:00.437 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure"] leaf, method, swift> didFinishWithStatus:passed duration:0.5942319631576538
+16:25:00.437 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002326660>
+16:25:00.436 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon
+16:25:00.437 xctest[88041:53672034] <XCTWaiter: 0x60000118a4c0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:00.437 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:00.437 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000118a4c0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon]' passed (0.247 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light]' started.
+16:25:00.684 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon"] leaf, method, swift> didFinishWithStatus:passed duration:0.2468700408935547
+16:25:00.683 xctest[88041:53672034] <XCTWaiter: 0x6000011fc000, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:00.683 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:00.683 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011fc000, state: XCTWaiterStateFinished>
+16:25:00.683 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:00.683 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light
+16:25:00.684 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000226fda0>
+16:25:00.684 xctest[88041:53672034] <XCTWaiter: 0x6000011ae7d0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:00.684 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:00.684 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011ae7d0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light]' passed (0.172 seconds).
+16:25:00.855 xctest[88041:53672034] <XCTWaiter: 0x6000011912d0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:00.856 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1722429990768433
+16:25:00.855 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:00.855 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011912d0, state: XCTWaiterStateFinished>
+16:25:00.855 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light]' started.
+16:25:00.857 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000230a2c0>
+16:25:00.856 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light
+16:25:00.857 xctest[88041:53672034] <XCTWaiter: 0x6000011f9ea0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:00.857 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:00.857 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011f9ea0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light]' passed (0.221 seconds).
+16:25:01.077 xctest[88041:53672034] <XCTWaiter: 0x60000118a370, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.077 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.077 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000118a370, state: XCTWaiterStateFinished>
+Test Suite 'CreateCategoryScreenUnitTesting' passed at 2023-06-29 16:25:01.079.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 1.731 (1.735) seconds
+16:25:01.080 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.220831036567688
+16:25:01.080 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting"] container, class> didFinishAt:2023-06-29 08:25:01 +0000 runCount:6 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:1.730692982673645 totalDuration:1.735083937644958
+16:25:01.079 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:01.079 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:25:01.081 xctest[88041:53672197] Test driver received request to execute test identifiers <XCTTestIdentifier ["BalanceAccountsListScreenAddAccountTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+Test Suite 'BalanceAccountsListScreenAddAccountTests' started at 2023-06-29 16:25:01.083
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAddAccountTests testAddSecondAccount]' started.
+16:25:01.083 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["BalanceAccountsListScreenAddAccountTests"] container, class> didStartAt:2023-06-29 08:25:01 +0000
+16:25:01.084 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["BalanceAccountsListScreenAddAccountTests", "testAddSecondAccount"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000022120c0>
+16:25:01.083 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteWillStart:]
+16:25:01.083 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAddAccountTests testAddSecondAccount
+16:25:01.083 xctest[88041:53672034] <XCTWaiter: 0x60000119be90, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.083 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.083 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000119be90, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAddAccountTests testAddSecondAccount]' passed (0.269 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAddAccountTests testAddAccountOnEmptyScreen]' started.
+16:25:01.352 xctest[88041:53672034] <XCTWaiter: 0x6000011879c0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.352 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.352 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011879c0, state: XCTWaiterStateFinished>
+16:25:01.352 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:01.353 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["BalanceAccountsListScreenAddAccountTests", "testAddSecondAccount"] leaf, method, swift> didFinishWithStatus:passed duration:0.2688651084899902
+16:25:01.352 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAddAccountTests testAddAccountOnEmptyScreen
+16:25:01.353 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["BalanceAccountsListScreenAddAccountTests", "testAddAccountOnEmptyScreen"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002205da0>
+16:25:01.352 xctest[88041:53672034] <XCTWaiter: 0x6000011840e0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.352 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.352 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011840e0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAddAccountTests testAddAccountOnEmptyScreen]' passed (0.185 seconds).
+Test Suite 'BalanceAccountsListScreenAddAccountTests' passed at 2023-06-29 16:25:01.537.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.453 (0.454) seconds
+16:25:01.537 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["BalanceAccountsListScreenAddAccountTests", "testAddAccountOnEmptyScreen"] leaf, method, swift> didFinishWithStatus:passed duration:0.1846100091934204
+16:25:01.537 xctest[88041:53672034] <XCTWaiter: 0x6000011f1810, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.537 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.538 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["BalanceAccountsListScreenAddAccountTests"] container, class> didFinishAt:2023-06-29 08:25:01 +0000 runCount:2 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:0.4534751176834106 totalDuration:0.4540379047393799
+16:25:01.537 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011f1810, state: XCTWaiterStateFinished>
+16:25:01.537 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:01.537 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'CategoriesListScreenAddCategoryTests' started at 2023-06-29 16:25:01.539
+Test Case '-[MoneyTrackerPresentationUnitTesting.CategoriesListScreenAddCategoryTests testAddSecondCategoryOnScreen]' started.
+16:25:01.539 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["CategoriesListScreenAddCategoryTests"] container, class> didStartAt:2023-06-29 08:25:01 +0000
+16:25:01.539 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CategoriesListScreenAddCategoryTests", "testAddSecondCategoryOnScreen"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002216fa0>
+16:25:01.538 xctest[88041:53672994] Test driver received request to execute test identifiers <XCTTestIdentifier ["CategoriesListScreenAddCategoryTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+16:25:01.539 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteWillStart:]
+16:25:01.539 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CategoriesListScreenAddCategoryTests testAddSecondCategoryOnScreen
+16:25:01.540 xctest[88041:53672034] <XCTWaiter: 0x6000011fd340, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.540 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.540 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011fd340, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CategoriesListScreenAddCategoryTests testAddSecondCategoryOnScreen]' passed (0.221 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CategoriesListScreenAddCategoryTests testAddCategoryOnEmptyScreen]' started.
+16:25:01.761 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CategoriesListScreenAddCategoryTests", "testAddSecondCategoryOnScreen"] leaf, method, swift> didFinishWithStatus:passed duration:0.2212820053100586
+16:25:01.761 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CategoriesListScreenAddCategoryTests", "testAddCategoryOnEmptyScreen"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000226cfe0>
+16:25:01.760 xctest[88041:53672034] <XCTWaiter: 0x6000011f2ca0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.760 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.760 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011f2ca0, state: XCTWaiterStateFinished>
+16:25:01.760 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:01.760 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CategoriesListScreenAddCategoryTests testAddCategoryOnEmptyScreen
+16:25:01.762 xctest[88041:53672034] <XCTWaiter: 0x6000011912d0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.762 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.763 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011912d0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CategoriesListScreenAddCategoryTests testAddCategoryOnEmptyScreen]' passed (0.167 seconds).
+Test Suite 'CategoriesListScreenAddCategoryTests' passed at 2023-06-29 16:25:01.927.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.388 (0.389) seconds
+16:25:01.928 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CategoriesListScreenAddCategoryTests", "testAddCategoryOnEmptyScreen"] leaf, method, swift> didFinishWithStatus:passed duration:0.1667890548706055
+16:25:01.929 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["CategoriesListScreenAddCategoryTests"] container, class> didFinishAt:2023-06-29 08:25:01 +0000 runCount:2 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:0.3880710601806641 totalDuration:0.388590931892395
+16:25:01.927 xctest[88041:53672034] <XCTWaiter: 0x6000011b68b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.927 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.927 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011b68b0, state: XCTWaiterStateFinished>
+16:25:01.927 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:01.927 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:25:01.932 xctest[88041:53672994] Test driver received request to execute test identifiers <XCTTestIdentifier ["PresentationAddRecordsTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+Test Suite 'PresentationAddRecordsTests' started at 2023-06-29 16:25:01.935
+Test Case '-[MoneyTrackerPresentationUnitTesting.PresentationAddRecordsTests testPresentAddRecordsViewControllerPresented]' started.
+16:25:01.936 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["PresentationAddRecordsTests"] container, class> didStartAt:2023-06-29 08:25:01 +0000
+16:25:01.936 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["PresentationAddRecordsTests", "testPresentAddRecordsViewControllerPresented"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000226ea40>
+16:25:01.935 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteWillStart:]
+16:25:01.935 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.PresentationAddRecordsTests testPresentAddRecordsViewControllerPresented
+16:25:01.936 xctest[88041:53672034] <XCTWaiter: 0x6000011e0850, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:01.936 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:01.936 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011e0850, state: XCTWaiterStateFinished>
+2023-06-29 16:25:01.958608+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001939ea0 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143b56500.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019e06e0 UILabel:0x143b552d0.right == _UIDatePickerLinkedLabel:0x143b1f400.right   (active)>",
+    "<NSLayoutConstraint:0x6000019dfa70 UILayoutGuide:0x6000003bca80''.trailing == UILabel:0x143b552d0.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019dfbb0 H:[_UIDatePickerLinkedLabel:0x143b1f400]-(12)-|   (active, names: '|':_UIDatePickerCompactDateLabel:0x143b2c3f0 )>",
+    "<NSLayoutConstraint:0x6000019dfcf0 UIView:0x143b55830.trailing == UILayoutGuide:0x6000003bca80''.trailing + 12   (active)>",
+    "<NSLayoutConstraint:0x6000019ecf50 H:[UIView:0x143b55830]-(4)-[_UIDatePickerCompactTimeLabel:0x143b55b30]   (active)>",
+    "<NSLayoutConstraint:0x6000019edea0 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == UILayoutGuide:0x6000003bd340''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019eebc0 _UIDatePickerCompactTimeLabel:0x143b55b30.trailing <= UILayoutGuide:0x6000003bd340''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eccd0 H:|-(>=0)-[UILayoutGuide:0x6000003bd340''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143b527d0 )>",
+    "<NSLayoutConstraint:0x6000019eec60 UILayoutGuide:0x6000003bd340''.right == _UIDatePickerIOSCompactView:0x143b527d0.right   (active)>",
+    "<NSLayoutConstraint:0x6000019e3070 H:|-(0)-[_UIDatePickerIOSCompactView:0x143b527d0]   (active, names: '|':UIDatePicker:0x143b566b0 )>",
+    "<NSLayoutConstraint:0x6000019e39d0 _UIDatePickerIOSCompactView:0x143b527d0.trailing == UIDatePicker:0x143b566b0.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eef30 H:|-(0)-[UIDatePicker:0x143b566b0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143b56500 )>",
+    "<NSLayoutConstraint:0x6000019ee990 UIDatePicker:0x143b566b0.trailing == MoneyTrackerPresentation.InputDateView:0x143b56500.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019dfa70 UILayoutGuide:0x6000003bca80''.trailing == UILabel:0x143b552d0.trailing   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:01.965609+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001939ea0 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143b56500.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019df8e0 H:|-(>=0)-[UILabel:0x143b552d0]   (active, names: '|':_UIDatePickerLinkedLabel:0x143b1f400 )>",
+    "<NSLayoutConstraint:0x6000019df9d0 UILayoutGuide:0x6000003bca80''.leading == UILabel:0x143b552d0.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019dfcf0 UIView:0x143b55830.trailing == UILayoutGuide:0x6000003bca80''.trailing + 12   (active)>",
+    "<NSLayoutConstraint:0x6000019dfb60 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == _UIDatePickerLinkedLabel:0x143b1f400.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000019ecf50 H:[UIView:0x143b55830]-(4)-[_UIDatePickerCompactTimeLabel:0x143b55b30]   (active)>",
+    "<NSLayoutConstraint:0x6000019edea0 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == UILayoutGuide:0x6000003bd340''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019eebc0 _UIDatePickerCompactTimeLabel:0x143b55b30.trailing <= UILayoutGuide:0x6000003bd340''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eccd0 H:|-(>=0)-[UILayoutGuide:0x6000003bd340''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143b527d0 )>",
+    "<NSLayoutConstraint:0x6000019eec60 UILayoutGuide:0x6000003bd340''.right == _UIDatePickerIOSCompactView:0x143b527d0.right   (active)>",
+    "<NSLayoutConstraint:0x6000019e3070 H:|-(0)-[_UIDatePickerIOSCompactView:0x143b527d0]   (active, names: '|':UIDatePicker:0x143b566b0 )>",
+    "<NSLayoutConstraint:0x6000019e39d0 _UIDatePickerIOSCompactView:0x143b527d0.trailing == UIDatePicker:0x143b566b0.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eef30 H:|-(0)-[UIDatePicker:0x143b566b0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143b56500 )>",
+    "<NSLayoutConstraint:0x6000019ee990 UIDatePicker:0x143b566b0.trailing == MoneyTrackerPresentation.InputDateView:0x143b56500.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019df9d0 UILayoutGuide:0x6000003bca80''.leading == UILabel:0x143b552d0.leading   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:01.968341+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001939ea0 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143b56500.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019df8e0 H:|-(>=0)-[UILabel:0x143b552d0]   (active, names: '|':_UIDatePickerLinkedLabel:0x143b1f400 )>",
+    "<NSLayoutConstraint:0x6000019e06e0 UILabel:0x143b552d0.right == _UIDatePickerLinkedLabel:0x143b1f400.right   (active)>",
+    "<NSLayoutConstraint:0x6000019dfbb0 H:[_UIDatePickerLinkedLabel:0x143b1f400]-(12)-|   (active, names: '|':_UIDatePickerCompactDateLabel:0x143b2c3f0 )>",
+    "<NSLayoutConstraint:0x6000019d9630 H:|-(12)-[UILabel:0x143b69ab0]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b55b30 )>",
+    "<NSLayoutConstraint:0x6000019dfb60 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == _UIDatePickerLinkedLabel:0x143b1f400.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000019e08c0 UILayoutGuide:0x6000003bd6c0''.width == _UIDatePickerCompactTimeLabel:0x143b55b30.width   (active)>",
+    "<NSLayoutConstraint:0x6000019d9d10 H:[UILabel:0x143b69ab0]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b55b30 )>",
+    "<NSLayoutConstraint:0x6000019edea0 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == UILayoutGuide:0x6000003bd340''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019ee490 UILayoutGuide:0x6000003bd6c0''.trailing <= UILayoutGuide:0x6000003bd340''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eccd0 H:|-(>=0)-[UILayoutGuide:0x6000003bd340''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143b527d0 )>",
+    "<NSLayoutConstraint:0x6000019eec60 UILayoutGuide:0x6000003bd340''.right == _UIDatePickerIOSCompactView:0x143b527d0.right   (active)>",
+    "<NSLayoutConstraint:0x6000019e3070 H:|-(0)-[_UIDatePickerIOSCompactView:0x143b527d0]   (active, names: '|':UIDatePicker:0x143b566b0 )>",
+    "<NSLayoutConstraint:0x6000019e39d0 _UIDatePickerIOSCompactView:0x143b527d0.trailing == UIDatePicker:0x143b566b0.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eef30 H:|-(0)-[UIDatePicker:0x143b566b0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143b56500 )>",
+    "<NSLayoutConstraint:0x6000019ee990 UIDatePicker:0x143b566b0.trailing == MoneyTrackerPresentation.InputDateView:0x143b56500.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019ea710 H:[_UIDatePickerCompactDateLabel:0x143b2c3f0]-(4)-[UILayoutGuide:0x6000003bd6c0'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019e06e0 UILabel:0x143b552d0.right == _UIDatePickerLinkedLabel:0x143b1f400.right   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.000643+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001939ea0 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143b56500.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019df8e0 H:|-(>=0)-[UILabel:0x143b552d0]   (active, names: '|':_UIDatePickerLinkedLabel:0x143b1f400 )>",
+    "<NSLayoutConstraint:0x6000019df930 UILabel:0x143b552d0.trailing <= _UIDatePickerLinkedLabel:0x143b1f400.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019dfbb0 H:[_UIDatePickerLinkedLabel:0x143b1f400]-(12)-|   (active, names: '|':_UIDatePickerCompactDateLabel:0x143b2c3f0 )>",
+    "<NSLayoutConstraint:0x6000019d9630 H:|-(12)-[UILabel:0x143b69ab0]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b55b30 )>",
+    "<NSLayoutConstraint:0x6000019dfb60 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == _UIDatePickerLinkedLabel:0x143b1f400.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000019e08c0 UILayoutGuide:0x6000003bd6c0''.width == _UIDatePickerCompactTimeLabel:0x143b55b30.width   (active)>",
+    "<NSLayoutConstraint:0x6000019d9d10 H:[UILabel:0x143b69ab0]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b55b30 )>",
+    "<NSLayoutConstraint:0x6000019edea0 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == UILayoutGuide:0x6000003bd340''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019ee490 UILayoutGuide:0x6000003bd6c0''.trailing <= UILayoutGuide:0x6000003bd340''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eccd0 H:|-(>=0)-[UILayoutGuide:0x6000003bd340''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143b527d0 )>",
+    "<NSLayoutConstraint:0x6000019eec60 UILayoutGuide:0x6000003bd340''.right == _UIDatePickerIOSCompactView:0x143b527d0.right   (active)>",
+    "<NSLayoutConstraint:0x6000019e3070 H:|-(0)-[_UIDatePickerIOSCompactView:0x143b527d0]   (active, names: '|':UIDatePicker:0x143b566b0 )>",
+    "<NSLayoutConstraint:0x6000019e39d0 _UIDatePickerIOSCompactView:0x143b527d0.trailing == UIDatePicker:0x143b566b0.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eef30 H:|-(0)-[UIDatePicker:0x143b566b0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143b56500 )>",
+    "<NSLayoutConstraint:0x6000019ee990 UIDatePicker:0x143b566b0.trailing == MoneyTrackerPresentation.InputDateView:0x143b56500.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019ea710 H:[_UIDatePickerCompactDateLabel:0x143b2c3f0]-(4)-[UILayoutGuide:0x6000003bd6c0'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019df930 UILabel:0x143b552d0.trailing <= _UIDatePickerLinkedLabel:0x143b1f400.trailing   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.011855+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001939ea0 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143b56500.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019dfbb0 H:[_UIDatePickerLinkedLabel:0x143b1f400]-(12)-|   (active, names: '|':_UIDatePickerCompactDateLabel:0x143b2c3f0 )>",
+    "<NSLayoutConstraint:0x6000019d9630 H:|-(12)-[UILabel:0x143b69ab0]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b55b30 )>",
+    "<NSLayoutConstraint:0x6000019dfb60 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == _UIDatePickerLinkedLabel:0x143b1f400.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000019e08c0 UILayoutGuide:0x6000003bd6c0''.width == _UIDatePickerCompactTimeLabel:0x143b55b30.width   (active)>",
+    "<NSLayoutConstraint:0x6000019d9d10 H:[UILabel:0x143b69ab0]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b55b30 )>",
+    "<NSLayoutConstraint:0x6000019edea0 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == UILayoutGuide:0x6000003bd340''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019ee490 UILayoutGuide:0x6000003bd6c0''.trailing <= UILayoutGuide:0x6000003bd340''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eccd0 H:|-(>=0)-[UILayoutGuide:0x6000003bd340''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143b527d0 )>",
+    "<NSLayoutConstraint:0x6000019eec60 UILayoutGuide:0x6000003bd340''.right == _UIDatePickerIOSCompactView:0x143b527d0.right   (active)>",
+    "<NSLayoutConstraint:0x6000019e3070 H:|-(0)-[_UIDatePickerIOSCompactView:0x143b527d0]   (active, names: '|':UIDatePicker:0x143b566b0 )>",
+    "<NSLayoutConstraint:0x6000019e39d0 _UIDatePickerIOSCompactView:0x143b527d0.trailing == UIDatePicker:0x143b566b0.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eef30 H:|-(0)-[UIDatePicker:0x143b566b0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143b56500 )>",
+    "<NSLayoutConstraint:0x6000019ee990 UIDatePicker:0x143b566b0.trailing == MoneyTrackerPresentation.InputDateView:0x143b56500.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019ea710 H:[_UIDatePickerCompactDateLabel:0x143b2c3f0]-(4)-[UILayoutGuide:0x6000003bd6c0'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019dfb60 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == _UIDatePickerLinkedLabel:0x143b1f400.leading - 12   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.015130+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001939ea0 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143b56500.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019d9630 H:|-(12)-[UILabel:0x143b69ab0]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b55b30 )>",
+    "<NSLayoutConstraint:0x6000019e08c0 UILayoutGuide:0x6000003bd6c0''.width == _UIDatePickerCompactTimeLabel:0x143b55b30.width   (active)>",
+    "<NSLayoutConstraint:0x6000019d9d10 H:[UILabel:0x143b69ab0]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b55b30 )>",
+    "<NSLayoutConstraint:0x6000019edea0 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == UILayoutGuide:0x6000003bd340''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019ee490 UILayoutGuide:0x6000003bd6c0''.trailing <= UILayoutGuide:0x6000003bd340''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eccd0 H:|-(>=0)-[UILayoutGuide:0x6000003bd340''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143b527d0 )>",
+    "<NSLayoutConstraint:0x6000019eec60 UILayoutGuide:0x6000003bd340''.right == _UIDatePickerIOSCompactView:0x143b527d0.right   (active)>",
+    "<NSLayoutConstraint:0x6000019e3070 H:|-(0)-[_UIDatePickerIOSCompactView:0x143b527d0]   (active, names: '|':UIDatePicker:0x143b566b0 )>",
+    "<NSLayoutConstraint:0x6000019e39d0 _UIDatePickerIOSCompactView:0x143b527d0.trailing == UIDatePicker:0x143b566b0.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eef30 H:|-(0)-[UIDatePicker:0x143b566b0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143b56500 )>",
+    "<NSLayoutConstraint:0x6000019ee990 UIDatePicker:0x143b566b0.trailing == MoneyTrackerPresentation.InputDateView:0x143b56500.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019ea710 H:[_UIDatePickerCompactDateLabel:0x143b2c3f0]-(4)-[UILayoutGuide:0x6000003bd6c0'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019d9d10 H:[UILabel:0x143b69ab0]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b55b30 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.016991+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001939ea0 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143b56500.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019edea0 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == UILayoutGuide:0x6000003bd340''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019ee490 UILayoutGuide:0x6000003bd6c0''.trailing <= UILayoutGuide:0x6000003bd340''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eccd0 H:|-(>=0)-[UILayoutGuide:0x6000003bd340''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143b527d0 )>",
+    "<NSLayoutConstraint:0x6000019eec60 UILayoutGuide:0x6000003bd340''.right == _UIDatePickerIOSCompactView:0x143b527d0.right   (active)>",
+    "<NSLayoutConstraint:0x6000019e3070 H:|-(0)-[_UIDatePickerIOSCompactView:0x143b527d0]   (active, names: '|':UIDatePicker:0x143b566b0 )>",
+    "<NSLayoutConstraint:0x6000019e39d0 _UIDatePickerIOSCompactView:0x143b527d0.trailing == UIDatePicker:0x143b566b0.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eef30 H:|-(0)-[UIDatePicker:0x143b566b0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143b56500 )>",
+    "<NSLayoutConstraint:0x6000019ee990 UIDatePicker:0x143b566b0.trailing == MoneyTrackerPresentation.InputDateView:0x143b56500.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019ea710 H:[_UIDatePickerCompactDateLabel:0x143b2c3f0]-(4)-[UILayoutGuide:0x6000003bd6c0'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019ea710 H:[_UIDatePickerCompactDateLabel:0x143b2c3f0]-(4)-[UILayoutGuide:0x6000003bd6c0'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.018956+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001939ea0 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143b56500.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019e5040 UILayoutGuide:0x6000003bd6c0''.width == _UIDatePickerCompactTimeLabel:0x143b55b30.width   (active)>",
+    "<NSLayoutConstraint:0x6000019e79d0 H:[_UIDatePickerCompactDateLabel:0x143b2c3f0]-(4)-[UILayoutGuide:0x6000003bd6c0'']   (active)>",
+    "<NSLayoutConstraint:0x6000019e61c0 _UIDatePickerCompactDateLabel:0x143b2c3f0.leading == UILayoutGuide:0x6000003bd340''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019e5c70 UILayoutGuide:0x6000003bd6c0''.trailing <= UILayoutGuide:0x6000003bd340''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e72a0 H:|-(>=0)-[UILayoutGuide:0x6000003bd340''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143b527d0 )>",
+    "<NSLayoutConstraint:0x6000019e3070 H:|-(0)-[_UIDatePickerIOSCompactView:0x143b527d0]   (active, names: '|':UIDatePicker:0x143b566b0 )>",
+    "<NSLayoutConstraint:0x6000019e39d0 _UIDatePickerIOSCompactView:0x143b527d0.trailing == UIDatePicker:0x143b566b0.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019eef30 H:|-(0)-[UIDatePicker:0x143b566b0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143b56500 )>",
+    "<NSLayoutConstraint:0x6000019ee990 UIDatePicker:0x143b566b0.trailing == MoneyTrackerPresentation.InputDateView:0x143b56500.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e62b0 UILayoutGuide:0x6000003bd340''.right == _UIDatePickerIOSCompactView:0x143b527d0.right   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019e79d0 H:[_UIDatePickerCompactDateLabel:0x143b2c3f0]-(4)-[UILayoutGuide:0x6000003bd6c0'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.045334+0800 xctest[88041:53672034] [Presentation] Attempt to present <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x1450c3400> on <UIViewController: 0x142f34ef0> (from <UIViewController: 0x142f34ef0>) whose view is not in the window hierarchy.
+Test Case '-[MoneyTrackerPresentationUnitTesting.PresentationAddRecordsTests testPresentAddRecordsViewControllerPresented]' passed (0.122 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.PresentationAddRecordsTests testPresentedAddRecordsPresentingDatePicker]' started.
+16:25:02.059 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["PresentationAddRecordsTests", "testPresentAddRecordsViewControllerPresented"] leaf, method, swift> didFinishWithStatus:passed duration:0.1216940879821777
+16:25:02.060 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["PresentationAddRecordsTests", "testPresentedAddRecordsPresentingDatePicker"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000230a480>
+16:25:02.057 xctest[88041:53672034] <XCTWaiter: 0x6000011d0150, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:02.057 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:02.057 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011d0150, state: XCTWaiterStateFinished>
+16:25:02.057 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:02.057 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.PresentationAddRecordsTests testPresentedAddRecordsPresentingDatePicker
+16:25:02.060 xctest[88041:53672034] <XCTWaiter: 0x600001196530, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:02.061 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:02.061 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001196530, state: XCTWaiterStateFinished>
+2023-06-29 16:25:02.075114+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x60000193e030 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x1439ad170.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019cb700 H:[UILabel:0x1439aec70]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x1439ae6e0 )>",
+    "<NSLayoutConstraint:0x6000019e1d60 H:[_UIDatePickerCompactDateLabel:0x1439ad750]-(4)-[UILayoutGuide:0x6000003e8620'']   (active)>",
+    "<NSLayoutConstraint:0x6000019cb660 H:|-(12)-[UILabel:0x1439aec70]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x1439ae6e0 )>",
+    "<NSLayoutConstraint:0x6000019e3980 UILayoutGuide:0x6000003e8620''.width == _UIDatePickerCompactTimeLabel:0x1439ae6e0.width   (active)>",
+    "<NSLayoutConstraint:0x6000019e3e80 _UIDatePickerCompactDateLabel:0x1439ad750.leading == UILayoutGuide:0x6000003e8540''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019e23a0 UILayoutGuide:0x6000003e8620''.trailing <= UILayoutGuide:0x6000003e8540''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e21c0 H:|-(>=0)-[UILayoutGuide:0x6000003e8540''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1439ad520 )>",
+    "<NSLayoutConstraint:0x6000019e0b40 UILayoutGuide:0x6000003e8540''.right == _UIDatePickerIOSCompactView:0x1439ad520.right   (active)>",
+    "<NSLayoutConstraint:0x6000019ecf50 H:|-(0)-[_UIDatePickerIOSCompactView:0x1439ad520]   (active, names: '|':UIDatePicker:0x1439ad320 )>",
+    "<NSLayoutConstraint:0x6000019eebc0 _UIDatePickerIOSCompactView:0x1439ad520.trailing == UIDatePicker:0x1439ad320.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e0a00 H:|-(0)-[UIDatePicker:0x1439ad320]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x1439ad170 )>",
+    "<NSLayoutConstraint:0x6000019e3250 UIDatePicker:0x1439ad320.trailing == MoneyTrackerPresentation.InputDateView:0x1439ad170.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019cb700 H:[UILabel:0x1439aec70]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x1439ae6e0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.078725+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x60000193e030 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x1439ad170.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019e1d60 H:[_UIDatePickerCompactDateLabel:0x1439ad750]-(4)-[UILayoutGuide:0x6000003e8620'']   (active)>",
+    "<NSLayoutConstraint:0x6000019e3980 UILayoutGuide:0x6000003e8620''.width == _UIDatePickerCompactTimeLabel:0x1439ae6e0.width   (active)>",
+    "<NSLayoutConstraint:0x6000019e3e80 _UIDatePickerCompactDateLabel:0x1439ad750.leading == UILayoutGuide:0x6000003e8540''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019e23a0 UILayoutGuide:0x6000003e8620''.trailing <= UILayoutGuide:0x6000003e8540''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e21c0 H:|-(>=0)-[UILayoutGuide:0x6000003e8540''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1439ad520 )>",
+    "<NSLayoutConstraint:0x6000019e0b40 UILayoutGuide:0x6000003e8540''.right == _UIDatePickerIOSCompactView:0x1439ad520.right   (active)>",
+    "<NSLayoutConstraint:0x6000019ecf50 H:|-(0)-[_UIDatePickerIOSCompactView:0x1439ad520]   (active, names: '|':UIDatePicker:0x1439ad320 )>",
+    "<NSLayoutConstraint:0x6000019eebc0 _UIDatePickerIOSCompactView:0x1439ad520.trailing == UIDatePicker:0x1439ad320.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e0a00 H:|-(0)-[UIDatePicker:0x1439ad320]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x1439ad170 )>",
+    "<NSLayoutConstraint:0x6000019e3250 UIDatePicker:0x1439ad320.trailing == MoneyTrackerPresentation.InputDateView:0x1439ad170.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019e1d60 H:[_UIDatePickerCompactDateLabel:0x1439ad750]-(4)-[UILayoutGuide:0x6000003e8620'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.079800+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x60000193e030 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x1439ad170.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019cae40 H:|-(>=0)-[UILabel:0x1439adae0]   (active, names: '|':_UIDatePickerLinkedLabel:0x1439ad900 )>",
+    "<NSLayoutConstraint:0x6000019caf30 UILayoutGuide:0x6000003e8460''.leading == UILabel:0x1439adae0.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019cb200 UIView:0x1439ae3e0.trailing == UILayoutGuide:0x6000003e8460''.trailing + 12   (active)>",
+    "<NSLayoutConstraint:0x6000019cb070 _UIDatePickerCompactDateLabel:0x1439ad750.leading == _UIDatePickerLinkedLabel:0x1439ad900.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000019e0dc0 H:[UIView:0x1439ae3e0]-(4)-[_UIDatePickerCompactTimeLabel:0x1439ae6e0]   (active)>",
+    "<NSLayoutConstraint:0x6000019e3e80 _UIDatePickerCompactDateLabel:0x1439ad750.leading == UILayoutGuide:0x6000003e8540''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019e24e0 _UIDatePickerCompactTimeLabel:0x1439ae6e0.trailing <= UILayoutGuide:0x6000003e8540''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e21c0 H:|-(>=0)-[UILayoutGuide:0x6000003e8540''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1439ad520 )>",
+    "<NSLayoutConstraint:0x6000019e0b40 UILayoutGuide:0x6000003e8540''.right == _UIDatePickerIOSCompactView:0x1439ad520.right   (active)>",
+    "<NSLayoutConstraint:0x6000019ecf50 H:|-(0)-[_UIDatePickerIOSCompactView:0x1439ad520]   (active, names: '|':UIDatePicker:0x1439ad320 )>",
+    "<NSLayoutConstraint:0x6000019eebc0 _UIDatePickerIOSCompactView:0x1439ad520.trailing == UIDatePicker:0x1439ad320.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e0a00 H:|-(0)-[UIDatePicker:0x1439ad320]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x1439ad170 )>",
+    "<NSLayoutConstraint:0x6000019e3250 UIDatePicker:0x1439ad320.trailing == MoneyTrackerPresentation.InputDateView:0x1439ad170.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019caf30 UILayoutGuide:0x6000003e8460''.leading == UILabel:0x1439adae0.leading   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.082829+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x60000193e030 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x1439ad170.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019cae40 H:|-(>=0)-[UILabel:0x1439adae0]   (active, names: '|':_UIDatePickerLinkedLabel:0x1439ad900 )>",
+    "<NSLayoutConstraint:0x6000019cb200 UIView:0x1439ae3e0.trailing == UILayoutGuide:0x6000003e8460''.trailing + 12   (active)>",
+    "<NSLayoutConstraint:0x6000019cb070 _UIDatePickerCompactDateLabel:0x1439ad750.leading == _UIDatePickerLinkedLabel:0x1439ad900.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000019e0dc0 H:[UIView:0x1439ae3e0]-(4)-[_UIDatePickerCompactTimeLabel:0x1439ae6e0]   (active)>",
+    "<NSLayoutConstraint:0x6000019e3e80 _UIDatePickerCompactDateLabel:0x1439ad750.leading == UILayoutGuide:0x6000003e8540''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019e24e0 _UIDatePickerCompactTimeLabel:0x1439ae6e0.trailing <= UILayoutGuide:0x6000003e8540''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e21c0 H:|-(>=0)-[UILayoutGuide:0x6000003e8540''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1439ad520 )>",
+    "<NSLayoutConstraint:0x6000019e0b40 UILayoutGuide:0x6000003e8540''.right == _UIDatePickerIOSCompactView:0x1439ad520.right   (active)>",
+    "<NSLayoutConstraint:0x6000019ecf50 H:|-(0)-[_UIDatePickerIOSCompactView:0x1439ad520]   (active, names: '|':UIDatePicker:0x1439ad320 )>",
+    "<NSLayoutConstraint:0x6000019eebc0 _UIDatePickerIOSCompactView:0x1439ad520.trailing == UIDatePicker:0x1439ad320.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e0a00 H:|-(0)-[UIDatePicker:0x1439ad320]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x1439ad170 )>",
+    "<NSLayoutConstraint:0x6000019e3250 UIDatePicker:0x1439ad320.trailing == MoneyTrackerPresentation.InputDateView:0x1439ad170.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019cafd0 UILayoutGuide:0x6000003e8460''.trailing == UILabel:0x1439adae0.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019cafd0 UILayoutGuide:0x6000003e8460''.trailing == UILabel:0x1439adae0.trailing   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.084241+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x60000193e030 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x1439ad170.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019cb0c0 H:[_UIDatePickerLinkedLabel:0x1439ad900]-(12)-|   (active, names: '|':_UIDatePickerCompactDateLabel:0x1439ad750 )>",
+    "<NSLayoutConstraint:0x6000019cb070 _UIDatePickerCompactDateLabel:0x1439ad750.leading == _UIDatePickerLinkedLabel:0x1439ad900.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x60000193e440 UILayoutGuide:0x6000003e8620''.width == _UIDatePickerCompactTimeLabel:0x1439ae6e0.width   (active)>",
+    "<NSLayoutConstraint:0x60000193e5d0 H:[_UIDatePickerCompactDateLabel:0x1439ad750]-(4)-[UILayoutGuide:0x6000003e8620'']   (active)>",
+    "<NSLayoutConstraint:0x60000193e620 _UIDatePickerCompactDateLabel:0x1439ad750.leading == UILayoutGuide:0x6000003e8540''.leading   (active)>",
+    "<NSLayoutConstraint:0x60000193e760 UILayoutGuide:0x6000003e8620''.trailing <= UILayoutGuide:0x6000003e8540''.trailing   (active)>",
+    "<NSLayoutConstraint:0x60000193e800 H:|-(>=0)-[UILayoutGuide:0x6000003e8540''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1439ad520 )>",
+    "<NSLayoutConstraint:0x60000193e8a0 UILayoutGuide:0x6000003e8540''.right == _UIDatePickerIOSCompactView:0x1439ad520.right   (active)>",
+    "<NSLayoutConstraint:0x6000019ecf50 H:|-(0)-[_UIDatePickerIOSCompactView:0x1439ad520]   (active, names: '|':UIDatePicker:0x1439ad320 )>",
+    "<NSLayoutConstraint:0x6000019eebc0 _UIDatePickerIOSCompactView:0x1439ad520.trailing == UIDatePicker:0x1439ad320.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e0a00 H:|-(0)-[UIDatePicker:0x1439ad320]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x1439ad170 )>",
+    "<NSLayoutConstraint:0x6000019e3250 UIDatePicker:0x1439ad320.trailing == MoneyTrackerPresentation.InputDateView:0x1439ad170.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019cb070 _UIDatePickerCompactDateLabel:0x1439ad750.leading == _UIDatePickerLinkedLabel:0x1439ad900.leading - 12   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.085830+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x60000193e030 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x1439ad170.width == 0   (active)>",
+    "<NSLayoutConstraint:0x60000193e440 UILayoutGuide:0x6000003e8620''.width == _UIDatePickerCompactTimeLabel:0x1439ae6e0.width   (active)>",
+    "<NSLayoutConstraint:0x60000193e5d0 H:[_UIDatePickerCompactDateLabel:0x1439ad750]-(4)-[UILayoutGuide:0x6000003e8620'']   (active)>",
+    "<NSLayoutConstraint:0x60000193e620 _UIDatePickerCompactDateLabel:0x1439ad750.leading == UILayoutGuide:0x6000003e8540''.leading   (active)>",
+    "<NSLayoutConstraint:0x60000193e760 UILayoutGuide:0x6000003e8620''.trailing <= UILayoutGuide:0x6000003e8540''.trailing   (active)>",
+    "<NSLayoutConstraint:0x60000193e800 H:|-(>=0)-[UILayoutGuide:0x6000003e8540''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1439ad520 )>",
+    "<NSLayoutConstraint:0x60000193e8a0 UILayoutGuide:0x6000003e8540''.right == _UIDatePickerIOSCompactView:0x1439ad520.right   (active)>",
+    "<NSLayoutConstraint:0x6000019ecf50 H:|-(0)-[_UIDatePickerIOSCompactView:0x1439ad520]   (active, names: '|':UIDatePicker:0x1439ad320 )>",
+    "<NSLayoutConstraint:0x6000019eebc0 _UIDatePickerIOSCompactView:0x1439ad520.trailing == UIDatePicker:0x1439ad320.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019e0a00 H:|-(0)-[UIDatePicker:0x1439ad320]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x1439ad170 )>",
+    "<NSLayoutConstraint:0x6000019e3250 UIDatePicker:0x1439ad320.trailing == MoneyTrackerPresentation.InputDateView:0x1439ad170.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000193e5d0 H:[_UIDatePickerCompactDateLabel:0x1439ad750]-(4)-[UILayoutGuide:0x6000003e8620'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.109237+0800 xctest[88041:53672034] [Presentation] Attempt to present <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x1450be800> on <MoneyTrackerPresentationUnitTesting.MockUIViewController: 0x142f34ef0> (from <MoneyTrackerPresentationUnitTesting.MockUIViewController: 0x142f34ef0>) whose view is not in the window hierarchy.
+2023-06-29 16:25:02.113964+0800 xctest[88041:53672034] [Presentation] Attempt to present <MoneyTrackerPresentation.DatePickerAlertViewController: 0x14595ce00> on <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x1450be800> (from <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x1450be800>) whose view is not in the window hierarchy.
+Test Case '-[MoneyTrackerPresentationUnitTesting.PresentationAddRecordsTests testPresentedAddRecordsPresentingDatePicker]' passed (0.065 seconds).
+Test Suite 'PresentationAddRecordsTests' passed at 2023-06-29 16:25:02.122.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.187 (0.187) seconds
+16:25:02.123 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["PresentationAddRecordsTests", "testPresentedAddRecordsPresentingDatePicker"] leaf, method, swift> didFinishWithStatus:passed duration:0.06503605842590332
+16:25:02.121 xctest[88041:53672034] <XCTWaiter: 0x6000011e0850, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:02.124 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["PresentationAddRecordsTests"] container, class> didFinishAt:2023-06-29 08:25:02 +0000 runCount:2 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:0.1867301464080811 totalDuration:0.18727707862854
+16:25:02.122 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:02.122 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011e0850, state: XCTWaiterStateFinished>
+16:25:02.122 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:02.122 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:25:02.125 xctest[88041:53672982] Test driver received request to execute test identifiers <XCTTestIdentifier ["SelectExpenseCategoriesScreenTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+Test Suite 'SelectExpenseCategoriesScreenTests' started at 2023-06-29 16:25:02.126
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectExpenseCategoriesScreenTests testSelectExpenseCategories_NothingSelected_English_Light_iPhone14Pro]' started.
+16:25:02.126 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["SelectExpenseCategoriesScreenTests"] container, class> didStartAt:2023-06-29 08:25:02 +0000
+16:25:02.126 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteWillStart:]
+16:25:02.126 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["SelectExpenseCategoriesScreenTests", "testSelectExpenseCategories_NothingSelected_English_Light_iPhone14Pro"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002215240>
+16:25:02.126 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.SelectExpenseCategoriesScreenTests testSelectExpenseCategories_NothingSelected_English_Light_iPhone14Pro
+16:25:02.126 xctest[88041:53672034] <XCTWaiter: 0x6000011e0af0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:02.127 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:02.127 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011e0af0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectExpenseCategoriesScreenTests testSelectExpenseCategories_NothingSelected_English_Light_iPhone14Pro]' passed (0.117 seconds).
+Test Suite 'SelectExpenseCategoriesScreenTests' passed at 2023-06-29 16:25:02.243.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.117 (0.118) seconds
+16:25:02.245 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["SelectExpenseCategoriesScreenTests", "testSelectExpenseCategories_NothingSelected_English_Light_iPhone14Pro"] leaf, method, swift> didFinishWithStatus:passed duration:0.1173909902572632
+16:25:02.245 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["SelectExpenseCategoriesScreenTests"] container, class> didFinishAt:2023-06-29 08:25:02 +0000 runCount:1 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:0.1173909902572632 totalDuration:0.1176190376281738
+16:25:02.243 xctest[88041:53672034] <XCTWaiter: 0x6000011fbe90, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:02.243 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:02.243 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011fbe90, state: XCTWaiterStateFinished>
+16:25:02.243 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:02.243 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'PresentationAddAccountTests' started at 2023-06-29 16:25:02.245
+Test Case '-[MoneyTrackerPresentationUnitTesting.PresentationAddAccountTests testPresentedAddAccountAddsAccountOnPresentedAddRecordsScreen]' started.
+16:25:02.245 xctest[88041:53672982] Test driver received request to execute test identifiers <XCTTestIdentifier ["PresentationAddAccountTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+16:25:02.246 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["PresentationAddAccountTests"] container, class> didStartAt:2023-06-29 08:25:02 +0000
+16:25:02.246 xcodebuild[86654:53661290] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["PresentationAddAccountTests", "testPresentedAddAccountAddsAccountOnPresentedAddRecordsScreen"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600002278720>
+16:25:02.245 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteWillStart:]
+16:25:02.245 xctest[88041:53672034] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.PresentationAddAccountTests testPresentedAddAccountAddsAccountOnPresentedAddRecordsScreen
+16:25:02.246 xctest[88041:53672034] <XCTWaiter: 0x6000011d2290, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:02.246 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:02.246 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011d2290, state: XCTWaiterStateFinished>
+2023-06-29 16:25:02.256879+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001923e80 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143a4d0c0.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019ce8f0 H:|-(>=0)-[UILabel:0x143a4da30]   (active, names: '|':_UIDatePickerLinkedLabel:0x143a4d850 )>",
+    "<NSLayoutConstraint:0x6000019ceb20 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == _UIDatePickerLinkedLabel:0x143a4d850.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000019cea80 UILayoutGuide:0x6000003b8ee0''.trailing == UILabel:0x143a4da30.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019cecb0 UIView:0x143a4e440.trailing == UILayoutGuide:0x6000003b8ee0''.trailing + 12   (active)>",
+    "<NSLayoutConstraint:0x600001921130 H:[UIView:0x143a4e440]-(4)-[_UIDatePickerCompactTimeLabel:0x143b6a790]   (active)>",
+    "<NSLayoutConstraint:0x600001921180 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == UILayoutGuide:0x6000003bddc0''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019211d0 _UIDatePickerCompactTimeLabel:0x143b6a790.trailing <= UILayoutGuide:0x6000003bddc0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001921360 H:|-(>=0)-[UILayoutGuide:0x6000003bddc0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143a4d470 )>",
+    "<NSLayoutConstraint:0x6000019213b0 UILayoutGuide:0x6000003bddc0''.right == _UIDatePickerIOSCompactView:0x143a4d470.right   (active)>",
+    "<NSLayoutConstraint:0x6000019208c0 H:|-(0)-[_UIDatePickerIOSCompactView:0x143a4d470]   (active, names: '|':UIDatePicker:0x143a4d270 )>",
+    "<NSLayoutConstraint:0x600001920c80 _UIDatePickerIOSCompactView:0x143a4d470.trailing == UIDatePicker:0x143a4d270.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019215e0 H:|-(0)-[UIDatePicker:0x143a4d270]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143a4d0c0 )>",
+    "<NSLayoutConstraint:0x600001921590 UIDatePicker:0x143a4d270.trailing == MoneyTrackerPresentation.InputDateView:0x143a4d0c0.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019cea80 UILayoutGuide:0x6000003b8ee0''.trailing == UILabel:0x143a4da30.trailing   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.259023+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001923e80 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143a4d0c0.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019ce8f0 H:|-(>=0)-[UILabel:0x143a4da30]   (active, names: '|':_UIDatePickerLinkedLabel:0x143a4d850 )>",
+    "<NSLayoutConstraint:0x6000019ceb20 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == _UIDatePickerLinkedLabel:0x143a4d850.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000019cecb0 UIView:0x143a4e440.trailing == UILayoutGuide:0x6000003b8ee0''.trailing + 12   (active)>",
+    "<NSLayoutConstraint:0x6000019ce9e0 UILayoutGuide:0x6000003b8ee0''.leading == UILabel:0x143a4da30.leading   (active)>",
+    "<NSLayoutConstraint:0x600001921130 H:[UIView:0x143a4e440]-(4)-[_UIDatePickerCompactTimeLabel:0x143b6a790]   (active)>",
+    "<NSLayoutConstraint:0x600001921180 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == UILayoutGuide:0x6000003bddc0''.leading   (active)>",
+    "<NSLayoutConstraint:0x6000019211d0 _UIDatePickerCompactTimeLabel:0x143b6a790.trailing <= UILayoutGuide:0x6000003bddc0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001921360 H:|-(>=0)-[UILayoutGuide:0x6000003bddc0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143a4d470 )>",
+    "<NSLayoutConstraint:0x6000019213b0 UILayoutGuide:0x6000003bddc0''.right == _UIDatePickerIOSCompactView:0x143a4d470.right   (active)>",
+    "<NSLayoutConstraint:0x6000019208c0 H:|-(0)-[_UIDatePickerIOSCompactView:0x143a4d470]   (active, names: '|':UIDatePicker:0x143a4d270 )>",
+    "<NSLayoutConstraint:0x600001920c80 _UIDatePickerIOSCompactView:0x143a4d470.trailing == UIDatePicker:0x143a4d270.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019215e0 H:|-(0)-[UIDatePicker:0x143a4d270]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143a4d0c0 )>",
+    "<NSLayoutConstraint:0x600001921590 UIDatePicker:0x143a4d270.trailing == MoneyTrackerPresentation.InputDateView:0x143a4d0c0.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019ce9e0 UILayoutGuide:0x6000003b8ee0''.leading == UILabel:0x143a4da30.leading   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.261367+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001923e80 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143a4d0c0.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000019ceb20 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == _UIDatePickerLinkedLabel:0x143a4d850.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000019ceb70 H:[_UIDatePickerLinkedLabel:0x143a4d850]-(12)-|   (active, names: '|':_UIDatePickerCompactDateLabel:0x143a4d6a0 )>",
+    "<NSLayoutConstraint:0x600001920fa0 UILayoutGuide:0x6000003bd7a0''.width == _UIDatePickerCompactTimeLabel:0x143b6a790.width   (active)>",
+    "<NSLayoutConstraint:0x6000019210e0 H:[_UIDatePickerCompactDateLabel:0x143a4d6a0]-(4)-[UILayoutGuide:0x6000003bd7a0'']   (active)>",
+    "<NSLayoutConstraint:0x600001921180 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == UILayoutGuide:0x6000003bddc0''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001921220 UILayoutGuide:0x6000003bd7a0''.trailing <= UILayoutGuide:0x6000003bddc0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001921360 H:|-(>=0)-[UILayoutGuide:0x6000003bddc0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143a4d470 )>",
+    "<NSLayoutConstraint:0x6000019213b0 UILayoutGuide:0x6000003bddc0''.right == _UIDatePickerIOSCompactView:0x143a4d470.right   (active)>",
+    "<NSLayoutConstraint:0x6000019208c0 H:|-(0)-[_UIDatePickerIOSCompactView:0x143a4d470]   (active, names: '|':UIDatePicker:0x143a4d270 )>",
+    "<NSLayoutConstraint:0x600001920c80 _UIDatePickerIOSCompactView:0x143a4d470.trailing == UIDatePicker:0x143a4d270.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019215e0 H:|-(0)-[UIDatePicker:0x143a4d270]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143a4d0c0 )>",
+    "<NSLayoutConstraint:0x600001921590 UIDatePicker:0x143a4d270.trailing == MoneyTrackerPresentation.InputDateView:0x143a4d0c0.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019ceb20 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == _UIDatePickerLinkedLabel:0x143a4d850.leading - 12   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.266019+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001923e80 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143a4d0c0.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600001920fa0 UILayoutGuide:0x6000003bd7a0''.width == _UIDatePickerCompactTimeLabel:0x143b6a790.width   (active)>",
+    "<NSLayoutConstraint:0x6000019210e0 H:[_UIDatePickerCompactDateLabel:0x143a4d6a0]-(4)-[UILayoutGuide:0x6000003bd7a0'']   (active)>",
+    "<NSLayoutConstraint:0x600001921180 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == UILayoutGuide:0x6000003bddc0''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001921220 UILayoutGuide:0x6000003bd7a0''.trailing <= UILayoutGuide:0x6000003bddc0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001921360 H:|-(>=0)-[UILayoutGuide:0x6000003bddc0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143a4d470 )>",
+    "<NSLayoutConstraint:0x6000019213b0 UILayoutGuide:0x6000003bddc0''.right == _UIDatePickerIOSCompactView:0x143a4d470.right   (active)>",
+    "<NSLayoutConstraint:0x6000019208c0 H:|-(0)-[_UIDatePickerIOSCompactView:0x143a4d470]   (active, names: '|':UIDatePicker:0x143a4d270 )>",
+    "<NSLayoutConstraint:0x600001920c80 _UIDatePickerIOSCompactView:0x143a4d470.trailing == UIDatePicker:0x143a4d270.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019215e0 H:|-(0)-[UIDatePicker:0x143a4d270]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143a4d0c0 )>",
+    "<NSLayoutConstraint:0x600001921590 UIDatePicker:0x143a4d270.trailing == MoneyTrackerPresentation.InputDateView:0x143a4d0c0.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000019210e0 H:[_UIDatePickerCompactDateLabel:0x143a4d6a0]-(4)-[UILayoutGuide:0x6000003bd7a0'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.269763+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001923e80 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143a4d0c0.width == 0   (active)>",
+    "<NSLayoutConstraint:0x60000193a0d0 H:|-(12)-[UILabel:0x143b9e470]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b6a790 )>",
+    "<NSLayoutConstraint:0x600001934cd0 UILayoutGuide:0x6000003bd7a0''.width == _UIDatePickerCompactTimeLabel:0x143b6a790.width   (active)>",
+    "<NSLayoutConstraint:0x600001934820 H:[_UIDatePickerCompactDateLabel:0x143a4d6a0]-(4)-[UILayoutGuide:0x6000003bd7a0'']   (active)>",
+    "<NSLayoutConstraint:0x600001934460 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == UILayoutGuide:0x6000003bddc0''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001934fa0 UILayoutGuide:0x6000003bd7a0''.trailing <= UILayoutGuide:0x6000003bddc0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019350e0 H:|-(>=0)-[UILayoutGuide:0x6000003bddc0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143a4d470 )>",
+    "<NSLayoutConstraint:0x600001935130 UILayoutGuide:0x6000003bddc0''.right == _UIDatePickerIOSCompactView:0x143a4d470.right   (active)>",
+    "<NSLayoutConstraint:0x6000019208c0 H:|-(0)-[_UIDatePickerIOSCompactView:0x143a4d470]   (active, names: '|':UIDatePicker:0x143a4d270 )>",
+    "<NSLayoutConstraint:0x600001920c80 _UIDatePickerIOSCompactView:0x143a4d470.trailing == UIDatePicker:0x143a4d270.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019215e0 H:|-(0)-[UIDatePicker:0x143a4d270]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143a4d0c0 )>",
+    "<NSLayoutConstraint:0x600001921590 UIDatePicker:0x143a4d270.trailing == MoneyTrackerPresentation.InputDateView:0x143a4d0c0.trailing   (active)>",
+    "<NSLayoutConstraint:0x60000193a530 H:[UILabel:0x143b9e470]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b6a790 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000193a530 H:[UILabel:0x143b9e470]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x143b6a790 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.270880+0800 xctest[88041:53672034] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001923e80 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x143a4d0c0.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600001934820 H:[_UIDatePickerCompactDateLabel:0x143a4d6a0]-(4)-[UILayoutGuide:0x6000003bd7a0'']   (active)>",
+    "<NSLayoutConstraint:0x600001934460 _UIDatePickerCompactDateLabel:0x143a4d6a0.leading == UILayoutGuide:0x6000003bddc0''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001934fa0 UILayoutGuide:0x6000003bd7a0''.trailing <= UILayoutGuide:0x6000003bddc0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019350e0 H:|-(>=0)-[UILayoutGuide:0x6000003bddc0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x143a4d470 )>",
+    "<NSLayoutConstraint:0x600001935130 UILayoutGuide:0x6000003bddc0''.right == _UIDatePickerIOSCompactView:0x143a4d470.right   (active)>",
+    "<NSLayoutConstraint:0x6000019208c0 H:|-(0)-[_UIDatePickerIOSCompactView:0x143a4d470]   (active, names: '|':UIDatePicker:0x143a4d270 )>",
+    "<NSLayoutConstraint:0x600001920c80 _UIDatePickerIOSCompactView:0x143a4d470.trailing == UIDatePicker:0x143a4d270.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000019215e0 H:|-(0)-[UIDatePicker:0x143a4d270]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x143a4d0c0 )>",
+    "<NSLayoutConstraint:0x600001921590 UIDatePicker:0x143a4d270.trailing == MoneyTrackerPresentation.InputDateView:0x143a4d0c0.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600001934820 H:[_UIDatePickerCompactDateLabel:0x143a4d6a0]-(4)-[UILayoutGuide:0x6000003bd7a0'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.279945+0800 xctest[88041:53672034] [Presentation] Attempt to present <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x144864000> on <UIViewController: 0x143a225e0> (from <UIViewController: 0x143a225e0>) whose view is not in the window hierarchy.
+2023-06-29 16:25:02.280544+0800 xctest[88041:53672034] [Presentation] Attempt to present <MoneyTrackerPresentation.AddAccountScreenViewController: 0x144869000> on <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x144864000> (from <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x144864000>) whose view is not in the window hierarchy.
+Test Case '-[MoneyTrackerPresentationUnitTesting.PresentationAddAccountTests testPresentedAddAccountAddsAccountOnPresentedAddRecordsScreen]' passed (0.039 seconds).
+Test Suite 'PresentationAddAccountTests' passed at 2023-06-29 16:25:02.285.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.039 (0.039) seconds
+16:25:02.285 xcodebuild[86654:53661290] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["PresentationAddAccountTests", "testPresentedAddAccountAddsAccountOnPresentedAddRecordsScreen"] leaf, method, swift> didFinishWithStatus:passed duration:0.03902304172515869
+16:25:02.285 xcodebuild[86654:53661290] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["PresentationAddAccountTests"] container, class> didFinishAt:2023-06-29 08:25:02 +0000 runCount:1 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:0.03902304172515869 totalDuration:0.03930306434631348
+16:25:02.284 xctest[88041:53672034] <XCTWaiter: 0x6000011e0770, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:25:02.284 xctest[88041:53672034] cleaning up failable invocation block completion
+16:25:02.284 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011e0770, state: XCTWaiterStateFinished>
+16:25:02.284 xctest[88041:53672034] -[XCTRunnerIDESession testCaseDidFinish:]
+16:25:02.285 xctest[88041:53672034] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:25:02.286 xctest[88041:53672069] Test driver received request to shutdown
+16:25:02.286 xctest[88041:53672034] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+16:25:02.286 xctest[88041:53672034] Exited test execution event loop
+16:25:02.286 xctest[88041:53672034] Creating future for 'flushing telemetry' with timeout 10.00
+16:25:02.287 xctest[88041:53672034] <XCTWaiter: 0x600001188850, state: XCTWaiterStateInProgress> entering wait loop for 10.00s with expectations: `flushing telemetry`
+16:25:02.288 xctest[88041:53672069] Did fulfill expectation: flushing telemetry
+16:25:02.300 xcodebuild[86654:53661290] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+16:25:02.299 xctest[88041:53672034] cleaning up flushing telemetry
+16:25:02.299 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600001188850, state: XCTWaiterStateFinished>
+16:25:02.300 xctest[88041:53672034] Calling completion.
+16:25:02.300 xctest[88041:53672034] <XCTWaiter: 0x6000011e4b60, state: XCTWaiterStateInProgress> entering wait loop for 1800.00s with expectations: `IDE confirmed the end of session`
+16:25:02.300 xctest[88041:53672982] Did fulfill expectation: IDE confirmed the end of session
+16:25:02.301 xctest[88041:53672034] cleaning up IDE confirmed the end of session
+16:25:02.301 xctest[88041:53672034] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000011e4b60, state: XCTWaiterStateFinished>
+16:25:04.804 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> got death notice for pid 88039 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:25:04.805 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88036 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.805 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88041 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.805 xcodebuild[86654:53672010] 7022872D-8BFD-49FE-AF45-E9FF1E917479: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:25:04.806 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88037 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.806 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88033 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.806 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88038 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.806 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88040 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.807 xcodebuild[86654:53671073] 7022872D-8BFD-49FE-AF45-E9FF1E917479: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:25:04.811 xcodebuild[86654:53672011] 7022872D-8BFD-49FE-AF45-E9FF1E917479: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:25:04.811 xcodebuild[86654:53672011] 7022872D-8BFD-49FE-AF45-E9FF1E917479: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:25:04.821 xcodebuild[86654:53671073] 7022872D-8BFD-49FE-AF45-E9FF1E917479: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:25:04.822 xcodebuild[86654:53671073] 7022872D-8BFD-49FE-AF45-E9FF1E917479: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:25:04.823 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x120ed8aa0 on simulator was relinquished, 7 claims remain.
+16:25:04.826 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x120ed8aa0 on simulator was relinquished, 7 claims remain.
+16:25:04.827 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x120ed8aa0 on simulator was relinquished, 7 claims remain.
+2023-06-29 16:25:04.802070+0800 xctest[88041:53672034] [client] Timed out waiting for the exit barrier block. activeSendTransactions=0
+16:25:04.830 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> got death notice for pid 88041 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:25:04.830 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88036 is valid: kill(pid, 0) = -1 (NO, it's dead)
+16:25:04.830 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> removing 88036 (dead) from SimulatorSessionMap
+16:25:04.830 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88037 is valid: kill(pid, 0) = -1 (NO, it's dead)
+16:25:04.830 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> removing 88037 (dead) from SimulatorSessionMap
+16:25:04.831 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88033 is valid: kill(pid, 0) = -1 (NO, it's dead)
+16:25:04.831 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> removing 88033 (dead) from SimulatorSessionMap
+16:25:04.831 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88038 is valid: kill(pid, 0) = -1 (NO, it's dead)
+16:25:04.831 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> removing 88038 (dead) from SimulatorSessionMap
+16:25:04.831 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88040 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.831 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> got death notice for pid 88033 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:25:04.831 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88040 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.831 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> got death notice for pid 88036 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:25:04.832 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88040 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.832 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> got death notice for pid 88038 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:25:04.832 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88040 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.832 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> got death notice for pid 88037 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:25:04.832 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> checking to see if pid 88040 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:25:04.833 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121e95ea0 on simulator was relinquished, 6 claims remain.
+16:25:04.833 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121e95ea0 on simulator was relinquished, 6 claims remain.
+16:25:04.833 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121e95ea0 on simulator was relinquished, 6 claims remain.
+16:25:04.833 xcodebuild[86654:53661290] Launch session expired.
+16:25:04.833 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121c4c4e0 on simulator was relinquished, 5 claims remain.
+16:25:04.834 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121c4c4e0 on simulator was relinquished, 5 claims remain.
+16:25:04.834 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121c4c4e0 on simulator was relinquished, 5 claims remain.
+16:25:04.835 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121c4c1f0 on simulator was relinquished, 4 claims remain.
+16:25:04.835 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121c4c1f0 on simulator was relinquished, 4 claims remain.
+16:25:04.835 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121c4c1f0 on simulator was relinquished, 4 claims remain.
+16:25:04.836 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121b564c0 on simulator was relinquished, 3 claims remain.
+16:25:04.836 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121b564c0 on simulator was relinquished, 3 claims remain.
+16:25:04.836 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x121b564c0 on simulator was relinquished, 3 claims remain.
+16:25:04.837 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x120edfcb0 on simulator was relinquished, 2 claims remain.
+16:25:04.837 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x120edfcb0 on simulator was relinquished, 2 claims remain.
+16:25:04.837 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x120edfcb0 on simulator was relinquished, 2 claims remain.
+16:25:04.839 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> got death notice for pid 88040 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:25:04.840 xcodebuild[86654:53661409] 7022872D-8BFD-49FE-AF45-E9FF1E917479: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:25:04.840 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x1528a53f0 on simulator was relinquished, 1 claims remain.
+16:25:04.840 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x1528a53f0 on simulator was relinquished, 1 claims remain.
+16:25:04.840 xcodebuild[86654:53661290] 📱<DVTiPhoneSimulator (0x12193f7c0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 7022872D-8BFD-49FE-AF45-E9FF1E917479> claim LaunchSessionClaim_0x1528a53f0 on simulator was relinquished, 1 claims remain.
+16:25:05.085 xcodebuild[86654:53661290] <XCTHTestOperationCoordinator: 0x121e59150> finished receiving data from testing launch session
+16:25:05.085 xcodebuild[86654:53661290] <XCTHTestOperationCoordinator: 0x121e59150>: _considerFlushingDelegateBlockQueue - nothing to flush
+16:25:05.085 xcodebuild[86654:53661290] _finishWithError:(null)

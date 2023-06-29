@@ -39,3 +39,252 @@ Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testS
 Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Dark]' started.
 Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Dark]' passed (0.252 seconds).
 Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Dark]' passed (0.190 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Dark]' passed (0.218 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Light]' passed (0.193 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_DarkToLight]' passed (0.214 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_LightToDark]' passed (0.185 seconds).
+Test Suite 'SelectCurrencyScreenTests' passed at 2023-06-29 16:24:58.213.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 1.633 (1.646) seconds
+Test Suite 'SelectCategoryToMoveScreenTests' started at 2023-06-29 16:24:58.216
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_Ukrainian_Light]' passed (0.220 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests testNoCategoriesToMove_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests testNoCategoriesToMove_iPhone14Pro_English_Light]' passed (0.183 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_English_Dark]' passed (0.213 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_Thai_Light]' passed (0.171 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_Thai_Dark]' passed (0.204 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_English_LightToDark]' passed (0.153 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_English_Light]' passed (0.181 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_Ukrainian_Dark]' passed (0.171 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCategoryToMoveScreenTests test10CategoriesToMove_iPhone14Pro_English_DarkToLight]' passed (0.173 seconds).
+Test Suite 'SelectCategoryToMoveScreenTests' passed at 2023-06-29 16:24:59.890.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 1.667 (1.675) seconds
+Test Suite 'DataManagementScreenTests' started at 2023-06-29 16:24:59.893
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_English_Light]' passed (0.519 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_Thai_Light]' passed (0.190 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_Thai_Dark]' passed (0.186 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_Ukrainian_Light]' passed (0.152 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_Ukrainian_Dark]' passed (0.173 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DataManagementScreenTests testDataManagementScreen_iPhone14Pro_English_Dark]' passed (0.170 seconds).
+Test Suite 'DataManagementScreenTests' passed at 2023-06-29 16:25:01.288.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 1.389 (1.395) seconds
+Test Suite 'RemoveCategoryAlertTests' started at 2023-06-29 16:25:01.311
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_Ukrainian_Dark]' passed (0.144 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_ManyRecords_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_ManyRecords_iPhone14Pro_English_Light]' passed (0.059 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_Thai_Light]' passed (0.076 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_English_DarkToLight]' passed (0.049 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_English_Dark]' passed (0.040 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_English_Light]' passed (0.060 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_English_LightToDark]' passed (0.042 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_Thai_Dark]' passed (0.058 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_ZeroRecords_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_ZeroRecords_iPhone14Pro_English_Light]' passed (0.057 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.RemoveCategoryAlertTests testRemoveCategoriesAlert_iPhone14Pro_Ukrainian_Light]' passed (0.043 seconds).
+Test Suite 'RemoveCategoryAlertTests' passed at 2023-06-29 16:25:01.939.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.626 (0.628) seconds
+Test Suite 'ArchivedCategoriesListScreenAddCategoryTests' started at 2023-06-29 16:25:01.942
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenAddCategoryTests testAddArchivedCategoryOnEmptyScreen]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenAddCategoryTests testAddArchivedCategoryOnEmptyScreen]' passed (0.180 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenAddCategoryTests testAddSecondArchivedCategoryOnScreen]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenAddCategoryTests testAddSecondArchivedCategoryOnScreen]' passed (0.122 seconds).
+Test Suite 'ArchivedCategoriesListScreenAddCategoryTests' passed at 2023-06-29 16:25:02.244.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.302 (0.302) seconds
+Test Suite 'PresentationAddCategoryTests' started at 2023-06-29 16:25:02.246
+Test Case '-[MoneyTrackerPresentationUnitTesting.PresentationAddCategoryTests testPresentedAddCategoryAddsCategoryOnPresentedAddRecordsScreen]' started.
+2023-06-29 16:25:02.263943+0800 xctest[88036:53672022] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x6000018a3e30 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x138772c20.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600001841b80 _UIDatePickerCompactDateLabel:0x138773400.leading == _UIDatePickerLinkedLabel:0x1387737b0.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x6000018571b0 UILabel:0x138773b90.right == _UIDatePickerLinkedLabel:0x1387737b0.right   (active)>",
+    "<NSLayoutConstraint:0x600001840eb0 UILayoutGuide:0x60000027e140''.trailing == UILabel:0x138773b90.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001843840 UIView:0x138774690.trailing == UILayoutGuide:0x60000027e140''.trailing + 12   (active)>",
+    "<NSLayoutConstraint:0x600001855400 H:[UIView:0x138774690]-(4)-[_UIDatePickerCompactTimeLabel:0x138774b90]   (active)>",
+    "<NSLayoutConstraint:0x600001856710 _UIDatePickerCompactDateLabel:0x138773400.leading == UILayoutGuide:0x60000027e300''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001857980 _UIDatePickerCompactTimeLabel:0x138774b90.trailing <= UILayoutGuide:0x60000027e300''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001857e30 H:|-(>=0)-[UILayoutGuide:0x60000027e300''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x138772fd0 )>",
+    "<NSLayoutConstraint:0x600001857750 UILayoutGuide:0x60000027e300''.right == _UIDatePickerIOSCompactView:0x138772fd0.right   (active)>",
+    "<NSLayoutConstraint:0x60000184bca0 H:|-(0)-[_UIDatePickerIOSCompactView:0x138772fd0]   (active, names: '|':UIDatePicker:0x138772dd0 )>",
+    "<NSLayoutConstraint:0x60000184bb10 _UIDatePickerIOSCompactView:0x138772fd0.trailing == UIDatePicker:0x138772dd0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001856940 H:|-(0)-[UIDatePicker:0x138772dd0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x138772c20 )>",
+    "<NSLayoutConstraint:0x600001857480 UIDatePicker:0x138772dd0.trailing == MoneyTrackerPresentation.InputDateView:0x138772c20.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600001840eb0 UILayoutGuide:0x60000027e140''.trailing == UILabel:0x138773b90.trailing   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.266306+0800 xctest[88036:53672022] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x6000018a3e30 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x138772c20.width == 0   (active)>",
+    "<NSLayoutConstraint:0x6000018433e0 H:|-(>=0)-[UILabel:0x138773b90]   (active, names: '|':_UIDatePickerLinkedLabel:0x1387737b0 )>",
+    "<NSLayoutConstraint:0x600001841b80 _UIDatePickerCompactDateLabel:0x138773400.leading == _UIDatePickerLinkedLabel:0x1387737b0.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x600001843e30 H:[UILabel:0x138775320]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x138774b90 )>",
+    "<NSLayoutConstraint:0x600001843840 UIView:0x138774690.trailing == UILayoutGuide:0x60000027e140''.trailing + 12   (active)>",
+    "<NSLayoutConstraint:0x600001843d90 H:|-(12)-[UILabel:0x138775320]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x138774b90 )>",
+    "<NSLayoutConstraint:0x600001843700 UILayoutGuide:0x60000027e140''.leading == UILabel:0x138773b90.leading   (active)>",
+    "<NSLayoutConstraint:0x600001855400 H:[UIView:0x138774690]-(4)-[_UIDatePickerCompactTimeLabel:0x138774b90]   (active)>",
+    "<NSLayoutConstraint:0x600001856710 _UIDatePickerCompactDateLabel:0x138773400.leading == UILayoutGuide:0x60000027e300''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001857980 _UIDatePickerCompactTimeLabel:0x138774b90.trailing <= UILayoutGuide:0x60000027e300''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001857e30 H:|-(>=0)-[UILayoutGuide:0x60000027e300''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x138772fd0 )>",
+    "<NSLayoutConstraint:0x600001857750 UILayoutGuide:0x60000027e300''.right == _UIDatePickerIOSCompactView:0x138772fd0.right   (active)>",
+    "<NSLayoutConstraint:0x60000184bca0 H:|-(0)-[_UIDatePickerIOSCompactView:0x138772fd0]   (active, names: '|':UIDatePicker:0x138772dd0 )>",
+    "<NSLayoutConstraint:0x60000184bb10 _UIDatePickerIOSCompactView:0x138772fd0.trailing == UIDatePicker:0x138772dd0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001856940 H:|-(0)-[UIDatePicker:0x138772dd0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x138772c20 )>",
+    "<NSLayoutConstraint:0x600001857480 UIDatePicker:0x138772dd0.trailing == MoneyTrackerPresentation.InputDateView:0x138772c20.trailing   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600001843700 UILayoutGuide:0x60000027e140''.leading == UILabel:0x138773b90.leading   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.269672+0800 xctest[88036:53672022] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x6000018a3e30 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x138772c20.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600001841b80 _UIDatePickerCompactDateLabel:0x138773400.leading == _UIDatePickerLinkedLabel:0x1387737b0.leading - 12   (active)>",
+    "<NSLayoutConstraint:0x600001843e30 H:[UILabel:0x138775320]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x138774b90 )>",
+    "<NSLayoutConstraint:0x600001841040 H:[_UIDatePickerLinkedLabel:0x1387737b0]-(12)-|   (active, names: '|':_UIDatePickerCompactDateLabel:0x138773400 )>",
+    "<NSLayoutConstraint:0x600001843d90 H:|-(12)-[UILabel:0x138775320]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x138774b90 )>",
+    "<NSLayoutConstraint:0x600001856b70 UILayoutGuide:0x60000027e3e0''.width == _UIDatePickerCompactTimeLabel:0x138774b90.width   (active)>",
+    "<NSLayoutConstraint:0x600001856710 _UIDatePickerCompactDateLabel:0x138773400.leading == UILayoutGuide:0x60000027e300''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001855c70 UILayoutGuide:0x60000027e3e0''.trailing <= UILayoutGuide:0x60000027e300''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001857e30 H:|-(>=0)-[UILayoutGuide:0x60000027e300''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x138772fd0 )>",
+    "<NSLayoutConstraint:0x600001857750 UILayoutGuide:0x60000027e300''.right == _UIDatePickerIOSCompactView:0x138772fd0.right   (active)>",
+    "<NSLayoutConstraint:0x60000184bca0 H:|-(0)-[_UIDatePickerIOSCompactView:0x138772fd0]   (active, names: '|':UIDatePicker:0x138772dd0 )>",
+    "<NSLayoutConstraint:0x60000184bb10 _UIDatePickerIOSCompactView:0x138772fd0.trailing == UIDatePicker:0x138772dd0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001856940 H:|-(0)-[UIDatePicker:0x138772dd0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x138772c20 )>",
+    "<NSLayoutConstraint:0x600001857480 UIDatePicker:0x138772dd0.trailing == MoneyTrackerPresentation.InputDateView:0x138772c20.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001855950 H:[_UIDatePickerCompactDateLabel:0x138773400]-(4)-[UILayoutGuide:0x60000027e3e0'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600001841b80 _UIDatePickerCompactDateLabel:0x138773400.leading == _UIDatePickerLinkedLabel:0x1387737b0.leading - 12   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.272161+0800 xctest[88036:53672022] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x6000018a3e30 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x138772c20.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600001843e30 H:[UILabel:0x138775320]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x138774b90 )>",
+    "<NSLayoutConstraint:0x600001843d90 H:|-(12)-[UILabel:0x138775320]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x138774b90 )>",
+    "<NSLayoutConstraint:0x600001856b70 UILayoutGuide:0x60000027e3e0''.width == _UIDatePickerCompactTimeLabel:0x138774b90.width   (active)>",
+    "<NSLayoutConstraint:0x600001856710 _UIDatePickerCompactDateLabel:0x138773400.leading == UILayoutGuide:0x60000027e300''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001855c70 UILayoutGuide:0x60000027e3e0''.trailing <= UILayoutGuide:0x60000027e300''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001857e30 H:|-(>=0)-[UILayoutGuide:0x60000027e300''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x138772fd0 )>",
+    "<NSLayoutConstraint:0x600001857750 UILayoutGuide:0x60000027e300''.right == _UIDatePickerIOSCompactView:0x138772fd0.right   (active)>",
+    "<NSLayoutConstraint:0x60000184bca0 H:|-(0)-[_UIDatePickerIOSCompactView:0x138772fd0]   (active, names: '|':UIDatePicker:0x138772dd0 )>",
+    "<NSLayoutConstraint:0x60000184bb10 _UIDatePickerIOSCompactView:0x138772fd0.trailing == UIDatePicker:0x138772dd0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001856940 H:|-(0)-[UIDatePicker:0x138772dd0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x138772c20 )>",
+    "<NSLayoutConstraint:0x600001857480 UIDatePicker:0x138772dd0.trailing == MoneyTrackerPresentation.InputDateView:0x138772c20.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001855950 H:[_UIDatePickerCompactDateLabel:0x138773400]-(4)-[UILayoutGuide:0x60000027e3e0'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600001843e30 H:[UILabel:0x138775320]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x138774b90 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.272969+0800 xctest[88036:53672022] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x6000018a3e30 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x138772c20.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600001856b70 UILayoutGuide:0x60000027e3e0''.width == _UIDatePickerCompactTimeLabel:0x138774b90.width   (active)>",
+    "<NSLayoutConstraint:0x600001856710 _UIDatePickerCompactDateLabel:0x138773400.leading == UILayoutGuide:0x60000027e300''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001855c70 UILayoutGuide:0x60000027e3e0''.trailing <= UILayoutGuide:0x60000027e300''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001857e30 H:|-(>=0)-[UILayoutGuide:0x60000027e300''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x138772fd0 )>",
+    "<NSLayoutConstraint:0x600001857750 UILayoutGuide:0x60000027e300''.right == _UIDatePickerIOSCompactView:0x138772fd0.right   (active)>",
+    "<NSLayoutConstraint:0x60000184bca0 H:|-(0)-[_UIDatePickerIOSCompactView:0x138772fd0]   (active, names: '|':UIDatePicker:0x138772dd0 )>",
+    "<NSLayoutConstraint:0x60000184bb10 _UIDatePickerIOSCompactView:0x138772fd0.trailing == UIDatePicker:0x138772dd0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001856940 H:|-(0)-[UIDatePicker:0x138772dd0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x138772c20 )>",
+    "<NSLayoutConstraint:0x600001857480 UIDatePicker:0x138772dd0.trailing == MoneyTrackerPresentation.InputDateView:0x138772c20.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001855950 H:[_UIDatePickerCompactDateLabel:0x138773400]-(4)-[UILayoutGuide:0x60000027e3e0'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600001855950 H:[_UIDatePickerCompactDateLabel:0x138773400]-(4)-[UILayoutGuide:0x60000027e3e0'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.276010+0800 xctest[88036:53672022] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x6000018a3e30 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x138772c20.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600001853ac0 UILayoutGuide:0x60000027e3e0''.width == _UIDatePickerCompactTimeLabel:0x138774b90.width   (active)>",
+    "<NSLayoutConstraint:0x6000018539d0 H:[_UIDatePickerCompactDateLabel:0x138773400]-(4)-[UILayoutGuide:0x60000027e3e0'']   (active)>",
+    "<NSLayoutConstraint:0x600001853f20 _UIDatePickerCompactDateLabel:0x138773400.leading == UILayoutGuide:0x60000027e300''.leading   (active)>",
+    "<NSLayoutConstraint:0x600001853b60 UILayoutGuide:0x60000027e3e0''.trailing <= UILayoutGuide:0x60000027e300''.trailing   (active)>",
+    "<NSLayoutConstraint:0x6000018538e0 H:|-(>=0)-[UILayoutGuide:0x60000027e300''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x138772fd0 )>",
+    "<NSLayoutConstraint:0x60000184bca0 H:|-(0)-[_UIDatePickerIOSCompactView:0x138772fd0]   (active, names: '|':UIDatePicker:0x138772dd0 )>",
+    "<NSLayoutConstraint:0x60000184bb10 _UIDatePickerIOSCompactView:0x138772fd0.trailing == UIDatePicker:0x138772dd0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001856940 H:|-(0)-[UIDatePicker:0x138772dd0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x138772c20 )>",
+    "<NSLayoutConstraint:0x600001857480 UIDatePicker:0x138772dd0.trailing == MoneyTrackerPresentation.InputDateView:0x138772c20.trailing   (active)>",
+    "<NSLayoutConstraint:0x600001852bc0 UILayoutGuide:0x60000027e300''.right == _UIDatePickerIOSCompactView:0x138772fd0.right   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000018539d0 H:[_UIDatePickerCompactDateLabel:0x138773400]-(4)-[UILayoutGuide:0x60000027e3e0'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:25:02.288652+0800 xctest[88036:53672022] [Presentation] Attempt to present <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x13a874e00> on <UIViewController: 0x13876c8d0> (from <UIViewController: 0x13876c8d0>) whose view is not in the window hierarchy.
+2023-06-29 16:25:02.289383+0800 xctest[88036:53672022] [Presentation] Attempt to present <MoneyTrackerPresentation.CreateCategoryScreenViewController: 0x1378d2600> on <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x13a874e00> (from <MoneyTrackerPresentation.AddRecordsScreenViewController: 0x13a874e00>) whose view is not in the window hierarchy.
+Test Case '-[MoneyTrackerPresentationUnitTesting.PresentationAddCategoryTests testPresentedAddCategoryAddsCategoryOnPresentedAddRecordsScreen]' passed (0.046 seconds).
+Test Suite 'PresentationAddCategoryTests' passed at 2023-06-29 16:25:02.292.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.046 (0.046) seconds
+2023-06-29 16:25:04.806309+0800 xctest[88036:53672022] [client] Timed out waiting for the exit barrier block. activeSendTransactions=0

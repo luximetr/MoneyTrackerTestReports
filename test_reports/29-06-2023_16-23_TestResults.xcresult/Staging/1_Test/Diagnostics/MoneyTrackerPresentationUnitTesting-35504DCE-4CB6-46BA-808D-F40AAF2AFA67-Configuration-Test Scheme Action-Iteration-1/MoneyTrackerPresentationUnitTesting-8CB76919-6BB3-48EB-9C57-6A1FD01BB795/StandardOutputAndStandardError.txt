@@ -20,3 +20,49 @@ Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting te
 Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_English_Dark]' started.
 Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_English_Dark]' passed (4.088 seconds).
 Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_English_Light]' passed (4.107 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusPartial_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusPartial_Ukrainian_Dark]' passed (0.045 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLast_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLast_Thai_Dark]' passed (0.047 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLast_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLast_Ukrainian_Dark]' passed (0.042 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusICloudSignInRequired_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusICloudSignInRequired_English_Dark]' passed (0.030 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNetworkUnavailable_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNetworkUnavailable_Ukrainian_Dark]' passed (0.021 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusInProgress_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusInProgress_Ukrainian_Dark]' passed (0.027 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNever_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNever_Ukrainian_Dark]' passed (0.020 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLast_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLast_English_Dark]' passed (0.014 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusICloudSignInRequired_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusICloudSignInRequired_English_Light]' passed (0.017 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_Thai_Dark]' passed (4.058 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusInProgress_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusInProgress_English_Dark]' passed (0.011 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNetworkUnavailable_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNetworkUnavailable_Thai_Dark]' passed (0.019 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusICloudSignInRequired_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusICloudSignInRequired_Thai_Dark]' passed (0.017 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusInProgress_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusInProgress_Thai_Dark]' passed (0.017 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNever_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNever_English_Light]' passed (0.014 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNever_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNever_English_Dark]' passed (0.020 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNever_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNever_Thai_Dark]' passed (0.041 seconds).
+Test Suite 'SynchronizeButtonUnitTesting' passed at 2023-06-29 16:25:01.845.
+	 Executed 28 tests, with 0 failures (0 unexpected) in 17.148 (17.159) seconds
+Test Suite 'TemplatesListScreenAddTemplateTests' started at 2023-06-29 16:25:01.855
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenAddTemplateTests testAddSecondTemplateOnScreen_iPhone14Pro_English_Light]' started.
+2023-06-29 16:25:01.916258+0800 xctest[88033:53671985] [TableView] Warning once only: UITableView was told to layout its visible cells and other contents without being in the view hierarchy (the table view or one of its superviews has not been added to a window). This may cause bugs by forcing views inside the table view to load and perform layout without accurate information (e.g. table view bounds, trait collection, layout margins, safe area insets, etc), and will also cause unnecessary performance overhead due to extra layout passes. Make a symbolic breakpoint at UITableViewAlertForLayoutOutsideViewHierarchy to catch this in the debugger and see what caused this to occur, so you can avoid this action altogether if possible, or defer it until the table view has been added to a window. Table view: <UITableView: 0x12283a400; frame = (0 48; 393 804); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x600001bec690>; backgroundColor = UIExtendedSRGBColorSpace 0.977 0.977 0.977 1; layer = <CALayer: 0x600001537f00>; contentOffset: {0, 0}; contentSize: {393, 74}; adjustedContentInset: {0, 0, 98, 0}; dataSource: <_TtC6AUIKitP33_D811B2E810C50E74E7FFEB2E8E44C5FB24UITableViewDelegateProxy: 0x60000171c060>>
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenAddTemplateTests testAddSecondTemplateOnScreen_iPhone14Pro_English_Light]' passed (0.274 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenAddTemplateTests testAddTemplateOnEmptyScreen_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenAddTemplateTests testAddTemplateOnEmptyScreen_iPhone14Pro_English_Light]' passed (0.165 seconds).
+Test Suite 'TemplatesListScreenAddTemplateTests' passed at 2023-06-29 16:25:02.295.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.439 (0.440) seconds
+2023-06-29 16:25:04.803115+0800 xctest[88033:53671985] [client] Timed out waiting for the exit barrier block. activeSendTransactions=0

@@ -3568,3 +3568,845 @@ Will attempt to recover by breaking constraint
 
 Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
 The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:22:37.372659+0800 xctest[86386:53647160] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600000dca760 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x153538110.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600000d9a440 H:[UILabel:0x15371a740]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x15370c040 )>",
+    "<NSLayoutConstraint:0x600000d99720 H:|-(12)-[UILabel:0x15371a740]   (active, names: '|':_UIDatePickerCompactTimeLabel:0x15370c040 )>",
+    "<NSLayoutConstraint:0x600000d9ec60 UILayoutGuide:0x6000017b6f40''.width == _UIDatePickerCompactTimeLabel:0x15370c040.width   (active)>",
+    "<NSLayoutConstraint:0x600000d9d4f0 _UIDatePickerCompactDateLabel:0x1535386f0.leading == UILayoutGuide:0x6000017b6ae0''.leading   (active)>",
+    "<NSLayoutConstraint:0x600000d9da40 UILayoutGuide:0x6000017b6f40''.trailing <= UILayoutGuide:0x6000017b6ae0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000d9ea30 H:|-(>=0)-[UILayoutGuide:0x6000017b6ae0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1535384c0 )>",
+    "<NSLayoutConstraint:0x600000d9e990 UILayoutGuide:0x6000017b6ae0''.right == _UIDatePickerIOSCompactView:0x1535384c0.right   (active)>",
+    "<NSLayoutConstraint:0x600000d9eb70 H:|-(0)-[_UIDatePickerIOSCompactView:0x1535384c0]   (active, names: '|':UIDatePicker:0x1535382c0 )>",
+    "<NSLayoutConstraint:0x600000d9ef80 _UIDatePickerIOSCompactView:0x1535384c0.trailing == UIDatePicker:0x1535382c0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dbaee0 H:|-(0)-[UIDatePicker:0x1535382c0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x153538110 )>",
+    "<NSLayoutConstraint:0x600000dba670 UIDatePicker:0x1535382c0.trailing == MoneyTrackerPresentation.InputDateView:0x153538110.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000d9e8a0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600000d9a440 H:[UILabel:0x15371a740]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x15370c040 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:22:37.386142+0800 xctest[86386:53647160] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600000dca760 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x153538110.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600000d9ec60 UILayoutGuide:0x6000017b6f40''.width == _UIDatePickerCompactTimeLabel:0x15370c040.width   (active)>",
+    "<NSLayoutConstraint:0x600000d9d4f0 _UIDatePickerCompactDateLabel:0x1535386f0.leading == UILayoutGuide:0x6000017b6ae0''.leading   (active)>",
+    "<NSLayoutConstraint:0x600000d9da40 UILayoutGuide:0x6000017b6f40''.trailing <= UILayoutGuide:0x6000017b6ae0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000d9ea30 H:|-(>=0)-[UILayoutGuide:0x6000017b6ae0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1535384c0 )>",
+    "<NSLayoutConstraint:0x600000d9e990 UILayoutGuide:0x6000017b6ae0''.right == _UIDatePickerIOSCompactView:0x1535384c0.right   (active)>",
+    "<NSLayoutConstraint:0x600000d9eb70 H:|-(0)-[_UIDatePickerIOSCompactView:0x1535384c0]   (active, names: '|':UIDatePicker:0x1535382c0 )>",
+    "<NSLayoutConstraint:0x600000d9ef80 _UIDatePickerIOSCompactView:0x1535384c0.trailing == UIDatePicker:0x1535382c0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dbaee0 H:|-(0)-[UIDatePicker:0x1535382c0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x153538110 )>",
+    "<NSLayoutConstraint:0x600000dba670 UIDatePicker:0x1535382c0.trailing == MoneyTrackerPresentation.InputDateView:0x153538110.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000d9e8a0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600000d9e8a0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:22:37.389027+0800 xctest[86386:53647160] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600000dca760 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x153538110.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600000dc6c60 UILayoutGuide:0x6000017b6f40''.width == _UIDatePickerCompactTimeLabel:0x15370c040.width   (active)>",
+    "<NSLayoutConstraint:0x600000dc53b0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>",
+    "<NSLayoutConstraint:0x600000dc5450 _UIDatePickerCompactDateLabel:0x1535386f0.leading == UILayoutGuide:0x6000017b6ae0''.leading   (active)>",
+    "<NSLayoutConstraint:0x600000dc79d0 UILayoutGuide:0x6000017b6f40''.trailing <= UILayoutGuide:0x6000017b6ae0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dc6b20 H:|-(>=0)-[UILayoutGuide:0x6000017b6ae0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1535384c0 )>",
+    "<NSLayoutConstraint:0x600000d9eb70 H:|-(0)-[_UIDatePickerIOSCompactView:0x1535384c0]   (active, names: '|':UIDatePicker:0x1535382c0 )>",
+    "<NSLayoutConstraint:0x600000d9ef80 _UIDatePickerIOSCompactView:0x1535384c0.trailing == UIDatePicker:0x1535382c0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dbaee0 H:|-(0)-[UIDatePicker:0x1535382c0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x153538110 )>",
+    "<NSLayoutConstraint:0x600000dba670 UIDatePicker:0x1535382c0.trailing == MoneyTrackerPresentation.InputDateView:0x153538110.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dc6670 UILayoutGuide:0x6000017b6ae0''.right == _UIDatePickerIOSCompactView:0x1535384c0.right   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600000dc53b0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+16:22:37.651 xctest[86386:53647160] <XCTWaiter: 0x60000058f090, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:37.651 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:37.651 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000058f090, state: XCTWaiterStateFinished>
+16:22:37.651 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddRecordsScreenAddExpenseTests testAddRecordsAddReplenishmentAddAccountInputFieldShowsCorrectCurrencyCode_iPhone14Pro_English_Light]' passed (0.363 seconds).
+Test Suite 'AddRecordsScreenAddExpenseTests' passed at 2023-06-29 16:22:37.651.
+	 Executed 17 tests, with 0 failures (0 unexpected) in 6.573 (6.599) seconds
+16:22:37.652 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddRecordsScreenAddExpenseTests", "testAddRecordsAddReplenishmentAddAccountInputFieldShowsCorrectCurrencyCode_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.3625129461288452
+16:22:37.653 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["AddRecordsScreenAddExpenseTests"] container, class> didFinishAt:2023-06-29 08:22:37 +0000 runCount:17 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:6.573109269142151 totalDuration:6.59867799282074
+16:22:37.651 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:22:37.658 xctest[86386:53647608] Test driver received request to execute test identifiers <XCTTestIdentifier ["DashboardScreenTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+Test Suite 'DashboardScreenTests' started at 2023-06-29 16:22:37.662
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Dark]' started.
+16:22:37.662 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests"] container, class> didStartAt:2023-06-29 08:22:37 +0000
+16:22:37.663 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034b5b00>
+16:22:37.662 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteWillStart:]
+16:22:37.662 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Dark
+16:22:37.663 xctest[86386:53647160] <XCTWaiter: 0x6000005f9500, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:37.663 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:37.663 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005f9500, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Dark]' passed (0.186 seconds).
+16:22:37.847 xctest[86386:53647160] <XCTWaiter: 0x6000005c0d90, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:37.847 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:37.847 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c0d90, state: XCTWaiterStateFinished>
+16:22:37.847 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:37.854 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.1855570077896118
+16:22:37.854 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardChangingLocaleAndAppearance_iPhone14Pro"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003484700>
+16:22:37.848 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardChangingLocaleAndAppearance_iPhone14Pro
+16:22:37.848 xctest[86386:53647160] <XCTWaiter: 0x6000005c0e00, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:37.848 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:37.848 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c0e00, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardChangingLocaleAndAppearance_iPhone14Pro]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardChangingLocaleAndAppearance_iPhone14Pro]' passed (0.205 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot]' started.
+16:22:38.054 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardChangingLocaleAndAppearance_iPhone14Pro"] leaf, method, swift> didFinishWithStatus:passed duration:0.2045409679412842
+16:22:38.054 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testNewDashboardSnapshot"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034a3ce0>
+16:22:38.052 xctest[86386:53647160] <XCTWaiter: 0x6000005e8e00, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:38.052 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:38.052 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005e8e00, state: XCTWaiterStateFinished>
+16:22:38.052 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:38.052 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot
+16:22:38.054 xctest[86386:53647160] <XCTWaiter: 0x6000005fa1b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:38.054 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:38.054 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005fa1b0, state: XCTWaiterStateFinished>
+16:22:38.198 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["none", "none"] leaf, method> willStartActivity:<XCActivityRecord: 0x6000012637a0> 2023-06-29 08:22:38 +0000: Added attachment named 'DashboardScreenReferenceSnapshots@AppleSilicon@testNewDashboardSnapshot'
+16:22:38.204 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["none", "none"] leaf, method> didFinishActivity:<XCActivityRecord: 0x6000012754f0> 2023-06-29 08:22:38 +0000: Added attachment named 'DashboardScreenReferenceSnapshots@AppleSilicon@testNewDashboardSnapshot' (0.000174999s)
+16:22:38.194 xctest[86386:53647160] <XCTContext: 0x600000dfdbd0> started activity <XCActivityRecord: 0x600000d9d810> 2023-06-29 08:22:38 +0000: Added attachment named 'DashboardScreenReferenceSnapshots@AppleSilicon@testNewDashboardSnapshot'
+16:22:38.194 xctest[86386:53647160] Activity 7B153302-9269-4D2A-A48F-5256857FFAA3 added attachment with name 'DashboardScreenReferenceSnapshots@AppleSilicon@testNewDashboardSnapshot', Uniform Type Identifier 'public.png', lifetime 'deleteOnSuccess', hasPayload: YES.
+16:22:38.194 xctest[86386:53647160] <XCTContext: 0x600000dfdbd0> finished activity <XCActivityRecord: 0x600000d9d810> 2023-06-29 08:22:38 +0000: Added attachment named 'DashboardScreenReferenceSnapshots@AppleSilicon@testNewDashboardSnapshot' (0.000174999s)
+16:22:38.306 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x10614c31b: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4396991259 is in untracked image 'libXCTestSwiftSupport.dylib'" UserInfo={NSLocalizedDescription=Address 4396991259 is in untracked image 'libXCTestSwiftSupport.dylib'}
+16:22:38.306 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x10614c42e: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4396991534 is in untracked image 'libXCTestSwiftSupport.dylib'" UserInfo={NSLocalizedDescription=Address 4396991534 is in untracked image 'libXCTestSwiftSupport.dylib'}
+16:22:38.307 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x18bf81ede: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 6643261150 is in untracked image 'libswiftCore.dylib'" UserInfo={NSLocalizedDescription=Address 6643261150 is in untracked image 'libswiftCore.dylib'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x18043d6be: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 6446896830 is in untracked image 'CoreFoundation'" UserInfo={NSLocalizedDescription=Address 6446896830 is in untracked image 'CoreFoundation'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x18043aa42: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 6446885442 is in untracked image 'CoreFoundation'" UserInfo={NSLocalizedDescription=Address 6446885442 is in untracked image 'CoreFoundation'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fb523e: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395323966 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395323966 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fb51da: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395323866 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395323866 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fb4e02: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395322882 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395322882 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f7c8a6: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395092134 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395092134 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x10614c91a: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4396992794 is in untracked image 'libXCTestSwiftSupport.dylib'" UserInfo={NSLocalizedDescription=Address 4396992794 is in untracked image 'libXCTestSwiftSupport.dylib'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x10614ca0e: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4396993038 is in untracked image 'libXCTestSwiftSupport.dylib'" UserInfo={NSLocalizedDescription=Address 4396993038 is in untracked image 'libXCTestSwiftSupport.dylib'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x10614c776: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4396992374 is in untracked image 'libXCTestSwiftSupport.dylib'" UserInfo={NSLocalizedDescription=Address 4396992374 is in untracked image 'libXCTestSwiftSupport.dylib'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x10614caea: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4396993258 is in untracked image 'libXCTestSwiftSupport.dylib'" UserInfo={NSLocalizedDescription=Address 4396993258 is in untracked image 'libXCTestSwiftSupport.dylib'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f7c7ca: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395091914 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395091914 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fb4c12: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395322386 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395322386 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fb518a: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395323786 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395323786 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fb5482: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395324546 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395324546 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fa57b6: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395259830 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395259830 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f75b8a: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395064202 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395064202 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fa53fa: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395258874 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395258874 is in untracked image 'XCTestCore'}
+16:22:38.643 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fa6872: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395264114 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395264114 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f75b8a: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395064202 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395064202 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fa63da: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395262938 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395262938 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f8eeae: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395167406 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395167406 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f8edda: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395167194 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395167194 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fa6072: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395262066 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395262066 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f65ae6: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4394998502 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4394998502 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f91706: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395177734 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395177734 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f915ea: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395177450 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395177450 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f9113a: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395176250 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395176250 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f8eeae: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395167406 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395167406 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f8edda: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395167194 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395167194 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f910e2: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395176162 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395176162 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f91316: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395176726 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395176726 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f65ae6: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4394998502 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4394998502 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f674d2: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395005138 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395005138 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f8eeae: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395167406 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395167406 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f8edda: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395167194 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395167194 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f67256: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395004502 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395004502 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fc1d16: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395375894 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395375894 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105fc137e: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395373438 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395373438 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f8c3de: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395156446 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395156446 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f6f48a: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395037834 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395037834 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f8c07a: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4395155578 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4395155578 is in untracked image 'XCTestCore'}
+/Users/luximetr/Documents/Tools/github/actions-runner/_work/MoneyTracker/MoneyTracker/project/MoneyTracker/MoneyTrackerPresentation/MoneyTrackerPresentationUnitTesting/TestHelpers/SnapshotValidator.swift:23: error: -[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot] : failed: caught error: "MoneyTrackerPresentationUnitTesting/SnapshotValidator.swift:23 Unable to find file at path: DashboardScreenReferenceSnapshots/AppleSilicon/testNewDashboardSnapshot.png. Created candidate at: file:///Users/luximetr/Documents/Tools/github/ios-upload-to_testflight/MoneyTrackerSnapshots/DashboardScreenReferenceSnapshots/AppleSilicon/testNewDashboardSnapshot.png"
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x105f65fce: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4394999758 is in untracked image 'XCTestCore'" UserInfo={NSLocalizedDescription=Address 4394999758 is in untracked image 'XCTestCore'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x104e50866: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4377086054 is in untracked image 'xctest'" UserInfo={NSLocalizedDescription=Address 4377086054 is in untracked image 'xctest'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x104ea9512: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4377449746 is in untracked image 'dyld_sim'" UserInfo={NSLocalizedDescription=Address 4377449746 is in untracked image 'dyld_sim'}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x104f49f26: Error Domain=XCTSymbolicationServiceErrorDomain Code=4 "Address 4378107686 is in untracked image 'dyld'" UserInfo={NSLocalizedDescription=Address 4378107686 is in untracked image 'dyld'}
+16:22:38.644 xctest[86386:53647160] Error getting symbolication information for <XCTSourceCodeFrame: 0x600002e2b900> Error Domain=XCTSymbolicationServiceErrorDomain Code=2 "Unable to determine owner (executable image) for address 10236119003059716094" UserInfo={NSLocalizedDescription=Unable to determine owner (executable image) for address 10236119003059716094}
+16:22:38.644 xctest[86386:53647160] Error symbolicating XCTSourceCodeFrame: 0x8e0dfffffffffffe: Error Domain=XCTSymbolicationServiceErrorDomain Code=2 "Unable to determine owner (executable image) for address 10236119003059716094" UserInfo={NSLocalizedDescription=Unable to determine owner (executable image) for address 10236119003059716094}
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot]' failed (0.594 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardRemoveAllAccountsAndAdd1Account_iPhone14Pro_English_Light]' started.
+16:22:38.650 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testNewDashboardSnapshot"] leaf, method, swift> didRecordIssue:Thrown Error at SnapshotValidator.swift:23: failed: caught error: "MoneyTrackerPresentationUnitTesting/SnapshotValidator.swift:23 Unable to find file at path: DashboardScreenReferenceSnapshots/AppleSilicon/testNewDashboardSnapshot.png. Created candidate at: file:///Users/luximetr/Documents/Tools/github/ios-upload-to_testflight/MoneyTrackerSnapshots/DashboardScreenReferenceSnapshots/AppleSilicon/testNewDashboardSnapshot.png"
+16:22:38.646 xctest[86386:53647160] -[XCTRunnerIDESession testCase:didRecordIssue:]
+16:22:38.646 xctest[86386:53647160] <XCTWaiter: 0x6000005ebe90, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:38.651 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testNewDashboardSnapshot"] leaf, method, swift> didFinishWithStatus:failed duration:0.5941749811172485
+16:22:38.646 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:38.651 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardRemoveAllAccountsAndAdd1Account_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003448ac0>
+16:22:38.646 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005ebe90, state: XCTWaiterStateFinished>
+16:22:38.646 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:38.646 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardRemoveAllAccountsAndAdd1Account_iPhone14Pro_English_Light
+16:22:38.647 xctest[86386:53647160] <XCTWaiter: 0x600000599b20, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:38.647 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:38.647 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600000599b20, state: XCTWaiterStateFinished>
+16:22:38.665 xctest[86386:53647160] <XCTWaiter: 0x6000005eb3a0, state: XCTWaiterStateInProgress> entering wait loop for 2.00s with expectations: `no description provided`
+16:22:39.333 xctest[86386:53647160] Did fulfill expectation: no description provided
+16:22:39.333 xctest[86386:53647160] cleaning up no description provided
+16:22:39.333 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005eb3a0, state: XCTWaiterStateFinished>
+16:22:39.335 xctest[86386:53647160] <XCTWaiter: 0x6000005f9ab0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:39.335 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:39.335 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005f9ab0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardRemoveAllAccountsAndAdd1Account_iPhone14Pro_English_Light]' passed (0.688 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Dark]' started.
+16:22:39.336 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardRemoveAllAccountsAndAdd1Account_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.6882460117340088
+16:22:39.336 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003476c80>
+16:22:39.335 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:39.335 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Dark
+16:22:39.335 xctest[86386:53647160] <XCTWaiter: 0x6000005f9ab0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:39.335 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:39.335 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005f9ab0, state: XCTWaiterStateFinished>
+16:22:39.541 xctest[86386:53647160] <XCTWaiter: 0x6000005eaf40, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:39.541 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:39.541 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005eaf40, state: XCTWaiterStateFinished>
+16:22:39.542 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:39.544 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.2066490650177002
+16:22:39.544 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003440680>
+16:22:39.542 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Dark
+16:22:39.542 xctest[86386:53647160] <XCTWaiter: 0x6000005a1570, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:39.542 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:39.542 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005a1570, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Dark]' passed (0.207 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Dark]' passed (0.266 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_LightToDark]' started.
+16:22:39.809 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.265794038772583
+16:22:39.809 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_English_LightToDark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034cc500>
+16:22:39.807 xctest[86386:53647160] <XCTWaiter: 0x6000005fa300, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:39.807 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:39.808 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005fa300, state: XCTWaiterStateFinished>
+16:22:39.808 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:39.808 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_LightToDark
+16:22:39.810 xctest[86386:53647160] <XCTWaiter: 0x6000005a2530, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:39.810 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:39.810 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005a2530, state: XCTWaiterStateFinished>
+16:22:40.094 xctest[86386:53647160] <XCTWaiter: 0x6000005ebc60, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:40.094 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:40.094 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005ebc60, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_LightToDark]' passed (0.287 seconds).
+16:22:40.095 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_English_LightToDark"] leaf, method, swift> didFinishWithStatus:passed duration:0.2871110439300537
+16:22:40.096 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_English_DarkToLight"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034c2360>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_DarkToLight]' started.
+16:22:40.095 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:40.095 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_DarkToLight
+16:22:40.096 xctest[86386:53647160] <XCTWaiter: 0x600000591a40, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:40.096 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:40.096 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600000591a40, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_DarkToLight]' passed (0.187 seconds).
+16:22:40.282 xctest[86386:53647160] <XCTWaiter: 0x60000058e300, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardDeleteAllAccounts_iPhone14Pro_English_Light]' started.
+16:22:40.282 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:40.283 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_English_DarkToLight"] leaf, method, swift> didFinishWithStatus:passed duration:0.187391996383667
+16:22:40.283 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000058e300, state: XCTWaiterStateFinished>
+16:22:40.283 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardDeleteAllAccounts_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034803c0>
+16:22:40.283 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:40.283 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardDeleteAllAccounts_iPhone14Pro_English_Light
+16:22:40.283 xctest[86386:53647160] <XCTWaiter: 0x60000058fcd0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:40.283 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:40.283 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000058fcd0, state: XCTWaiterStateFinished>
+16:22:40.298 xctest[86386:53647160] <XCTWaiter: 0x6000005f9c70, state: XCTWaiterStateInProgress> entering wait loop for 2.00s with expectations: `no description provided`
+16:22:40.953 xctest[86386:53647160] Did fulfill expectation: no description provided
+16:22:40.954 xctest[86386:53647160] cleaning up no description provided
+16:22:40.954 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005f9c70, state: XCTWaiterStateFinished>
+16:22:40.955 xctest[86386:53647160] <XCTWaiter: 0x6000005eb6b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:40.955 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:40.955 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005eb6b0, state: XCTWaiterStateFinished>
+16:22:40.955 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardDeleteAllAccounts_iPhone14Pro_English_Light]' passed (0.672 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Light]' started.
+16:22:40.961 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardDeleteAllAccounts_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.6723479032516479
+16:22:40.961 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003485a20>
+16:22:40.955 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Light
+16:22:40.955 xctest[86386:53647160] <XCTWaiter: 0x6000005ea450, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:40.955 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:40.955 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005ea450, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Light]' passed (0.189 seconds).
+16:22:41.144 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1887589693069458
+16:22:41.144 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034c6860>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Light]' started.
+16:22:41.144 xctest[86386:53647160] <XCTWaiter: 0x6000005eed10, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.144 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.144 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005eed10, state: XCTWaiterStateFinished>
+16:22:41.144 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:41.144 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Light
+16:22:41.145 xctest[86386:53647160] <XCTWaiter: 0x6000005f9c00, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.145 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.145 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005f9c00, state: XCTWaiterStateFinished>
+16:22:41.304 xctest[86386:53647160] <XCTWaiter: 0x6000005c08c0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.304 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.304 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c08c0, state: XCTWaiterStateFinished>
+16:22:41.304 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Light]' passed (0.160 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardEmpty_iPhone14Pro_English_Light]' started.
+16:22:41.305 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1603670120239258
+16:22:41.305 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardEmpty_iPhone14Pro_English_Light
+16:22:41.305 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardEmpty_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034bb6c0>
+16:22:41.305 xctest[86386:53647160] <XCTWaiter: 0x6000005efb80, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.305 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.305 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005efb80, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardEmpty_iPhone14Pro_English_Light]' passed (0.135 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Light]' started.
+16:22:41.443 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardEmpty_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1352570056915283
+16:22:41.440 xctest[86386:53647160] <XCTWaiter: 0x6000005a2370, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.440 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.444 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000349a2e0>
+16:22:41.440 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005a2370, state: XCTWaiterStateFinished>
+16:22:41.440 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:41.440 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Light
+16:22:41.440 xctest[86386:53647160] <XCTWaiter: 0x6000005a1880, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.440 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.440 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005a1880, state: XCTWaiterStateFinished>
+16:22:41.591 xctest[86386:53647160] <XCTWaiter: 0x6000005ed490, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.591 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.591 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005ed490, state: XCTWaiterStateFinished>
+16:22:41.591 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:41.592 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests", "testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1512860059738159
+16:22:41.591 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:22:41.592 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["DashboardScreenTests"] container, class> didFinishAt:2023-06-29 08:22:41 +0000 runCount:13 skipCount:0 failureCount:1 expectedFailureCount:0 uncaughtExceptionCount:1 testDuration:3.927482008934021 totalDuration:3.929765939712524
+16:22:41.591 xctest[86386:53647160] Activity statistics for DashboardScreenTests:
+16:22:41.591 xctest[86386:53647160] 0.00s : Other
+16:22:41.591 xctest[86386:53647160] Total time in activities: 0.00s
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Light]' passed (0.151 seconds).
+Test Suite 'DashboardScreenTests' failed at 2023-06-29 16:22:41.591.
+	 Executed 13 tests, with 1 failure (1 unexpected) in 3.927 (3.930) seconds
+16:22:41.592 xctest[86386:53647608] Test driver received request to execute test identifiers <XCTTestIdentifier ["AddAccountScreenTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+Test Suite 'AddAccountScreenTests' started at 2023-06-29 16:22:41.592
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_DarkToLight]' started.
+16:22:41.592 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteWillStart:]
+16:22:41.593 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests"] container, class> didStartAt:2023-06-29 08:22:41 +0000
+16:22:41.593 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_DarkToLight
+16:22:41.593 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_English_DarkToLight"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003431d00>
+16:22:41.593 xctest[86386:53647160] <XCTWaiter: 0x6000005c03f0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.593 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.593 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c03f0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_DarkToLight]' passed (0.244 seconds).
+16:22:41.840 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_English_DarkToLight"] leaf, method, swift> didFinishWithStatus:passed duration:0.2440299987792969
+16:22:41.840 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003487aa0>
+16:22:41.836 xctest[86386:53647160] <XCTWaiter: 0x6000005b8fc0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.836 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.836 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005b8fc0, state: XCTWaiterStateFinished>
+16:22:41.837 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:41.837 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Dark
+16:22:41.837 xctest[86386:53647160] <XCTWaiter: 0x6000005d0700, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:41.837 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:41.837 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d0700, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Dark]' started.
+16:22:42.001 xctest[86386:53647160] <XCTWaiter: 0x60000058c070, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.001 xctest[86386:53647160] cleaning up failable invocation block completion
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Dark]' passed (0.165 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Dark]' started.
+16:22:42.002 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.164775013923645
+16:22:42.001 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x60000058c070, state: XCTWaiterStateFinished>
+16:22:42.001 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:42.003 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_Thai_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003487c40>
+16:22:42.002 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Dark
+16:22:42.002 xctest[86386:53647160] <XCTWaiter: 0x6000005c43f0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.002 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.002 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c43f0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Dark]' passed (0.149 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_LightToDark]' started.
+16:22:42.150 xctest[86386:53647160] <XCTWaiter: 0x6000005ef8e0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.151 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_Thai_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.148501992225647
+16:22:42.150 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.151 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_English_LightToDark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003486620>
+16:22:42.150 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005ef8e0, state: XCTWaiterStateFinished>
+16:22:42.150 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:42.150 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_LightToDark
+16:22:42.150 xctest[86386:53647160] <XCTWaiter: 0x6000005eec30, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.150 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.150 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005eec30, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_LightToDark]' passed (0.140 seconds).
+16:22:42.290 xctest[86386:53647160] <XCTWaiter: 0x6000005fcf50, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.290 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.290 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005fcf50, state: XCTWaiterStateFinished>
+16:22:42.290 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:42.290 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_English_LightToDark"] leaf, method, swift> didFinishWithStatus:passed duration:0.139557957649231
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountWavesCurrency_iPhone14Pro_English_Light]' started.
+16:22:42.291 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountWavesCurrency_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034ded40>
+16:22:42.290 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountWavesCurrency_iPhone14Pro_English_Light
+16:22:42.290 xctest[86386:53647160] <XCTWaiter: 0x6000005c4930, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.290 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.290 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c4930, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountWavesCurrency_iPhone14Pro_English_Light]' passed (0.145 seconds).
+16:22:42.437 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountWavesCurrency_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1454759836196899
+16:22:42.437 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_Ukrainian_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034dd6e0>
+16:22:42.435 xctest[86386:53647160] <XCTWaiter: 0x6000005c4850, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.435 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.435 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c4850, state: XCTWaiterStateFinished>
+16:22:42.435 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:42.436 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Light
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Light]' started.
+16:22:42.436 xctest[86386:53647160] <XCTWaiter: 0x6000005a21b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.436 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.436 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005a21b0, state: XCTWaiterStateFinished>
+16:22:42.586 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_Ukrainian_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1497269868850708
+16:22:42.587 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_Thai_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034cb120>
+16:22:42.585 xctest[86386:53647160] <XCTWaiter: 0x6000005d0e00, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.585 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.585 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d0e00, state: XCTWaiterStateFinished>
+16:22:42.585 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:42.585 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Light
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Light]' passed (0.150 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Light]' started.
+16:22:42.586 xctest[86386:53647160] <XCTWaiter: 0x6000005d4000, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.586 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.586 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d4000, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Light]' passed (0.181 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Light]' started.
+16:22:42.769 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_Thai_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1807589530944824
+16:22:42.770 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034b3880>
+16:22:42.766 xctest[86386:53647160] <XCTWaiter: 0x6000005d0690, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.766 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.766 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d0690, state: XCTWaiterStateFinished>
+16:22:42.766 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:42.766 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Light
+16:22:42.768 xctest[86386:53647160] <XCTWaiter: 0x6000005d5a40, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.768 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.768 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d5a40, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Light]' passed (0.147 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Dark]' started.
+16:22:42.913 xctest[86386:53647160] <XCTWaiter: 0x6000005d11f0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.913 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.914 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1466010808944702
+16:22:42.914 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_English_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034ddae0>
+16:22:42.913 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d11f0, state: XCTWaiterStateFinished>
+16:22:42.913 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:42.913 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Dark
+16:22:42.913 xctest[86386:53647160] <XCTWaiter: 0x6000005d0ee0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:42.913 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:42.913 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d0ee0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Dark]' passed (0.152 seconds).
+Test Suite 'AddAccountScreenTests' passed at 2023-06-29 16:22:43.065.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 1.471 (1.473) seconds
+16:22:43.066 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests", "testAddAccountNotFilled_iPhone14Pro_English_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.1517961025238037
+16:22:43.066 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["AddAccountScreenTests"] container, class> didFinishAt:2023-06-29 08:22:43 +0000 runCount:9 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:1.471224069595337 totalDuration:1.472627997398376
+16:22:43.065 xctest[86386:53647160] <XCTWaiter: 0x6000005cc4d0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.065 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.065 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005cc4d0, state: XCTWaiterStateFinished>
+16:22:43.065 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:43.065 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'CreateCategoryScreenUnitTesting' started at 2023-06-29 16:22:43.067
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light]' started.
+16:22:43.067 xctest[86386:53647260] Test driver received request to execute test identifiers <XCTTestIdentifier ["CreateCategoryScreenUnitTesting"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+16:22:43.068 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting"] container, class> didStartAt:2023-06-29 08:22:43 +0000
+16:22:43.068 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034bc020>
+16:22:43.067 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteWillStart:]
+16:22:43.067 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light
+16:22:43.067 xctest[86386:53647160] <XCTWaiter: 0x6000005f42a0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.067 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.067 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005f42a0, state: XCTWaiterStateFinished>
+16:22:43.216 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1486740112304688
+16:22:43.216 xctest[86386:53647160] <XCTWaiter: 0x6000005d8150, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.216 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034d8a40>
+16:22:43.216 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.216 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d8150, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light]' passed (0.149 seconds).
+16:22:43.216 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:43.216 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure
+16:22:43.216 xctest[86386:53647160] <XCTWaiter: 0x6000005d8d20, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure]' started.
+16:22:43.216 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.216 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d8d20, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure]' passed (0.187 seconds).
+16:22:43.403 xctest[86386:53647160] <XCTWaiter: 0x6000005d4a10, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName]' started.
+16:22:43.404 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure"] leaf, method, swift> didFinishWithStatus:passed duration:0.1872339248657227
+16:22:43.403 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.403 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d4a10, state: XCTWaiterStateFinished>
+16:22:43.404 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034bd620>
+16:22:43.403 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:43.403 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName
+16:22:43.404 xctest[86386:53647160] <XCTWaiter: 0x6000005d42a0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.404 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.404 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d42a0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName]' passed (0.161 seconds).
+16:22:43.564 xctest[86386:53647160] <XCTWaiter: 0x6000005d81c0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.565 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName"] leaf, method, swift> didFinishWithStatus:passed duration:0.1609700918197632
+16:22:43.564 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.564 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d81c0, state: XCTWaiterStateFinished>
+16:22:43.564 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:43.564 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon
+16:22:43.565 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034d9660>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon]' started.
+16:22:43.565 xctest[86386:53647160] <XCTWaiter: 0x6000005c5e30, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.565 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.565 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c5e30, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon]' passed (0.158 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light]' started.
+16:22:43.723 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon"] leaf, method, swift> didFinishWithStatus:passed duration:0.1581989526748657
+16:22:43.723 xctest[86386:53647160] <XCTWaiter: 0x6000005c9810, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.723 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.723 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c9810, state: XCTWaiterStateFinished>
+16:22:43.724 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003484500>
+16:22:43.723 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:43.723 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light
+16:22:43.723 xctest[86386:53647160] <XCTWaiter: 0x6000005ca8b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.723 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.723 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005ca8b0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light]' passed (0.172 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light]' started.
+16:22:43.895 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1717790365219116
+16:22:43.896 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034d67c0>
+16:22:43.895 xctest[86386:53647160] <XCTWaiter: 0x6000005d8ee0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.895 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.895 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d8ee0, state: XCTWaiterStateFinished>
+16:22:43.895 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:43.895 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light
+16:22:43.895 xctest[86386:53647160] <XCTWaiter: 0x6000005c4bd0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:43.895 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:43.895 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c4bd0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light]' passed (0.187 seconds).
+Test Suite 'CreateCategoryScreenUnitTesting' passed at 2023-06-29 16:22:44.082.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 1.013 (1.015) seconds
+16:22:44.083 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting", "testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1866179704666138
+16:22:44.083 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["CreateCategoryScreenUnitTesting"] container, class> didFinishAt:2023-06-29 08:22:44 +0000 runCount:6 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:1.013473987579346 totalDuration:1.014577984809875
+16:22:44.081 xctest[86386:53647160] <XCTWaiter: 0x6000005d1260, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:44.081 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:44.081 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d1260, state: XCTWaiterStateFinished>
+16:22:44.081 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:44.082 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:22:44.086 xctest[86386:53647242] Test driver received request to execute test identifiers <XCTTestIdentifier ["HistoryListScreenEmptyTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+Test Suite 'HistoryListScreenEmptyTests' started at 2023-06-29 16:22:44.087
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark]' started.
+16:22:44.088 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests"] container, class> didStartAt:2023-06-29 08:22:44 +0000
+16:22:44.088 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x600003487880>
+16:22:44.087 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteWillStart:]
+16:22:44.087 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark
+16:22:44.088 xctest[86386:53647160] <XCTWaiter: 0x6000005d8cb0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:44.088 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:44.088 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d8cb0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark]' passed (0.221 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Dark]' started.
+16:22:44.309 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.2210410833358765
+16:22:44.309 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Thai_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034db400>
+16:22:44.308 xctest[86386:53647160] <XCTWaiter: 0x6000005d03f0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:44.308 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:44.308 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d03f0, state: XCTWaiterStateFinished>
+16:22:44.308 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:44.308 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Dark
+16:22:44.318 xctest[86386:53647160] <XCTWaiter: 0x6000005cc850, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:44.318 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:44.318 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005cc850, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Dark]' passed (0.225 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Light]' started.
+16:22:44.537 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Thai_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.2251878976821899
+16:22:44.537 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Thai_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034d06c0>
+16:22:44.533 xctest[86386:53647160] <XCTWaiter: 0x6000005c6e60, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:44.533 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:44.533 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c6e60, state: XCTWaiterStateFinished>
+16:22:44.533 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:44.533 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Light
+16:22:44.536 xctest[86386:53647160] <XCTWaiter: 0x6000005c6d10, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:44.536 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:44.536 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c6d10, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Light]' passed (0.281 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Light]' started.
+16:22:44.817 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Thai_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.2805750370025635
+16:22:44.817 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Ukrainian_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034d6aa0>
+16:22:44.814 xctest[86386:53647160] <XCTWaiter: 0x6000005d5ea0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:44.814 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:44.814 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d5ea0, state: XCTWaiterStateFinished>
+16:22:44.814 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:44.814 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Light
+16:22:44.816 xctest[86386:53647160] <XCTWaiter: 0x6000005d03f0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:44.816 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:44.816 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d03f0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Light]' passed (0.235 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Dark]' started.
+16:22:45.049 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_Ukrainian_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.2346349954605103
+16:22:45.049 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_English_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034dbe40>
+16:22:45.048 xctest[86386:53647160] <XCTWaiter: 0x6000005caa00, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:45.049 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:45.049 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005caa00, state: XCTWaiterStateFinished>
+16:22:45.049 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:45.049 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Dark
+16:22:45.049 xctest[86386:53647160] <XCTWaiter: 0x6000005d05b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:45.049 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:45.049 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d05b0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Dark]' passed (0.235 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Light]' started.
+16:22:45.285 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_English_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.2348380088806152
+16:22:45.285 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034d02a0>
+16:22:45.283 xctest[86386:53647160] <XCTWaiter: 0x6000005d6d10, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:45.284 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:45.284 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d6d10, state: XCTWaiterStateFinished>
+16:22:45.284 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:45.284 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Light
+16:22:45.284 xctest[86386:53647160] <XCTWaiter: 0x6000005d58f0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:45.284 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:45.284 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d58f0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Light]' passed (0.296 seconds).
+Test Suite 'HistoryListScreenEmptyTests' passed at 2023-06-29 16:22:45.580.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 1.492 (1.493) seconds
+16:22:45.579 xctest[86386:53647160] <XCTWaiter: 0x6000005c6df0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:45.585 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests", "testHistoryListEmpty_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.2957409620285034
+16:22:45.585 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["HistoryListScreenEmptyTests"] container, class> didFinishAt:2023-06-29 08:22:45 +0000 runCount:6 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:1.492017984390259 totalDuration:1.492910027503967
+16:22:45.579 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:45.579 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c6df0, state: XCTWaiterStateFinished>
+16:22:45.579 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:45.580 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:22:45.581 xctest[86386:53647260] Test driver received request to execute test identifiers <XCTTestIdentifier ["SelectCurrencyScreenTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+16:22:45.585 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests"] container, class> didStartAt:2023-06-29 08:22:45 +0000
+16:22:45.585 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_DarkToLight"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034d7120>
+16:22:45.583 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteWillStart:]
+16:22:45.583 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_DarkToLight
+16:22:45.583 xctest[86386:53647160] <XCTWaiter: 0x6000005d5d50, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:45.583 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:45.583 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d5d50, state: XCTWaiterStateFinished>
+Test Suite 'SelectCurrencyScreenTests' started at 2023-06-29 16:22:45.583
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_DarkToLight]' passed (0.252 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Dark]' started.
+16:22:45.850 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_DarkToLight"] leaf, method, swift> didFinishWithStatus:passed duration:0.2519429922103882
+16:22:45.850 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034f5260>
+16:22:45.834 xctest[86386:53647160] <XCTWaiter: 0x6000005d53b0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:45.835 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:45.835 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d53b0, state: XCTWaiterStateFinished>
+16:22:45.835 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:45.835 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Dark
+16:22:45.850 xctest[86386:53647160] <XCTWaiter: 0x6000005b4f50, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:45.850 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:45.850 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005b4f50, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Dark]' passed (0.231 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Light]' started.
+16:22:46.084 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.2313569784164429
+16:22:46.084 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034d9ae0>
+16:22:46.066 xctest[86386:53647160] <XCTWaiter: 0x6000005c6df0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.066 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.066 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c6df0, state: XCTWaiterStateFinished>
+16:22:46.066 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:46.069 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Light
+16:22:46.083 xctest[86386:53647160] <XCTWaiter: 0x6000005b4540, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.083 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.083 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005b4540, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Light]' passed (0.253 seconds).
+16:22:46.321 xctest[86386:53647160] <XCTWaiter: 0x6000005d65a0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.321 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.321 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d65a0, state: XCTWaiterStateFinished>
+16:22:46.322 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Light]' started.
+16:22:46.326 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.252837061882019
+16:22:46.329 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034dec00>
+16:22:46.325 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Light
+16:22:46.327 xctest[86386:53647160] <XCTWaiter: 0x600000584310, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.327 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.327 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x600000584310, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Light]' passed (0.292 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Dark]' started.
+16:22:46.618 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.2920160293579102
+16:22:46.618 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000372d680>
+16:22:46.617 xctest[86386:53647160] <XCTWaiter: 0x6000005f7f00, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.617 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.617 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005f7f00, state: XCTWaiterStateFinished>
+16:22:46.617 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:46.617 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Dark
+16:22:46.618 xctest[86386:53647160] <XCTWaiter: 0x6000005ecbd0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.618 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.618 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005ecbd0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Dark]' passed (0.145 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_LightToDark]' started.
+16:22:46.763 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.1447039842605591
+16:22:46.764 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_LightToDark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034d3ec0>
+16:22:46.762 xctest[86386:53647160] <XCTWaiter: 0x6000005cf950, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.762 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.762 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005cf950, state: XCTWaiterStateFinished>
+16:22:46.762 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:46.762 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_LightToDark
+16:22:46.762 xctest[86386:53647160] <XCTWaiter: 0x6000005cee60, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.762 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.762 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005cee60, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_LightToDark]' passed (0.197 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Dark]' started.
+16:22:46.960 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_LightToDark"] leaf, method, swift> didFinishWithStatus:passed duration:0.1968740224838257
+16:22:46.960 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034f40a0>
+16:22:46.959 xctest[86386:53647160] <XCTWaiter: 0x6000005c7720, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.959 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.959 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c7720, state: XCTWaiterStateFinished>
+16:22:46.959 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:46.959 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Dark
+16:22:46.959 xctest[86386:53647160] <XCTWaiter: 0x6000005c74f0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:46.959 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:46.959 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c74f0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Dark]' passed (0.150 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Light]' started.
+16:22:47.111 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Dark"] leaf, method, swift> didFinishWithStatus:passed duration:0.1502679586410522
+16:22:47.111 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034dbc40>
+16:22:47.109 xctest[86386:53647160] <XCTWaiter: 0x6000005d7a30, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.109 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.109 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d7a30, state: XCTWaiterStateFinished>
+16:22:47.109 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:47.109 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Light
+16:22:47.110 xctest[86386:53647160] <XCTWaiter: 0x6000005b4f50, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.110 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.110 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005b4f50, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Light]' passed (0.164 seconds).
+Test Suite 'SelectCurrencyScreenTests' passed at 2023-06-29 16:22:47.274.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 1.684 (1.691) seconds
+16:22:47.276 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests", "testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1641520261764526
+16:22:47.276 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["SelectCurrencyScreenTests"] container, class> didFinishAt:2023-06-29 08:22:47 +0000 runCount:8 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:1.68415105342865 totalDuration:1.691094994544983
+16:22:47.273 xctest[86386:53647160] <XCTWaiter: 0x6000005cff70, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.273 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.273 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005cff70, state: XCTWaiterStateFinished>
+16:22:47.274 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:47.274 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'TemplatesListScreenUpdateTemplateTests' started at 2023-06-29 16:22:47.276
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith2Templates_iPhone14Pro_English_Light]' started.
+16:22:47.277 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["TemplatesListScreenUpdateTemplateTests"] container, class> didStartAt:2023-06-29 08:22:47 +0000
+16:22:47.277 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["TemplatesListScreenUpdateTemplateTests", "testUpdateTemplateScreenWith2Templates_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x60000372f480>
+16:22:47.276 xctest[86386:53647260] Test driver received request to execute test identifiers <XCTTestIdentifier ["TemplatesListScreenUpdateTemplateTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+16:22:47.276 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteWillStart:]
+16:22:47.276 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith2Templates_iPhone14Pro_English_Light
+16:22:47.277 xctest[86386:53647160] <XCTWaiter: 0x6000005dc3f0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.277 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.277 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005dc3f0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith2Templates_iPhone14Pro_English_Light]' passed (0.188 seconds).
+16:22:47.465 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["TemplatesListScreenUpdateTemplateTests", "testUpdateTemplateScreenWith2Templates_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1880040168762207
+16:22:47.465 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["TemplatesListScreenUpdateTemplateTests", "testUpdateTemplateScreenWith1Template_iPhone14Pro_English_Light"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034f5960>
+16:22:47.464 xctest[86386:53647160] <XCTWaiter: 0x6000005dc2a0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith1Template_iPhone14Pro_English_Light]' started.
+16:22:47.464 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.464 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005dc2a0, state: XCTWaiterStateFinished>
+16:22:47.464 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:47.465 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith1Template_iPhone14Pro_English_Light
+16:22:47.465 xctest[86386:53647160] <XCTWaiter: 0x6000005d1ff0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.465 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.465 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d1ff0, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith1Template_iPhone14Pro_English_Light]' passed (0.181 seconds).
+Test Suite 'TemplatesListScreenUpdateTemplateTests' passed at 2023-06-29 16:22:47.646.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.369 (0.370) seconds
+16:22:47.657 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["TemplatesListScreenUpdateTemplateTests", "testUpdateTemplateScreenWith1Template_iPhone14Pro_English_Light"] leaf, method, swift> didFinishWithStatus:passed duration:0.1814030408859253
+16:22:47.657 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["TemplatesListScreenUpdateTemplateTests"] container, class> didFinishAt:2023-06-29 08:22:47 +0000 runCount:2 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:0.369407057762146 totalDuration:0.3697350025177002
+16:22:47.646 xctest[86386:53647160] <XCTWaiter: 0x6000005cf8e0, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.646 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.646 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005cf8e0, state: XCTWaiterStateFinished>
+16:22:47.646 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:47.646 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'ArchivedCategoriesListScreenEditCategoryTests' started at 2023-06-29 16:22:47.661
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith2Categories]' started.
+16:22:47.661 xctest[86386:53647244] Test driver received request to execute test identifiers <XCTTestIdentifier ["ArchivedCategoriesListScreenEditCategoryTests"] container, class> and skip test identifiers <XCTTestIdentifier ["HistoryListScreenEditTransferDateTests", "testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["AccountBalanceSnackbarViewUnitTesting", "testLightAppearanceEnglish"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditReplenishmentDateTests", "testHistoryEditReplenishmentDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>, <XCTTestIdentifier ["HistoryListScreenEditExpenseDateTests", "testHistoryEditExpenseDateLastItemAtDayToMoveToNotListedSectionBelowWithLoadedFullPage"] leaf, method, swift>
+16:22:47.662 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["ArchivedCategoriesListScreenEditCategoryTests"] container, class> didStartAt:2023-06-29 08:22:47 +0000
+16:22:47.662 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["ArchivedCategoriesListScreenEditCategoryTests", "testEditArchivedCategoryScreenWith2Categories"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034f2ee0>
+16:22:47.661 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteWillStart:]
+16:22:47.661 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith2Categories
+16:22:47.661 xctest[86386:53647160] <XCTWaiter: 0x6000005ea530, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.661 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.661 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005ea530, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith2Categories]' passed (0.133 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith1Category]' started.
+16:22:47.817 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["ArchivedCategoriesListScreenEditCategoryTests", "testEditArchivedCategoryScreenWith2Categories"] leaf, method, swift> didFinishWithStatus:passed duration:0.1333059072494507
+16:22:47.817 xcodebuild[85178:53637762] _XCT_testCaseDidStartWithIdentifier:<XCTTestIdentifier ["ArchivedCategoriesListScreenEditCategoryTests", "testEditArchivedCategoryScreenWith1Category"] leaf, method, swift>testCaseRunConfiguration:<XCTestCaseRunConfiguration: 0x6000034f45e0>
+16:22:47.794 xctest[86386:53647160] <XCTWaiter: 0x6000005c9960, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.794 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.794 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005c9960, state: XCTWaiterStateFinished>
+16:22:47.794 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+16:22:47.795 xctest[86386:53647160] -[XCTRunnerIDESession testCaseWillStart:] MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith1Category
+16:22:47.821 xctest[86386:53647160] <XCTWaiter: 0x6000005d3410, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.821 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.821 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005d3410, state: XCTWaiterStateFinished>
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith1Category]' passed (0.152 seconds).
+16:22:47.947 xctest[86386:53647160] <XCTWaiter: 0x6000005cad10, state: XCTWaiterStateResolved> entering indefinite wait loop for expectations: `failable invocation block completion`
+16:22:47.947 xctest[86386:53647160] cleaning up failable invocation block completion
+16:22:47.947 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005cad10, state: XCTWaiterStateFinished>
+16:22:47.947 xctest[86386:53647160] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Suite 'ArchivedCategoriesListScreenEditCategoryTests' passed at 2023-06-29 16:22:47.947.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.286 (0.286) seconds
+16:22:47.947 xcodebuild[85178:53637762] _XCT_testCaseWithIdentifier:<XCTTestIdentifier ["ArchivedCategoriesListScreenEditCategoryTests", "testEditArchivedCategoryScreenWith1Category"] leaf, method, swift> didFinishWithStatus:passed duration:0.1524579524993896
+16:22:47.947 xctest[86386:53647160] -[XCTRunnerIDESession testSuiteDidFinish:]
+16:22:47.948 xcodebuild[85178:53637762] _XCT_testSuiteWithIdentifier:<XCTTestIdentifier ["ArchivedCategoriesListScreenEditCategoryTests"] container, class> didFinishAt:2023-06-29 08:22:47 +0000 runCount:2 skipCount:0 failureCount:0 expectedFailureCount:0 uncaughtExceptionCount:0 testDuration:0.2857638597488403 totalDuration:0.2861080169677734
+16:22:47.948 xctest[86386:53647245] Test driver received request to shutdown
+16:22:47.948 xctest[86386:53647160] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+16:22:47.948 xctest[86386:53647160] Exited test execution event loop
+16:22:47.948 xctest[86386:53647160] Creating future for 'flushing telemetry' with timeout 10.00
+16:22:47.948 xctest[86386:53647160] <XCTWaiter: 0x6000005cebc0, state: XCTWaiterStateInProgress> entering wait loop for 10.00s with expectations: `flushing telemetry`
+16:22:47.948 xctest[86386:53647246] Did fulfill expectation: flushing telemetry
+16:22:47.958 xctest[86386:53647160] cleaning up flushing telemetry
+16:22:47.958 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005cebc0, state: XCTWaiterStateFinished>
+16:22:47.958 xcodebuild[85178:53637762] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+16:22:47.958 xctest[86386:53647160] Calling completion.
+16:22:47.958 xctest[86386:53647160] <XCTWaiter: 0x6000005cdab0, state: XCTWaiterStateInProgress> entering wait loop for 1800.00s with expectations: `IDE confirmed the end of session`
+16:22:47.958 xctest[86386:53647246] Did fulfill expectation: IDE confirmed the end of session
+16:22:47.962 xctest[86386:53647160] cleaning up IDE confirmed the end of session
+16:22:47.962 xctest[86386:53647160] Returning result XCTWaiterResultCompleted for waiter <XCTWaiter: 0x6000005cdab0, state: XCTWaiterStateFinished>
+16:22:50.419 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> got death notice for pid 86390 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:22:50.419 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86385 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.420 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86386 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.420 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86391 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.420 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86387 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.420 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86388 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.421 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86389 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.421 xcodebuild[85178:53647145] 146F0393-DE58-4240-A58E-3C348D95C6C3: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:22:50.422 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x112266210 on simulator was relinquished, 7 claims remain.
+16:22:50.422 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x112266210 on simulator was relinquished, 7 claims remain.
+16:22:50.422 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x112266210 on simulator was relinquished, 7 claims remain.
+16:22:50.423 xcodebuild[85178:53647153] 146F0393-DE58-4240-A58E-3C348D95C6C3: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:22:50.423 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> got death notice for pid 86389 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:22:50.424 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86385 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.424 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86386 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.425 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86391 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.425 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86387 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.425 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86388 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.426 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x112256f90 on simulator was relinquished, 6 claims remain.
+16:22:50.426 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x112256f90 on simulator was relinquished, 6 claims remain.
+16:22:50.426 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x112256f90 on simulator was relinquished, 6 claims remain.
+16:22:50.430 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> got death notice for pid 86388 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:22:50.430 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86385 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.430 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86386 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.430 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86391 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.430 xcodebuild[85178:53647146] 146F0393-DE58-4240-A58E-3C348D95C6C3: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:22:50.431 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86387 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.431 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x1154a5430 on simulator was relinquished, 5 claims remain.
+16:22:50.431 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x1154a5430 on simulator was relinquished, 5 claims remain.
+16:22:50.432 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x1154a5430 on simulator was relinquished, 5 claims remain.
+16:22:50.435 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> got death notice for pid 86391 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:22:50.436 xcodebuild[85178:53647153] 146F0393-DE58-4240-A58E-3C348D95C6C3: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:22:50.436 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86385 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.436 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86386 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.436 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86387 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.437 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x1154d1f20 on simulator was relinquished, 4 claims remain.
+16:22:50.437 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x1154d1f20 on simulator was relinquished, 4 claims remain.
+16:22:50.437 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x1154d1f20 on simulator was relinquished, 4 claims remain.
+16:22:50.457 xcodebuild[85178:53647146] 146F0393-DE58-4240-A58E-3C348D95C6C3: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:22:50.458 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> got death notice for pid 86387 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:22:50.458 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86385 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.459 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86386 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.459 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x11224fcf0 on simulator was relinquished, 3 claims remain.
+16:22:50.460 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x11224fcf0 on simulator was relinquished, 3 claims remain.
+16:22:50.460 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x11224fcf0 on simulator was relinquished, 3 claims remain.
+2023-06-29 16:22:50.463480+0800 xctest[86386:53647160] [client] Timed out waiting for the exit barrier block. activeSendTransactions=0
+16:22:50.468 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> got death notice for pid 86386 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:22:50.468 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> checking to see if pid 86385 is valid: kill(pid, 0) = 0 (YES, it's still running)
+16:22:50.468 xcodebuild[85178:53647153] 146F0393-DE58-4240-A58E-3C348D95C6C3: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:22:50.468 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x112556dc0 on simulator was relinquished, 2 claims remain.
+16:22:50.469 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x112556dc0 on simulator was relinquished, 2 claims remain.
+16:22:50.469 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x112556dc0 on simulator was relinquished, 2 claims remain.
+16:22:50.470 xcodebuild[85178:53637762] Launch session expired.
+16:22:50.498 xcodebuild[85178:53646503] 146F0393-DE58-4240-A58E-3C348D95C6C3: Executable terminated at path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/xctest (status = 0)
+16:22:50.522 xcodebuild[85178:53648393] Closing socket 66 to testmanagerd for Sim Clone 1 of iPhone 14 Pro
+16:22:50.522 xcodebuild[85178:53648392] <XCTTestRunnerSession: 0x60000127c5a0> lost its connection.
+16:22:50.533 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> got death notice for pid 86385 (exit code: 0, signal: (null)), removing from SimulatorSessionMap
+16:22:50.533 xcodebuild[85178:53637762] Lost connection to test process
+16:22:50.534 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x1125486b0 on simulator was relinquished, 1 claims remain.
+16:22:50.534 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x1125486b0 on simulator was relinquished, 1 claims remain.
+16:22:50.535 xcodebuild[85178:53637762] 📱<DVTiPhoneSimulator (0x1125059b0), Clone 1 of iPhone 14 Pro, unknown class, 16.4 (20E247), 146F0393-DE58-4240-A58E-3C348D95C6C3> claim LaunchSessionClaim_0x1125486b0 on simulator was relinquished, 1 claims remain.
+16:22:50.719 xcodebuild[85178:53637762] <XCTHTestOperationCoordinator: 0x112550c60> finished receiving data from testing launch session
+16:22:50.719 xcodebuild[85178:53637762] <XCTHTestOperationCoordinator: 0x112550c60>: _considerFlushingDelegateBlockQueue - nothing to flush
+16:22:50.719 xcodebuild[85178:53637762] _finishWithError:(null)

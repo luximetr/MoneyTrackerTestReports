@@ -1,0 +1,22 @@
+Test Suite 'SynchronizeButtonUnitTesting' started at 2023-06-29 16:24:44.687
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_Ukrainian_Dark]' passed (4.170 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLast_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLast_English_Light]' passed (0.037 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNetworkUnavailable_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNetworkUnavailable_English_Dark]' passed (0.023 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusInProgress_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusInProgress_English_Light]' passed (0.027 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNetworkUnavailable_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusNetworkUnavailable_English_Light]' passed (0.030 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusICloudSignInRequired_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusICloudSignInRequired_Ukrainian_Dark]' passed (0.013 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusPartial_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusPartial_English_Dark]' passed (0.056 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusPartial_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusPartial_English_Light]' passed (0.036 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusPartial_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusPartial_Thai_Dark]' passed (0.102 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_English_Dark]' passed (4.088 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SynchronizeButtonUnitTesting testStatusLastAfter3Seconds_English_Light]' started.

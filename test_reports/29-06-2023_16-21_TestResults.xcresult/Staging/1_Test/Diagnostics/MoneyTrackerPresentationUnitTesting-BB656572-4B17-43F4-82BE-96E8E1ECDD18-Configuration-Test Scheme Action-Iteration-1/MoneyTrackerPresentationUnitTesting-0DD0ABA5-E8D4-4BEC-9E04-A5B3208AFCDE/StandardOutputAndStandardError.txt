@@ -2669,3 +2669,181 @@ The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in
     "<NSLayoutConstraint:0x600000d9e990 UILayoutGuide:0x6000017b6ae0''.right == _UIDatePickerIOSCompactView:0x1535384c0.right   (active)>",
     "<NSLayoutConstraint:0x600000d9eb70 H:|-(0)-[_UIDatePickerIOSCompactView:0x1535384c0]   (active, names: '|':UIDatePicker:0x1535382c0 )>",
     "<NSLayoutConstraint:0x600000d9ef80 _UIDatePickerIOSCompactView:0x1535384c0.trailing == UIDatePicker:0x1535382c0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dbaee0 H:|-(0)-[UIDatePicker:0x1535382c0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x153538110 )>",
+    "<NSLayoutConstraint:0x600000dba670 UIDatePicker:0x1535382c0.trailing == MoneyTrackerPresentation.InputDateView:0x153538110.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000d9e8a0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600000d9a440 H:[UILabel:0x15371a740]-(12)-|   (active, names: '|':_UIDatePickerCompactTimeLabel:0x15370c040 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:22:37.386142+0800 xctest[86386:53647160] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600000dca760 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x153538110.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600000d9ec60 UILayoutGuide:0x6000017b6f40''.width == _UIDatePickerCompactTimeLabel:0x15370c040.width   (active)>",
+    "<NSLayoutConstraint:0x600000d9d4f0 _UIDatePickerCompactDateLabel:0x1535386f0.leading == UILayoutGuide:0x6000017b6ae0''.leading   (active)>",
+    "<NSLayoutConstraint:0x600000d9da40 UILayoutGuide:0x6000017b6f40''.trailing <= UILayoutGuide:0x6000017b6ae0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000d9ea30 H:|-(>=0)-[UILayoutGuide:0x6000017b6ae0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1535384c0 )>",
+    "<NSLayoutConstraint:0x600000d9e990 UILayoutGuide:0x6000017b6ae0''.right == _UIDatePickerIOSCompactView:0x1535384c0.right   (active)>",
+    "<NSLayoutConstraint:0x600000d9eb70 H:|-(0)-[_UIDatePickerIOSCompactView:0x1535384c0]   (active, names: '|':UIDatePicker:0x1535382c0 )>",
+    "<NSLayoutConstraint:0x600000d9ef80 _UIDatePickerIOSCompactView:0x1535384c0.trailing == UIDatePicker:0x1535382c0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dbaee0 H:|-(0)-[UIDatePicker:0x1535382c0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x153538110 )>",
+    "<NSLayoutConstraint:0x600000dba670 UIDatePicker:0x1535382c0.trailing == MoneyTrackerPresentation.InputDateView:0x153538110.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000d9e8a0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600000d9e8a0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2023-06-29 16:22:37.389027+0800 xctest[86386:53647160] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600000dca760 h=--& v=--& MoneyTrackerPresentation.InputDateView:0x153538110.width == 0   (active)>",
+    "<NSLayoutConstraint:0x600000dc6c60 UILayoutGuide:0x6000017b6f40''.width == _UIDatePickerCompactTimeLabel:0x15370c040.width   (active)>",
+    "<NSLayoutConstraint:0x600000dc53b0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>",
+    "<NSLayoutConstraint:0x600000dc5450 _UIDatePickerCompactDateLabel:0x1535386f0.leading == UILayoutGuide:0x6000017b6ae0''.leading   (active)>",
+    "<NSLayoutConstraint:0x600000dc79d0 UILayoutGuide:0x6000017b6f40''.trailing <= UILayoutGuide:0x6000017b6ae0''.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dc6b20 H:|-(>=0)-[UILayoutGuide:0x6000017b6ae0''](LTR)   (active, names: '|':_UIDatePickerIOSCompactView:0x1535384c0 )>",
+    "<NSLayoutConstraint:0x600000d9eb70 H:|-(0)-[_UIDatePickerIOSCompactView:0x1535384c0]   (active, names: '|':UIDatePicker:0x1535382c0 )>",
+    "<NSLayoutConstraint:0x600000d9ef80 _UIDatePickerIOSCompactView:0x1535384c0.trailing == UIDatePicker:0x1535382c0.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dbaee0 H:|-(0)-[UIDatePicker:0x1535382c0]   (active, names: '|':MoneyTrackerPresentation.InputDateView:0x153538110 )>",
+    "<NSLayoutConstraint:0x600000dba670 UIDatePicker:0x1535382c0.trailing == MoneyTrackerPresentation.InputDateView:0x153538110.trailing   (active)>",
+    "<NSLayoutConstraint:0x600000dc6670 UILayoutGuide:0x6000017b6ae0''.right == _UIDatePickerIOSCompactView:0x1535384c0.right   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600000dc53b0 H:[_UIDatePickerCompactDateLabel:0x1535386f0]-(4)-[UILayoutGuide:0x6000017b6f40'']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddRecordsScreenAddExpenseTests testAddRecordsAddReplenishmentAddAccountInputFieldShowsCorrectCurrencyCode_iPhone14Pro_English_Light]' passed (0.363 seconds).
+Test Suite 'AddRecordsScreenAddExpenseTests' passed at 2023-06-29 16:22:37.651.
+	 Executed 17 tests, with 0 failures (0 unexpected) in 6.573 (6.599) seconds
+Test Suite 'DashboardScreenTests' started at 2023-06-29 16:22:37.662
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Dark]' passed (0.186 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardChangingLocaleAndAppearance_iPhone14Pro]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardChangingLocaleAndAppearance_iPhone14Pro]' passed (0.205 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot]' started.
+/Users/luximetr/Documents/Tools/github/actions-runner/_work/MoneyTracker/MoneyTracker/project/MoneyTracker/MoneyTrackerPresentation/MoneyTrackerPresentationUnitTesting/TestHelpers/SnapshotValidator.swift:23: error: -[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot] : failed: caught error: "MoneyTrackerPresentationUnitTesting/SnapshotValidator.swift:23 Unable to find file at path: DashboardScreenReferenceSnapshots/AppleSilicon/testNewDashboardSnapshot.png. Created candidate at: file:///Users/luximetr/Documents/Tools/github/ios-upload-to_testflight/MoneyTrackerSnapshots/DashboardScreenReferenceSnapshots/AppleSilicon/testNewDashboardSnapshot.png"
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot]' failed (0.594 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardRemoveAllAccountsAndAdd1Account_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardRemoveAllAccountsAndAdd1Account_iPhone14Pro_English_Light]' passed (0.688 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Dark]' passed (0.207 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Dark]' passed (0.266 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_LightToDark]' passed (0.287 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_DarkToLight]' passed (0.187 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardDeleteAllAccounts_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardDeleteAllAccounts_iPhone14Pro_English_Light]' passed (0.672 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Light]' passed (0.189 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Light]' passed (0.160 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardEmpty_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardEmpty_iPhone14Pro_English_Light]' passed (0.135 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Light]' passed (0.151 seconds).
+Test Suite 'DashboardScreenTests' failed at 2023-06-29 16:22:41.591.
+	 Executed 13 tests, with 1 failure (1 unexpected) in 3.927 (3.930) seconds
+Test Suite 'AddAccountScreenTests' started at 2023-06-29 16:22:41.592
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_DarkToLight]' passed (0.244 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Dark]' passed (0.165 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Dark]' passed (0.149 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_LightToDark]' passed (0.140 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountWavesCurrency_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountWavesCurrency_iPhone14Pro_English_Light]' passed (0.145 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Ukrainian_Light]' passed (0.150 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_Thai_Light]' passed (0.181 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Light]' passed (0.147 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddAccountScreenTests testAddAccountNotFilled_iPhone14Pro_English_Dark]' passed (0.152 seconds).
+Test Suite 'AddAccountScreenTests' passed at 2023-06-29 16:22:43.065.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 1.471 (1.473) seconds
+Test Suite 'CreateCategoryScreenUnitTesting' started at 2023-06-29 16:22:43.067
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Ukrainian_Light]' passed (0.149 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_EmptyNameFailure]' passed (0.187 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_InputName]' passed (0.161 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light_SelectIcon]' passed (0.158 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_English_Light]' passed (0.172 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.CreateCategoryScreenUnitTesting testCreateCategoryScreen_Initial_iPhone14Pro_Thai_Light]' passed (0.187 seconds).
+Test Suite 'CreateCategoryScreenUnitTesting' passed at 2023-06-29 16:22:44.082.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 1.013 (1.015) seconds
+Test Suite 'HistoryListScreenEmptyTests' started at 2023-06-29 16:22:44.087
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Dark]' passed (0.221 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Dark]' passed (0.225 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Thai_Light]' passed (0.281 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_Ukrainian_Light]' passed (0.235 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Dark]' passed (0.235 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEmptyTests testHistoryListEmpty_iPhone14Pro_English_Light]' passed (0.296 seconds).
+Test Suite 'HistoryListScreenEmptyTests' passed at 2023-06-29 16:22:45.580.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 1.492 (1.493) seconds
+Test Suite 'SelectCurrencyScreenTests' started at 2023-06-29 16:22:45.583
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_DarkToLight]' passed (0.252 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Dark]' passed (0.231 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Light]' passed (0.253 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Light]' passed (0.292 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_Dark]' passed (0.145 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_English_LightToDark]' passed (0.197 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Ukrainian_Dark]' passed (0.150 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectCurrencyScreenTests testSelectCurrency_SelectedSingaporeDollar_iPhone14Pro_Thai_Light]' passed (0.164 seconds).
+Test Suite 'SelectCurrencyScreenTests' passed at 2023-06-29 16:22:47.274.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 1.684 (1.691) seconds
+Test Suite 'TemplatesListScreenUpdateTemplateTests' started at 2023-06-29 16:22:47.276
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith2Templates_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith2Templates_iPhone14Pro_English_Light]' passed (0.188 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith1Template_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.TemplatesListScreenUpdateTemplateTests testUpdateTemplateScreenWith1Template_iPhone14Pro_English_Light]' passed (0.181 seconds).
+Test Suite 'TemplatesListScreenUpdateTemplateTests' passed at 2023-06-29 16:22:47.646.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.369 (0.370) seconds
+Test Suite 'ArchivedCategoriesListScreenEditCategoryTests' started at 2023-06-29 16:22:47.661
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith2Categories]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith2Categories]' passed (0.133 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith1Category]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.ArchivedCategoriesListScreenEditCategoryTests testEditArchivedCategoryScreenWith1Category]' passed (0.152 seconds).
+Test Suite 'ArchivedCategoriesListScreenEditCategoryTests' passed at 2023-06-29 16:22:47.947.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.286 (0.286) seconds
+2023-06-29 16:22:50.463480+0800 xctest[86386:53647160] [client] Timed out waiting for the exit barrier block. activeSendTransactions=0

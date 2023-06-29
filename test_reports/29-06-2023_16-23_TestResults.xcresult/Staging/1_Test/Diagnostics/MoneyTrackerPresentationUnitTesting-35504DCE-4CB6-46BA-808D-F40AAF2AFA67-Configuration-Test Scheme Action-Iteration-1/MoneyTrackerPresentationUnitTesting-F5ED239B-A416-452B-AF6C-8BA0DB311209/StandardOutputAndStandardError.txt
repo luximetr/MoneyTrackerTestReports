@@ -1,0 +1,73 @@
+Test Suite 'BalanceAccountsListScreenAccountsTests' started at 2023-06-29 16:24:45.140
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests testNoBalanceAccounts_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests testNoBalanceAccounts_iPhone14Pro_English_Light]' passed (0.242 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_English_Light]' passed (0.861 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_Ukrainian_Dark]' passed (0.795 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_English_Dark]' passed (0.900 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_Thai_Light]' passed (0.746 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_English_DarkToLight]' passed (0.933 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_Thai_Dark]' passed (0.745 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_Ukrainian_Light]' passed (0.702 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.BalanceAccountsListScreenAccountsTests test10BalanceAccounts_iPhone14Pro_English_LightToDark]' passed (0.765 seconds).
+Test Suite 'BalanceAccountsListScreenAccountsTests' passed at 2023-06-29 16:24:51.848.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 6.690 (6.708) seconds
+Test Suite 'DashboardScreenTests' started at 2023-06-29 16:24:51.849
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_LightToDark]' passed (0.190 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardChangingLocaleAndAppearance_iPhone14Pro]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardChangingLocaleAndAppearance_iPhone14Pro]' passed (0.195 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Dark]' passed (0.189 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot]' started.
+/Users/luximetr/Documents/Tools/github/actions-runner/_work/MoneyTracker/MoneyTracker/project/MoneyTracker/MoneyTrackerPresentation/MoneyTrackerPresentationUnitTesting/TestHelpers/SnapshotValidator.swift:23: error: -[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot] : failed: caught error: "MoneyTrackerPresentationUnitTesting/SnapshotValidator.swift:23 Unable to find file at path: DashboardScreenReferenceSnapshots/AppleSilicon/testNewDashboardSnapshot.png. Created candidate at: file:///Users/luximetr/Documents/Tools/github/ios-upload-to_testflight/MoneyTrackerSnapshots/DashboardScreenReferenceSnapshots/AppleSilicon/testNewDashboardSnapshot.png"
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testNewDashboardSnapshot]' failed (0.510 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardEmpty_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardEmpty_iPhone14Pro_English_Light]' passed (0.156 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Dark]' passed (0.167 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Ukrainian_Light]' passed (0.152 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Light]' passed (0.156 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_Dark]' passed (0.173 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardRemoveAllAccountsAndAdd1Account_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardRemoveAllAccountsAndAdd1Account_iPhone14Pro_English_Light]' passed (0.680 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardDeleteAllAccounts_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardDeleteAllAccounts_iPhone14Pro_English_Light]' passed (0.675 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_Thai_Light]' passed (0.190 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.DashboardScreenTests testDashboardWithAccountsAndTemplates_iPhone14Pro_English_DarkToLight]' passed (0.158 seconds).
+Test Suite 'DashboardScreenTests' failed at 2023-06-29 16:24:55.443.
+	 Executed 13 tests, with 1 failure (1 unexpected) in 3.592 (3.594) seconds
+Test Suite 'AddTemplateScreenTests' started at 2023-06-29 16:24:55.444
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddFirstAccount]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddFirstAccount]' passed (0.139 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_Ukrainian_Dark]' passed (0.172 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_Thai_Dark]' passed (0.142 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddFirstCategory]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddFirstCategory]' passed (0.148 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_English_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_English_Dark]' passed (0.139 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_English_Light]' passed (0.131 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_Ukrainian_Light]' passed (0.174 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests test10Accounts10Categories_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests test10Accounts10Categories_iPhone14Pro_English_Light]' passed (0.202 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddSecondAccount]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddSecondAccount]' passed (0.187 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddSecondCategory]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testAddSecondCategory]' passed (0.193 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.AddTemplateScreenTests testNoCategoriesNoAccounts_iPhone14Pro_Thai_Light]' started.

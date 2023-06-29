@@ -72,3 +72,5 @@
 16:22:30.925 xcodebuild[85178:53647146] Got reply to authorization request for pid 86390 (result:error): 1: (null)
 16:22:30.960 xcodebuild[85178:53647146] Requesting authorization for pid 86391
 16:22:30.962 xcodebuild[85178:53647151] Got reply to authorization request for pid 86391 (result:error): 1: (null)
+16:23:12.302 xcodebuild[85178:53646503] Closing socket 39 to testmanagerd for Sim Clone 1 of iPhone 14 Pro
+16:23:12.302 xcodebuild[85178:53649550] <XCTDaemonControlSession: 0x600001247700> lost connection to daemon

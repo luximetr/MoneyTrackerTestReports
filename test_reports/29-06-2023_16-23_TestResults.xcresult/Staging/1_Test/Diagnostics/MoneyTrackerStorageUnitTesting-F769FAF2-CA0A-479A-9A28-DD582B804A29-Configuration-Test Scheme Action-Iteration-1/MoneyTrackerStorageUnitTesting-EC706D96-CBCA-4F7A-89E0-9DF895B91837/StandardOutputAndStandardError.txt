@@ -1,0 +1,518 @@
+Test Suite 'All tests' started at 2023-06-29 16:24:38.193
+Test Suite 'MoneyTrackerStorageUnitTesting.xctest' started at 2023-06-29 16:24:38.193
+Test Suite 'StorageGetReplenishmentTests' started at 2023-06-29 16:24:38.194
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetReplenishmentTests testOneReplenishmentGetReplenishmentsByAccountId]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOneReplenishmentGetReplenishmentsByAccountId.sqlite
+2023-06-29 16:24:38.198916+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOneReplenishmentGetReplenishmentsByAccountId.sqlite
+2023-06-29 16:24:38.199052+0800 xctest[88000:53671454] [logging] invalidated open fd: 7 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetReplenishmentTests testOneReplenishmentGetReplenishmentsByAccountId]' passed (0.005 seconds).
+Test Suite 'StorageGetReplenishmentTests' passed at 2023-06-29 16:24:38.199.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.006) seconds
+Test Suite 'StorageGetCategoriesOrderedAsyncTests' started at 2023-06-29 16:24:38.199
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory2HasCorrectColor]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.236814+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.236892+0800 xctest[88000:53671453] [logging] invalidated open fd: 8 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory2HasCorrectColor]' passed (0.038 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory1HasCorrectName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.252431+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.252488+0800 xctest[88000:53671452] [logging] invalidated open fd: 10 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory1HasCorrectName]' passed (0.016 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testOneCategorySavedCategory1HasCorrectName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.265636+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.265717+0800 xctest[88000:53671453] [logging] invalidated open fd: 11 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testOneCategorySavedCategory1HasCorrectName]' passed (0.013 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory1HasCorrectIconName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.285994+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.286052+0800 xctest[88000:53671452] [logging] invalidated open fd: 12 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory1HasCorrectIconName]' passed (0.020 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testNothingSavedCategoriesHasCorrectCount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testNothingSavedCategoriesHasCorrectCount.sqlite
+2023-06-29 16:24:38.303057+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testNothingSavedCategoriesHasCorrectCount.sqlite
+2023-06-29 16:24:38.303136+0800 xctest[88000:53671450] [logging] invalidated open fd: 13 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testNothingSavedCategoriesHasCorrectCount]' passed (0.017 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testOneCategorySavedCategory1HasCorrectIconName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.327219+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.327284+0800 xctest[88000:53671450] [logging] invalidated open fd: 14 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testOneCategorySavedCategory1HasCorrectIconName]' passed (0.024 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory2HasCorrectName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.338733+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.338783+0800 xctest[88000:53671454] [logging] invalidated open fd: 15 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory2HasCorrectName]' passed (0.011 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory2HasCorrectIconName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.363828+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.363893+0800 xctest[88000:53671450] [logging] invalidated open fd: 16 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory2HasCorrectIconName]' passed (0.025 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory1HasCorrectColor]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.397160+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.397223+0800 xctest[88000:53671454] [logging] invalidated open fd: 17 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testTwoCategoriesSavedCategory1HasCorrectColor]' passed (0.033 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testOneCategorySavedHasCorrectCount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testOneCategorySavedHasCorrectCount.sqlite
+2023-06-29 16:24:38.414126+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testOneCategorySavedHasCorrectCount.sqlite
+2023-06-29 16:24:38.414176+0800 xctest[88000:53671450] [logging] invalidated open fd: 18 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testOneCategorySavedHasCorrectCount]' passed (0.017 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testOneCategorySavedCategory1HasCorrectColor]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.424364+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedAsyncTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.424408+0800 xctest[88000:53671450] [logging] invalidated open fd: 19 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedAsyncTests testOneCategorySavedCategory1HasCorrectColor]' passed (0.010 seconds).
+Test Suite 'StorageGetCategoriesOrderedAsyncTests' passed at 2023-06-29 16:24:38.425.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.224 (0.225) seconds
+Test Suite 'StorageSaveCategoriesOrderTests' started at 2023-06-29 16:24:38.425
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeArchiveCategoriesNonArchivedCategory1IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.431063+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.431118+0800 xctest[88000:53671453] [logging] invalidated open fd: 20 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeArchiveCategoriesNonArchivedCategory1IsCorrect]' passed (0.006 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory5IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.434942+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.434984+0800 xctest[88000:53671453] [logging] invalidated open fd: 21 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory5IsCorrect]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingTwoArchiveCategoriesCategory1IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingTwoArchiveCategoriesCategory1IsCorrect.sqlite
+2023-06-29 16:24:38.438289+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingTwoArchiveCategoriesCategory1IsCorrect.sqlite
+2023-06-29 16:24:38.438342+0800 xctest[88000:53671454] [logging] invalidated open fd: 22 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingTwoArchiveCategoriesCategory1IsCorrect]' passed (0.003 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeNonArchiveCategoriesArchivedCategory3IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.444367+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.444422+0800 xctest[88000:53671460] [logging] invalidated open fd: 23 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeNonArchiveCategoriesArchivedCategory3IsCorrect]' passed (0.006 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory4IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory4IsCorrect.sqlite
+2023-06-29 16:24:38.448074+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory4IsCorrect.sqlite
+2023-06-29 16:24:38.448124+0800 xctest[88000:53671454] [logging] invalidated open fd: 24 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory4IsCorrect]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingOneArchiveCategory]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingOneArchiveCategory.sqlite
+2023-06-29 16:24:38.450881+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingOneArchiveCategory.sqlite
+2023-06-29 16:24:38.450928+0800 xctest[88000:53671453] [logging] invalidated open fd: 25 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingOneArchiveCategory]' passed (0.003 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory1IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory1IsCorrect.sqlite
+2023-06-29 16:24:38.455127+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory1IsCorrect.sqlite
+2023-06-29 16:24:38.455179+0800 xctest[88000:53671453] [logging] invalidated open fd: 26 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory1IsCorrect]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeArchiveCategoriesNonArchivedCategory2IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.460987+0800 xctest[88000:53671455] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.461036+0800 xctest[88000:53671455] [logging] invalidated open fd: 27 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeArchiveCategoriesNonArchivedCategory2IsCorrect]' passed (0.006 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory3IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory3IsCorrect.sqlite
+2023-06-29 16:24:38.465214+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory3IsCorrect.sqlite
+2023-06-29 16:24:38.465270+0800 xctest[88000:53671460] [logging] invalidated open fd: 28 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory3IsCorrect]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory5IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.470514+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.470565+0800 xctest[88000:53671452] [logging] invalidated open fd: 29 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory5IsCorrect]' passed (0.005 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory4IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory4IsCorrect.sqlite
+2023-06-29 16:24:38.479806+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory4IsCorrect.sqlite
+2023-06-29 16:24:38.479853+0800 xctest[88000:53671453] [logging] invalidated open fd: 30 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory4IsCorrect]' passed (0.009 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeNonArchiveCategoriesArchivedCategory1IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.486127+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.486188+0800 xctest[88000:53671454] [logging] invalidated open fd: 31 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeNonArchiveCategoriesArchivedCategory1IsCorrect]' passed (0.006 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingTwoArchiveCategoriesCategory2IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingTwoArchiveCategoriesCategory2IsCorrect.sqlite
+2023-06-29 16:24:38.490523+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingTwoArchiveCategoriesCategory2IsCorrect.sqlite
+2023-06-29 16:24:38.490575+0800 xctest[88000:53671453] [logging] invalidated open fd: 32 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingTwoArchiveCategoriesCategory2IsCorrect]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory2IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory2IsCorrect.sqlite
+2023-06-29 16:24:38.495159+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveNonArchiveCategoriesCategory2IsCorrect.sqlite
+2023-06-29 16:24:38.495206+0800 xctest[88000:53671454] [logging] invalidated open fd: 33 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveNonArchiveCategoriesCategory2IsCorrect]' passed (0.005 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingNoArchiveCategories]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingNoArchiveCategories.sqlite
+2023-06-29 16:24:38.496802+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingNoArchiveCategories.sqlite
+2023-06-29 16:24:38.496853+0800 xctest[88000:53671454] [logging] invalidated open fd: 34 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingNoArchiveCategories]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeNonArchiveCategoriesArchivedCategory2IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.503119+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.503163+0800 xctest[88000:53671453] [logging] invalidated open fd: 35 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeNonArchiveCategoriesArchivedCategory2IsCorrect]' passed (0.006 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingOneNonArchiveCategory]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingOneNonArchiveCategory.sqlite
+2023-06-29 16:24:38.505924+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingOneNonArchiveCategory.sqlite
+2023-06-29 16:24:38.505978+0800 xctest[88000:53671454] [logging] invalidated open fd: 36 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingOneNonArchiveCategory]' passed (0.003 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory3IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory3IsCorrect.sqlite
+2023-06-29 16:24:38.512343+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory3IsCorrect.sqlite
+2023-06-29 16:24:38.512396+0800 xctest[88000:53671452] [logging] invalidated open fd: 37 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory3IsCorrect]' passed (0.006 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeArchiveCategoriesNonArchivedCategory3IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.518538+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory5IsCorrect.sqlite
+2023-06-29 16:24:38.518622+0800 xctest[88000:53671460] [logging] invalidated open fd: 38 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingThreeArchiveCategoriesNonArchivedCategory3IsCorrect]' passed (0.006 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingTwoNonArchiveCategoriesCategory2IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingTwoNonArchiveCategoriesCategory2IsCorrect.sqlite
+2023-06-29 16:24:38.520976+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingTwoNonArchiveCategoriesCategory2IsCorrect.sqlite
+2023-06-29 16:24:38.521029+0800 xctest[88000:53671453] [logging] invalidated open fd: 39 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingTwoNonArchiveCategoriesCategory2IsCorrect]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory1IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory1IsCorrect.sqlite
+2023-06-29 16:24:38.526575+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory1IsCorrect.sqlite
+2023-06-29 16:24:38.526626+0800 xctest[88000:53671452] [logging] invalidated open fd: 40 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory1IsCorrect]' passed (0.006 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory2IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory2IsCorrect.sqlite
+2023-06-29 16:24:38.531751+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingFiveArchiveCategoriesCategory2IsCorrect.sqlite
+2023-06-29 16:24:38.531802+0800 xctest[88000:53671454] [logging] invalidated open fd: 41 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingFiveArchiveCategoriesCategory2IsCorrect]' passed (0.005 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingTwoNonArchiveCategoriesCategory1IsCorrect]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingTwoNonArchiveCategoriesCategory1IsCorrect.sqlite
+2023-06-29 16:24:38.534835+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOrderingTwoNonArchiveCategoriesCategory1IsCorrect.sqlite
+2023-06-29 16:24:38.534881+0800 xctest[88000:53671454] [logging] invalidated open fd: 42 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageSaveCategoriesOrderTests testOrderingTwoNonArchiveCategoriesCategory1IsCorrect]' passed (0.003 seconds).
+Test Suite 'StorageSaveCategoriesOrderTests' passed at 2023-06-29 16:24:38.535.
+	 Executed 23 tests, with 0 failures (0 unexpected) in 0.108 (0.110) seconds
+Test Suite 'StorageDeleteExpenseTemplatesTests' started at 2023-06-29 16:24:38.535
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteExpenseTemplatesTests testCreatedThanRemovedExpenseTemplateNoExpenseTemplatesLeft]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedExpenseTemplateNoExpenseTemplatesLeft.sqlite
+2023-06-29 16:24:38.539165+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedExpenseTemplateNoExpenseTemplatesLeft.sqlite
+2023-06-29 16:24:38.539214+0800 xctest[88000:53671452] [logging] invalidated open fd: 43 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteExpenseTemplatesTests testCreatedThanRemovedExpenseTemplateNoExpenseTemplatesLeft]' passed (0.004 seconds).
+Test Suite 'StorageDeleteExpenseTemplatesTests' passed at 2023-06-29 16:24:38.539.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.004 (0.004) seconds
+Test Suite 'StorageDeleteTransfersTests' started at 2023-06-29 16:24:38.540
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteTransfersTests testCreatedThanRemovedByFromAccountIdInTransactionOneTransferNoTransfersLeft]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedByAccountIdInTransactionOneTransferNoTransfersLeft.sqlite
+2023-06-29 16:24:38.543087+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedByAccountIdInTransactionOneTransferNoTransfersLeft.sqlite
+2023-06-29 16:24:38.543136+0800 xctest[88000:53671460] [logging] invalidated open fd: 44 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteTransfersTests testCreatedThanRemovedByFromAccountIdInTransactionOneTransferNoTransfersLeft]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteTransfersTests testCreatedThanRemovedByToAccountIdInTransactionOneTransferNoTransfersLeft]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedByAccountIdInTransactionOneTransferNoTransfersLeft.sqlite
+2023-06-29 16:24:38.546222+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedByAccountIdInTransactionOneTransferNoTransfersLeft.sqlite
+2023-06-29 16:24:38.546277+0800 xctest[88000:53671450] [logging] invalidated open fd: 45 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteTransfersTests testCreatedThanRemovedByToAccountIdInTransactionOneTransferNoTransfersLeft]' passed (0.003 seconds).
+Test Suite 'StorageDeleteTransfersTests' passed at 2023-06-29 16:24:38.546.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.007 (0.007) seconds
+Test Suite 'StorageGetArchivedCategoriesOrderedAsyncTests' started at 2023-06-29 16:24:38.547
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testTwoCategoriesSavedThatTwoArchivedCategory1HasCorrectId]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testTwoCategoriesSavedThatTwoArchivedCategory1HasCorrectId.sqlite
+2023-06-29 16:24:38.557084+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testTwoCategoriesSavedThatTwoArchivedCategory1HasCorrectId.sqlite
+2023-06-29 16:24:38.557137+0800 xctest[88000:53671454] [logging] invalidated open fd: 46 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testTwoCategoriesSavedThatTwoArchivedCategory1HasCorrectId]' passed (0.011 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testOneCategorySavedThanArchivedCategory1HasCorrectName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testOneCategorySavedThanArchivedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.567195+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testOneCategorySavedThanArchivedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.567261+0800 xctest[88000:53671450] [logging] invalidated open fd: 47 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testOneCategorySavedThanArchivedCategory1HasCorrectName]' passed (0.010 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testOneCategorySavedThanArchivedHasCorrectCount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testOneCategorySavedThanArchivedHasCorrectCount.sqlite
+2023-06-29 16:24:38.574440+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testOneCategorySavedThanArchivedHasCorrectCount.sqlite
+2023-06-29 16:24:38.574490+0800 xctest[88000:53671453] [logging] invalidated open fd: 48 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testOneCategorySavedThanArchivedHasCorrectCount]' passed (0.007 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testOneCategorySavedThanArchivedCategory1HasCorrectColor]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testOneCategorySavedThanArchivedCategory1HasCorrectColor.sqlite
+2023-06-29 16:24:38.580261+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testOneCategorySavedThanArchivedCategory1HasCorrectColor.sqlite
+2023-06-29 16:24:38.580322+0800 xctest[88000:53671454] [logging] invalidated open fd: 49 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testOneCategorySavedThanArchivedCategory1HasCorrectColor]' passed (0.006 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testOneCategorySavedThanArchivedCategory1HasCorrectIconName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testOneCategorySavedThanArchivedCategory1HasCorrectIconName.sqlite
+2023-06-29 16:24:38.587333+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testOneCategorySavedThanArchivedCategory1HasCorrectIconName.sqlite
+2023-06-29 16:24:38.587382+0800 xctest[88000:53671454] [logging] invalidated open fd: 50 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testOneCategorySavedThanArchivedCategory1HasCorrectIconName]' passed (0.007 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testTwoCategoriesSavedThanFirstArchivedArchivedIsCorrectCategory]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testTwoCategoriesSavedThanFirstArchivedArchivedIsCorrectCategory.sqlite
+2023-06-29 16:24:38.598534+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testTwoCategoriesSavedThanFirstArchivedArchivedIsCorrectCategory.sqlite
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testTwoCategoriesSavedThanFirstArchivedArchivedIsCorrectCategory]' passed (0.011 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testTwoCategoriesSavedThatTwoArchivedCategory2HasCorrectId]' started.
+2023-06-29 16:24:38.598644+0800 xctest[88000:53671460] [logging] invalidated open fd: 51 (0x11)
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testTwoCategoriesSavedThatTwoArchivedCategory2HasCorrectId.sqlite
+2023-06-29 16:24:38.615993+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testTwoCategoriesSavedThatTwoArchivedCategory2HasCorrectId.sqlite
+2023-06-29 16:24:38.616060+0800 xctest[88000:53671452] [logging] invalidated open fd: 52 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testTwoCategoriesSavedThatTwoArchivedCategory2HasCorrectId]' passed (0.017 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testTwoCategoriesSavedThanFirstArchivedNonArchivedIsCorrectCategory]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testTwoCategoriesSavedThanFirstArchivedNonArchivedIsCorrectCategory.sqlite
+2023-06-29 16:24:38.620405+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testTwoCategoriesSavedThanFirstArchivedNonArchivedIsCorrectCategory.sqlite
+2023-06-29 16:24:38.620460+0800 xctest[88000:53671454] [logging] invalidated open fd: 53 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testTwoCategoriesSavedThanFirstArchivedNonArchivedIsCorrectCategory]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testNothingSavedCategoriesHasCorrectCount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testNothingSavedCategoriesHasCorrectCount.sqlite
+2023-06-29 16:24:38.652937+0800 xctest[88000:53671455] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedAsyncTests_testNothingSavedCategoriesHasCorrectCount.sqlite
+2023-06-29 16:24:38.652996+0800 xctest[88000:53671455] [logging] invalidated open fd: 54 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedAsyncTests testNothingSavedCategoriesHasCorrectCount]' passed (0.032 seconds).
+Test Suite 'StorageGetArchivedCategoriesOrderedAsyncTests' passed at 2023-06-29 16:24:38.653.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.106 (0.107) seconds
+Test Suite 'StorageGetExpensesTests' started at 2023-06-29 16:24:38.653
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetExpensesTests testOneExpenseGetExpensesByAccountId]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOneExpenseGetExpensesByAccountId.sqlite
+2023-06-29 16:24:38.656372+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOneExpenseGetExpensesByAccountId.sqlite
+2023-06-29 16:24:38.656438+0800 xctest[88000:53671453] [logging] invalidated open fd: 55 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetExpensesTests testOneExpenseGetExpensesByAccountId]' passed (0.003 seconds).
+Test Suite 'StorageGetExpensesTests' passed at 2023-06-29 16:24:38.657.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'StorageGetCategoriesOrderedTests' started at 2023-06-29 16:24:38.657
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory1HasCorrectName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.658908+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.658961+0800 xctest[88000:53671453] [logging] invalidated open fd: 56 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory1HasCorrectName]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory1HasCorrectIconName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.661282+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.661337+0800 xctest[88000:53671453] [logging] invalidated open fd: 57 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory1HasCorrectIconName]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testOneCategorySavedCategory1HasCorrectName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.663235+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.663283+0800 xctest[88000:53671460] [logging] invalidated open fd: 58 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testOneCategorySavedCategory1HasCorrectName]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testNothingSavedCategoriesHasCorrectCount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testNothingSavedCategoriesHasCorrectCount.sqlite
+2023-06-29 16:24:38.664884+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testNothingSavedCategoriesHasCorrectCount.sqlite
+2023-06-29 16:24:38.664931+0800 xctest[88000:53671450] [logging] invalidated open fd: 59 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testNothingSavedCategoriesHasCorrectCount]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory2HasCorrectColor]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.667311+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.667360+0800 xctest[88000:53671454] [logging] invalidated open fd: 60 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory2HasCorrectColor]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testOneCategorySavedHasCorrectCount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testOneCategorySavedHasCorrectCount.sqlite
+2023-06-29 16:24:38.669199+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testOneCategorySavedHasCorrectCount.sqlite
+2023-06-29 16:24:38.669254+0800 xctest[88000:53671450] [logging] invalidated open fd: 61 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testOneCategorySavedHasCorrectCount]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory1HasCorrectColor]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.671763+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.671811+0800 xctest[88000:53671450] [logging] invalidated open fd: 62 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory1HasCorrectColor]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory2HasCorrectIconName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.674167+0800 xctest[88000:53671455] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.674209+0800 xctest[88000:53671455] [logging] invalidated open fd: 63 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory2HasCorrectIconName]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory2HasCorrectName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.676382+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testTwoCategoriesSavedCategory2HasCorrectName.sqlite
+2023-06-29 16:24:38.676427+0800 xctest[88000:53671453] [logging] invalidated open fd: 64 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testTwoCategoriesSavedCategory2HasCorrectName]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testOneCategorySavedCategory1HasCorrectIconName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.678738+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.678793+0800 xctest[88000:53671453] [logging] invalidated open fd: 65 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testOneCategorySavedCategory1HasCorrectIconName]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testOneCategorySavedCategory1HasCorrectColor]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.680862+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetCategoriesOrderedTests_testOneCategorySavedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.680919+0800 xctest[88000:53671460] [logging] invalidated open fd: 66 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetCategoriesOrderedTests testOneCategorySavedCategory1HasCorrectColor]' passed (0.002 seconds).
+Test Suite 'StorageGetCategoriesOrderedTests' passed at 2023-06-29 16:24:38.681.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.023 (0.024) seconds
+Test Suite 'StorageAddBalanceAccountsTests' started at 2023-06-29 16:24:38.681
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageAddBalanceAccountsTests testAddBalanceAccountInTransactionAccountHasCorrectOrderNumber]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testAddBalanceAccountInTransactionAccountHasCorrectOrderNumber.sqlite
+2023-06-29 16:24:38.967519+0800 xctest[88000:53671455] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testAddBalanceAccountInTransactionAccountHasCorrectOrderNumber.sqlite
+2023-06-29 16:24:38.967584+0800 xctest[88000:53671455] [logging] invalidated open fd: 67 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageAddBalanceAccountsTests testAddBalanceAccountInTransactionAccountHasCorrectOrderNumber]' passed (0.286 seconds).
+Test Suite 'StorageAddBalanceAccountsTests' passed at 2023-06-29 16:24:38.968.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.286 (0.287) seconds
+Test Suite 'StorageUnarchiveCategoryTests' started at 2023-06-29 16:24:38.968
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageUnarchiveCategoryTests testUnarchivedCategoryIsInNonArchivedCategories]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testUnarchivedCategoryIsInNonArchivedCategories.sqlite
+2023-06-29 16:24:38.971211+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testUnarchivedCategoryIsInNonArchivedCategories.sqlite
+2023-06-29 16:24:38.971281+0800 xctest[88000:53671454] [logging] invalidated open fd: 68 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageUnarchiveCategoryTests testUnarchivedCategoryIsInNonArchivedCategories]' passed (0.003 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageUnarchiveCategoryTests testUnarchivedCategoryIsNotInArchivedCategories]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testUnarchivedCategoryIsNotInArchivedCategories.sqlite
+2023-06-29 16:24:38.973935+0800 xctest[88000:53671455] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testUnarchivedCategoryIsNotInArchivedCategories.sqlite
+2023-06-29 16:24:38.973989+0800 xctest[88000:53671455] [logging] invalidated open fd: 69 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageUnarchiveCategoryTests testUnarchivedCategoryIsNotInArchivedCategories]' passed (0.003 seconds).
+Test Suite 'StorageUnarchiveCategoryTests' passed at 2023-06-29 16:24:38.974.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.006 (0.006) seconds
+Test Suite 'StorageGetArchivedCategoriesOrderedTests' started at 2023-06-29 16:24:38.974
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testTwoCategoriesSavedThatTwoArchivedCategory1HasCorrectId]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testTwoCategoriesSavedThatTwoArchivedCategory1HasCorrectId.sqlite
+2023-06-29 16:24:38.977424+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testTwoCategoriesSavedThatTwoArchivedCategory1HasCorrectId.sqlite
+2023-06-29 16:24:38.977475+0800 xctest[88000:53671454] [logging] invalidated open fd: 70 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testTwoCategoriesSavedThatTwoArchivedCategory1HasCorrectId]' passed (0.003 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testOneCategorySavedThanArchivedCategory1HasCorrectName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testOneCategorySavedThanArchivedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.980239+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testOneCategorySavedThanArchivedCategory1HasCorrectName.sqlite
+2023-06-29 16:24:38.980287+0800 xctest[88000:53671460] [logging] invalidated open fd: 71 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testOneCategorySavedThanArchivedCategory1HasCorrectName]' passed (0.003 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testNothingSavedCategoriesHasCorrectCount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testNothingSavedCategoriesHasCorrectCount.sqlite
+2023-06-29 16:24:38.981799+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testNothingSavedCategoriesHasCorrectCount.sqlite
+2023-06-29 16:24:38.981854+0800 xctest[88000:53671460] [logging] invalidated open fd: 72 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testNothingSavedCategoriesHasCorrectCount]' passed (0.001 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testOneCategorySavedThanArchivedCategory1HasCorrectColor]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testOneCategorySavedThanArchivedCategory1HasCorrectColor.sqlite
+2023-06-29 16:24:38.984483+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testOneCategorySavedThanArchivedCategory1HasCorrectColor.sqlite
+2023-06-29 16:24:38.984537+0800 xctest[88000:53671453] [logging] invalidated open fd: 73 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testOneCategorySavedThanArchivedCategory1HasCorrectColor]' passed (0.003 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testOneCategorySavedThanArchivedCategory1HasCorrectIconName]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testOneCategorySavedThanArchivedCategory1HasCorrectIconName.sqlite
+2023-06-29 16:24:38.987083+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testOneCategorySavedThanArchivedCategory1HasCorrectIconName.sqlite
+2023-06-29 16:24:38.987129+0800 xctest[88000:53671453] [logging] invalidated open fd: 74 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testOneCategorySavedThanArchivedCategory1HasCorrectIconName]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testTwoCategoriesSavedThanFirstArchivedNonArchivedIsCorrectCategory]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testTwoCategoriesSavedThanFirstArchivedNonArchivedIsCorrectCategory.sqlite
+2023-06-29 16:24:38.990166+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testTwoCategoriesSavedThanFirstArchivedNonArchivedIsCorrectCategory.sqlite
+2023-06-29 16:24:38.990218+0800 xctest[88000:53671450] [logging] invalidated open fd: 75 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testTwoCategoriesSavedThanFirstArchivedNonArchivedIsCorrectCategory]' passed (0.003 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testOneCategorySavedThanArchivedHasCorrectCount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testOneCategorySavedThanArchivedHasCorrectCount.sqlite
+2023-06-29 16:24:38.992625+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testOneCategorySavedThanArchivedHasCorrectCount.sqlite
+2023-06-29 16:24:38.992669+0800 xctest[88000:53671452] [logging] invalidated open fd: 76 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testOneCategorySavedThanArchivedHasCorrectCount]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testTwoCategoriesSavedThatTwoArchivedCategory2HasCorrectId]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testTwoCategoriesSavedThatTwoArchivedCategory2HasCorrectId.sqlite
+2023-06-29 16:24:38.996471+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testTwoCategoriesSavedThatTwoArchivedCategory2HasCorrectId.sqlite
+2023-06-29 16:24:38.996527+0800 xctest[88000:53671450] [logging] invalidated open fd: 77 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testTwoCategoriesSavedThatTwoArchivedCategory2HasCorrectId]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testTwoCategoriesSavedThanFirstArchivedArchivedIsCorrectCategory]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testTwoCategoriesSavedThanFirstArchivedArchivedIsCorrectCategory.sqlite
+2023-06-29 16:24:38.999411+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/StorageGetArchivedCategoriesOrderedTests_testTwoCategoriesSavedThanFirstArchivedArchivedIsCorrectCategory.sqlite
+2023-06-29 16:24:38.999461+0800 xctest[88000:53671452] [logging] invalidated open fd: 78 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetArchivedCategoriesOrderedTests testTwoCategoriesSavedThanFirstArchivedArchivedIsCorrectCategory]' passed (0.003 seconds).
+Test Suite 'StorageGetArchivedCategoriesOrderedTests' passed at 2023-06-29 16:24:39.000.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.024 (0.025) seconds
+Test Suite 'StorageGetTransferTests' started at 2023-06-29 16:24:39.000
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetTransferTests testOneTransferGetTransferByAccountId]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOneExpenseGetReplenishmentsByAccountId.sqlite
+2023-06-29 16:24:39.002580+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOneExpenseGetReplenishmentsByAccountId.sqlite
+2023-06-29 16:24:39.002631+0800 xctest[88000:53671453] [logging] invalidated open fd: 79 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetTransferTests testOneTransferGetTransferByAccountId]' passed (0.003 seconds).
+Test Suite 'StorageGetTransferTests' passed at 2023-06-29 16:24:39.003.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'StorageArchiveCategoryTests' started at 2023-06-29 16:24:39.003
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageArchiveCategoryTests testArchivedCategoryIsNotInNonArchivedCategories]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testArchivedCategoryIsNotInNonArchivedCategories.sqlite
+2023-06-29 16:24:39.005290+0800 xctest[88000:53671455] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testArchivedCategoryIsNotInNonArchivedCategories.sqlite
+2023-06-29 16:24:39.005338+0800 xctest[88000:53671455] [logging] invalidated open fd: 80 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageArchiveCategoryTests testArchivedCategoryIsNotInNonArchivedCategories]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageArchiveCategoryTests testArchivedCategoryIsInArchivedCategories]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testArchivedCategoryIsNotInNonArchivedCategories.sqlite
+2023-06-29 16:24:39.008168+0800 xctest[88000:53671455] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testArchivedCategoryIsNotInNonArchivedCategories.sqlite
+2023-06-29 16:24:39.008215+0800 xctest[88000:53671455] [logging] invalidated open fd: 81 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageArchiveCategoryTests testArchivedCategoryIsInArchivedCategories]' passed (0.003 seconds).
+Test Suite 'StorageArchiveCategoryTests' passed at 2023-06-29 16:24:39.008.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'StorageHistoryItemsFilterTests' started at 2023-06-29 16:24:39.009
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByAccountHasCorrectAmount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByAccountHasCorrectAmount.sqlite
+2023-06-29 16:24:39.013061+0800 xctest[88000:53671454] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByAccountHasCorrectAmount.sqlite
+2023-06-29 16:24:39.013104+0800 xctest[88000:53671454] [logging] invalidated open fd: 82 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByAccountHasCorrectAmount]' passed (0.005 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByStartEndTimestampHasCorrectAmount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByStartEndTimestampHasCorrectAmount.sqlite
+2023-06-29 16:24:39.017389+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByStartEndTimestampHasCorrectAmount.sqlite
+2023-06-29 16:24:39.017434+0800 xctest[88000:53671452] [logging] invalidated open fd: 83 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByStartEndTimestampHasCorrectAmount]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByCategoryHasCorrectAmount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByCategoryHasCorrectAmount.sqlite
+2023-06-29 16:24:39.021773+0800 xctest[88000:53671455] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByCategoryHasCorrectAmount.sqlite
+2023-06-29 16:24:39.021823+0800 xctest[88000:53671455] [logging] invalidated open fd: 84 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByCategoryHasCorrectAmount]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByAccountAndCategoryHasCorrectCount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByAccountAndCategoryHasCorrectCount.sqlite
+2023-06-29 16:24:39.026233+0800 xctest[88000:53671455] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByAccountAndCategoryHasCorrectCount.sqlite
+2023-06-29 16:24:39.026294+0800 xctest[88000:53671455] [logging] invalidated open fd: 85 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByAccountAndCategoryHasCorrectCount]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsBySearchTextAccountCategoryStartEndTimestampHasCorrectAmount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsBySearchTextAccountCategoryStartEndTimestampHasCorrectAmount.sqlite
+2023-06-29 16:24:39.030513+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsBySearchTextAccountCategoryStartEndTimestampHasCorrectAmount.sqlite
+2023-06-29 16:24:39.030570+0800 xctest[88000:53671452] [logging] invalidated open fd: 86 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsBySearchTextAccountCategoryStartEndTimestampHasCorrectAmount]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByAccountAndCategoryHasCorrectExpense]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByAccountAndCategoryHasCorrectExpense.sqlite
+2023-06-29 16:24:39.034640+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByAccountAndCategoryHasCorrectExpense.sqlite
+2023-06-29 16:24:39.034696+0800 xctest[88000:53671452] [logging] invalidated open fd: 87 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByAccountAndCategoryHasCorrectExpense]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByAccountCategoryStartEndTimestampHasCorrectAmount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByAccountCategoryStartEndTimestampHasCorrectAmount.sqlite
+2023-06-29 16:24:39.038688+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsByAccountCategoryStartEndTimestampHasCorrectAmount.sqlite
+2023-06-29 16:24:39.038735+0800 xctest[88000:53671453] [logging] invalidated open fd: 88 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsByAccountCategoryStartEndTimestampHasCorrectAmount]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsWithoutFiltersHasCorrectAmount]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsWithoutFiltersHasCorrectAmount.sqlite
+2023-06-29 16:24:39.042248+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testGetHistoryItemsWithoutFiltersHasCorrectAmount.sqlite
+2023-06-29 16:24:39.042295+0800 xctest[88000:53671453] [logging] invalidated open fd: 89 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageHistoryItemsFilterTests testGetHistoryItemsWithoutFiltersHasCorrectAmount]' passed (0.003 seconds).
+Test Suite 'StorageHistoryItemsFilterTests' passed at 2023-06-29 16:24:39.042.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.033 (0.034) seconds
+Test Suite 'StorageDeleteReplenishmentsTests' started at 2023-06-29 16:24:39.043
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteReplenishmentsTests testCreatedThanRemovedByAccountIdInTransactionOneReplenishmentNoReplenishmentsLeft]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedByAccountIdInTransactionOneReplenishmentNoReplenishmentsLeft.sqlite
+2023-06-29 16:24:39.046005+0800 xctest[88000:53671450] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedByAccountIdInTransactionOneReplenishmentNoReplenishmentsLeft.sqlite
+2023-06-29 16:24:39.046056+0800 xctest[88000:53671450] [logging] invalidated open fd: 90 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteReplenishmentsTests testCreatedThanRemovedByAccountIdInTransactionOneReplenishmentNoReplenishmentsLeft]' passed (0.004 seconds).
+Test Suite 'StorageDeleteReplenishmentsTests' passed at 2023-06-29 16:24:39.046.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.004 (0.004) seconds
+Test Suite 'StorageDeleteCategoryTests' started at 2023-06-29 16:24:39.047
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteCategoryTests testCreateThanRemoveOneCategoryAndRelatedExpenseTemplateNotRemoved]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreateThanRemoveOneCategoryAndRelatedExpenseTemplateNotRemoved.sqlite
+2023-06-29 16:24:39.050616+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreateThanRemoveOneCategoryAndRelatedExpenseTemplateNotRemoved.sqlite
+2023-06-29 16:24:39.050663+0800 xctest[88000:53671460] [logging] invalidated open fd: 91 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteCategoryTests testCreateThanRemoveOneCategoryAndRelatedExpenseTemplateNotRemoved]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteCategoryTests testCreatedThanRemoveOneCategory]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemoveOneCategory.sqlite
+2023-06-29 16:24:39.054335+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemoveOneCategory.sqlite
+2023-06-29 16:24:39.054394+0800 xctest[88000:53671452] [logging] invalidated open fd: 92 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteCategoryTests testCreatedThanRemoveOneCategory]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteCategoryTests testCreateThanRemoveOneCategoryAndRelatedExpenseNotRemoved]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreateThanRemoveOneCategoryAndRelatedExpenseNotRemoved.sqlite
+2023-06-29 16:24:39.057564+0800 xctest[88000:53671460] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreateThanRemoveOneCategoryAndRelatedExpenseNotRemoved.sqlite
+2023-06-29 16:24:39.057618+0800 xctest[88000:53671460] [logging] invalidated open fd: 93 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteCategoryTests testCreateThanRemoveOneCategoryAndRelatedExpenseNotRemoved]' passed (0.003 seconds).
+Test Suite 'StorageDeleteCategoryTests' passed at 2023-06-29 16:24:39.058.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.011 (0.011) seconds
+Test Suite 'StorageDeleteExpensesTests' started at 2023-06-29 16:24:39.058
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteExpensesTests testCreatedThanRemovedByBalanceAccountIdInTransactionOneExpenseNoExpensesLeft]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedByBalanceAccountIdInTransactionOneExpenseNoExpensesLeft.sqlite
+2023-06-29 16:24:39.060855+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemovedByBalanceAccountIdInTransactionOneExpenseNoExpensesLeft.sqlite
+2023-06-29 16:24:39.060904+0800 xctest[88000:53671453] [logging] invalidated open fd: 94 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteExpensesTests testCreatedThanRemovedByBalanceAccountIdInTransactionOneExpenseNoExpensesLeft]' passed (0.003 seconds).
+Test Suite 'StorageDeleteExpensesTests' passed at 2023-06-29 16:24:39.061.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'StorageGetExpenseTemplateTests' started at 2023-06-29 16:24:39.061
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetExpenseTemplateTests testOneExpenseTemplateGetExpenseTemplatesByAccountId]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOneExpenseTemplateGetExpenseTemplatesByAccountId.sqlite
+2023-06-29 16:24:39.064033+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testOneExpenseTemplateGetExpenseTemplatesByAccountId.sqlite
+2023-06-29 16:24:39.064086+0800 xctest[88000:53671453] [logging] invalidated open fd: 95 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageGetExpenseTemplateTests testOneExpenseTemplateGetExpenseTemplatesByAccountId]' passed (0.003 seconds).
+Test Suite 'StorageGetExpenseTemplateTests' passed at 2023-06-29 16:24:39.064.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'StorageDeleteAccountTests' started at 2023-06-29 16:24:39.064
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteAccountTests testCreatedThanRemoveOneBalanceAccountNoAccountsLeft]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemoveOneBalanceAccountNoAccountsLeft.sqlite
+2023-06-29 16:24:39.066746+0800 xctest[88000:53671453] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemoveOneBalanceAccountNoAccountsLeft.sqlite
+2023-06-29 16:24:39.066804+0800 xctest[88000:53671453] [logging] invalidated open fd: 96 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteAccountTests testCreatedThanRemoveOneBalanceAccountNoAccountsLeft]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteAccountTests testCreateThanRemoveOneAccountRelatedExpensesRemains]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemoveOneBalanceAccountNoAccountsLeft.sqlite
+2023-06-29 16:24:39.075952+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testCreatedThanRemoveOneBalanceAccountNoAccountsLeft.sqlite
+2023-06-29 16:24:39.076009+0800 xctest[88000:53671452] [logging] invalidated open fd: 97 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteAccountTests testCreateThanRemoveOneAccountRelatedExpensesRemains]' passed (0.009 seconds).
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteAccountTests testTwoAccountsCreatedThanOneRemovedOneAccountLeft]' started.
+file:///Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testTwoAccountsCreatedThanOneRemovedOneAccountLeft.sqlite
+2023-06-29 16:24:39.079936+0800 xctest[88000:53671452] [logging] BUG IN CLIENT OF libsqlite3.dylib: database integrity compromised by API violation: vnode unlinked while in use: /Users/luximetr/Library/Developer/XCTestDevices/7022872D-8BFD-49FE-AF45-E9FF1E917479/data/Documents/testTwoAccountsCreatedThanOneRemovedOneAccountLeft.sqlite
+2023-06-29 16:24:39.079986+0800 xctest[88000:53671452] [logging] invalidated open fd: 98 (0x11)
+Test Case '-[MoneyTrackerStorageUnitTesting.StorageDeleteAccountTests testTwoAccountsCreatedThanOneRemovedOneAccountLeft]' passed (0.004 seconds).
+Test Suite 'StorageDeleteAccountTests' passed at 2023-06-29 16:24:39.080.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.015 (0.016) seconds
+Test Suite 'MoneyTrackerStorageUnitTesting.xctest' passed at 2023-06-29 16:24:39.080.
+	 Executed 91 tests, with 0 failures (0 unexpected) in 0.874 (0.887) seconds
+Test Suite 'All tests' passed at 2023-06-29 16:24:39.080.
+	 Executed 91 tests, with 0 failures (0 unexpected) in 0.874 (0.888) seconds

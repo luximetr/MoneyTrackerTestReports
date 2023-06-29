@@ -72,3 +72,5 @@
 16:24:44.958 xcodebuild[86654:53671073] Got reply to authorization request for pid 88039 (result:error): 1: (null)
 16:24:44.992 xcodebuild[86654:53672009] Requesting authorization for pid 88041
 16:24:44.995 xcodebuild[86654:53672008] Got reply to authorization request for pid 88041 (result:error): 1: (null)
+16:25:27.118 xcodebuild[86654:53674501] Closing socket 40 to testmanagerd for Sim Clone 1 of iPhone 14 Pro
+16:25:27.118 xcodebuild[86654:53674498] <XCTDaemonControlSession: 0x600000438050> lost connection to daemon

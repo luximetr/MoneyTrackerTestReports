@@ -1,0 +1,18 @@
+Test Suite 'SelectBalanceAccountToMoveScreenTests' started at 2023-06-29 16:22:31.137
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_Thai_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_Thai_Light]' passed (0.853 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_Ukrainian_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_Ukrainian_Dark]' passed (0.742 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_English_Light]' passed (0.712 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_Thai_Dark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_Thai_Dark]' passed (0.697 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests testNoBalanceAccountsToMove_iPhone14Pro_English_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests testNoBalanceAccountsToMove_iPhone14Pro_English_Light]' passed (0.229 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_English_DarkToLight]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_English_DarkToLight]' passed (0.899 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_English_LightToDark]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_English_LightToDark]' passed (0.720 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_Ukrainian_Light]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_Ukrainian_Light]' passed (0.670 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.SelectBalanceAccountToMoveScreenTests test10BalanceAccountsToMove_iPhone14Pro_English_Dark]' started.

@@ -1,0 +1,33 @@
+Test Suite 'HistoryListScreenEditTransferDateTests' started at 2023-06-29 16:22:31.192
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSameSection1ItemBelow]' started.
+2023-06-29 16:22:31.273572+0800 xctest[86391:53647171] [TableView] Warning once only: UITableView was told to layout its visible cells and other contents without being in the view hierarchy (the table view or one of its superviews has not been added to a window). This may cause bugs by forcing views inside the table view to load and perform layout without accurate information (e.g. table view bounds, trait collection, layout margins, safe area insets, etc), and will also cause unnecessary performance overhead due to extra layout passes. Make a symbolic breakpoint at UITableViewAlertForLayoutOutsideViewHierarchy to catch this in the debugger and see what caused this to occur, so you can avoid this action altogether if possible, or defer it until the table view has been added to a window. Table view: <UITableView: 0x158817a00; frame = (0 116; 393 686); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x6000019cd890>; backgroundColor = UIExtendedSRGBColorSpace 0.977 0.977 0.977 1; layer = <CALayer: 0x600001748720>; contentOffset: {0, 0}; contentSize: {393, 256.99999237060547}; adjustedContentInset: {0, 0, 98, 0}; dataSource: <_TtC6AUIKitP33_D811B2E810C50E74E7FFEB2E8E44C5FB24UITableViewDelegateProxy: 0x600001504170>>
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSameSection1ItemBelow]' passed (0.471 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionAbove]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionAbove]' passed (0.363 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelow]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateLastItemAtDayToMoveToNotListedSectionBelow]' passed (0.393 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSameSectionStart]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSameSectionStart]' passed (0.313 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveNotExistingTransferToExistingDayAtEnd]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveNotExistingTransferToExistingDayAtEnd]' passed (0.405 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSectionAboveToSectionStart]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSectionAboveToSectionStart]' passed (0.388 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveNotExistingTransferToNotExistingDay]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveNotExistingTransferToNotExistingDay]' passed (0.327 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSameSectionEnd]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSameSectionEnd]' passed (0.293 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSectionAboveToSectionEnd]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSectionAboveToSectionEnd]' passed (0.396 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToNoListedSectionAbove]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToNoListedSectionAbove]' passed (0.549 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateLastItemAtDayToMoveToSectionAboveToMiddle]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateLastItemAtDayToMoveToSectionAboveToMiddle]' passed (0.378 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSameSection1ItemAbove]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSameSection1ItemAbove]' passed (0.344 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveNotExistingTransferToExistingDayAtMiddle]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveNotExistingTransferToExistingDayAtMiddle]' passed (0.365 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveNotExistingTransferToExistingDayAtStart]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveNotExistingTransferToExistingDayAtStart]' passed (0.385 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSectionAboveToSectionMiddle]' started.
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSectionAboveToSectionMiddle]' passed (0.437 seconds).
+Test Case '-[MoneyTrackerPresentationUnitTesting.HistoryListScreenEditTransferDateTests testHistoryEditTransferDateToMoveToSameSectionEndWithLoadedFullPage]' started.

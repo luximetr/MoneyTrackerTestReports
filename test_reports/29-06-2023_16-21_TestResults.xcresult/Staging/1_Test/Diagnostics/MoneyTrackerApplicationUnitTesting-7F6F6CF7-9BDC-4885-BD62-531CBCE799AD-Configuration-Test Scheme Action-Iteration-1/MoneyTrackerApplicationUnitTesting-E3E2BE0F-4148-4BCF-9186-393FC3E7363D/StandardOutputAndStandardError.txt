@@ -1,0 +1,121 @@
+file:///Users/luximetr/Library/Developer/XCTestDevices/146F0393-DE58-4240-A58E-3C348D95C6C3/data/Containers/Data/Application/058E00AC-AB1F-424B-B4A3-177527CCAF3D/Documents/DatabaseName.sqlite
+2023-06-29 16:22:27.436956+0800 MoneyTracker[86376:53647014] [WC] -[WCSession onqueue_handleUpdateSessionState:]_block_invoke dropping as pairingIDs no longer match. pairingID (null), client pairingID: (null)
+2023-06-29 16:22:27.445400+0800 MoneyTracker[86376:53647014] [WC] WCSession is not paired
+Test Suite 'All tests' started at 2023-06-29 16:22:27.554
+Test Suite 'MoneyTrackerApplicationUnitTesting.xctest' started at 2023-06-29 16:22:27.554
+Test Suite 'ApplicationPresentationDeleteCategoryMovingToCategoryTests' started at 2023-06-29 16:22:27.555
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryUpdatingExpenseToCorrectCategoryIdAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryUpdatingExpenseToCorrectCategoryIdAtStorage]' passed (0.004 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategorySavingOnDeviceExpenseTemplateUpdatedChangeToStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategorySavingOnDeviceExpenseTemplateUpdatedChangeToStorage]' passed (0.001 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryDeletingCategoryFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryDeletingCategoryFromStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategorySavingOnDeviceExpenseUpdatedChangeToStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategorySavingOnDeviceExpenseUpdatedChangeToStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategorySavingOnDeviceCategoryRemovedChangeToStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategorySavingOnDeviceCategoryRemovedChangeToStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryUpdatingExpenseTemplateCorrectToCategoryIdAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryUpdatingExpenseTemplateCorrectToCategoryIdAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryUpdatingExpenseCorrectCategoryIdAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryUpdatingExpenseCorrectCategoryIdAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryUpdatingExpenseTemplateCorrectCategoryIdAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryMovingToCategoryTests testDeleteCategoryUpdatingExpenseTemplateCorrectCategoryIdAtStorage]' passed (0.001 seconds).
+Test Suite 'ApplicationPresentationDeleteCategoryMovingToCategoryTests' passed at 2023-06-29 16:22:27.564.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.007 (0.009) seconds
+Test Suite 'ApplicationPresentationDeleteCategoryTests' started at 2023-06-29 16:22:27.564
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategorySavingOnDeviceExpenseRemovedChangeToStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategorySavingOnDeviceExpenseRemovedChangeToStorage]' passed (0.001 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategorySavingOnDeviceCategoryRemovedChangeToStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategorySavingOnDeviceCategoryRemovedChangeToStorage]' passed (0.001 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategorySavingOnDeviceExpenseTemplateRemovedChangeToStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategorySavingOnDeviceExpenseTemplateRemovedChangeToStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategoryDeletingRelatedExpenseTemplatesFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategoryDeletingRelatedExpenseTemplatesFromStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategoryDeletingCategoryFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategoryDeletingCategoryFromStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategoryDeletingRelatedExpensesFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteCategoryTests testDeleteCategoryDeletingRelatedExpensesFromStorage]' passed (0.000 seconds).
+Test Suite 'ApplicationPresentationDeleteCategoryTests' passed at 2023-06-29 16:22:27.568.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'ApplicationPresentationClosuresTests' started at 2023-06-29 16:22:27.568
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitializePresentationSetsGetSelectedTotalAmountViewSettingClosure]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitializePresentationSetsGetSelectedTotalAmountViewSettingClosure]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitializePresentationSetsGetSelectedCurrencyClosure]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitializePresentationSetsGetSelectedCurrencyClosure]' passed (0.001 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitializePresentationSetsGetOrderedBalanceAccountsClosure]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitializePresentationSetsGetOrderedBalanceAccountsClosure]' passed (0.001 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitializePresentationSetsGetOrderedExpenseTemplatesClosure]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitializePresentationSetsGetOrderedExpenseTemplatesClosure]' passed (0.002 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitalizePresentationSetsAddBalanceAccountClosure]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationClosuresTests testInitalizePresentationSetsAddBalanceAccountClosure]' passed (0.001 seconds).
+Test Suite 'ApplicationPresentationClosuresTests' passed at 2023-06-29 16:22:27.577.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.006 (0.008) seconds
+Test Suite 'ApplicationPresentationDeleteBalanceAccountTests' started at 2023-06-29 16:22:27.577
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingRelatedExpensesFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingRelatedExpensesFromStorage]' passed (0.001 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingAccountFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingAccountFromStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingRelatedExpenseTemplatesFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingRelatedExpenseTemplatesFromStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingRelatedReplenishmentsFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingRelatedReplenishmentsFromStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingRelatedTransfersFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountTests testDeleteAccountDeletingRelatedTransfersFromStorage]' passed (0.001 seconds).
+Test Suite 'ApplicationPresentationDeleteBalanceAccountTests' passed at 2023-06-29 16:22:27.580.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'ApplicationPresentationEditExpenseTests' started at 2023-06-29 16:22:27.581
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationEditExpenseTests testEditExpenseCountingDayExpensesWithFiltersCorrectly]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationEditExpenseTests testEditExpenseCountingDayExpensesWithFiltersCorrectly]' passed (0.007 seconds).
+Test Suite 'ApplicationPresentationEditExpenseTests' passed at 2023-06-29 16:22:27.588.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.007 (0.008) seconds
+Test Suite 'ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests' started at 2023-06-29 16:22:27.588
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedTransfersOfDeletingAccountFromAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedTransfersOfDeletingAccountFromAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedExpenseTemplatesToMoveToAccountAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedExpenseTemplatesToMoveToAccountAtStorage]' passed (0.005 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountDeletingAccountFromStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountDeletingAccountFromStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedReplenishmentsOfDeletingAccountAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedReplenishmentsOfDeletingAccountAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedExpensesOfDeletingAccountAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedExpensesOfDeletingAccountAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedTransfersToMoveToAccountFromAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedTransfersToMoveToAccountFromAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedExpenseTemplatesOfDeletingAccountAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedExpenseTemplatesOfDeletingAccountAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedExpensesToMoveToAccountAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedExpensesToMoveToAccountAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedTransfersToMoveToAccountToAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedTransfersToMoveToAccountToAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedReplenishmentsToMoveToAccountAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedReplenishmentsToMoveToAccountAtStorage]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedTransfersOfDeletingAccountToAtStorage]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests testDeleteAccountUpdatingRelatedTransfersOfDeletingAccountToAtStorage]' passed (0.000 seconds).
+Test Suite 'ApplicationPresentationDeleteBalanceAccountMovingToBalanceAccountTests' passed at 2023-06-29 16:22:27.598.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.008 (0.010) seconds
+Test Suite 'ApplicationPresentationImportCSVOneAccountTests' started at 2023-06-29 16:22:27.598
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationImportCSVOneAccountTests testImportingOneAccountImportedHasCorrectAccountsCount]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationImportCSVOneAccountTests testImportingOneAccountImportedHasCorrectAccountsCount]' passed (0.001 seconds).
+Test Suite 'ApplicationPresentationImportCSVOneAccountTests' passed at 2023-06-29 16:22:27.599.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'ApplicationPresentationSynchronizeUnitTesting' started at 2023-06-29 16:22:27.599
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testCompletionBlockIsBeingCalled]' started.
+MoneyTrackerApplicationUnitTesting/MockICloud.swift:14 mockPullLatestChanges is undefined
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testCompletionBlockIsBeingCalled]' passed (0.001 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testSyncPresentationSynchronizedAccountsDoNotHaveArchived]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testSyncPresentationSynchronizedAccountsDoNotHaveArchived]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testStorageIsBeingCalledToFetchICloudChangeToken]' started.
+MoneyTrackerApplicationUnitTesting/MockICloud.swift:14 mockPullLatestChanges is undefined
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testStorageIsBeingCalledToFetchICloudChangeToken]' passed (0.001 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testSyncPresentationSynchronizedAccountsAccount2IsCorrect]' started.
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testSyncPresentationSynchronizedAccountsAccount2IsCorrect]' passed (0.000 seconds).
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testSyncHandlingThrowFromICloudWithSavingSynchronizedItems]' started.
+MoneyTrackerApplicationUnitTesting/MockICloud.swift:14 mockPullLatestChanges is undefined
+Test Case '-[MoneyTrackerApplicationUnitTesting.ApplicationPresentationSynchronizeUnitTesting testSyncHandlingThrowFromICloudWithSavingSynchronizedItems]' passed (0.000 seconds).
+Test Suite 'ApplicationPresentationSynchronizeUnitTesting' passed at 2023-06-29 16:22:27.602.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'MoneyTrackerApplicationUnitTesting.xctest' passed at 2023-06-29 16:22:27.602.
+	 Executed 42 tests, with 0 failures (0 unexpected) in 0.038 (0.048) seconds
+Test Suite 'All tests' passed at 2023-06-29 16:22:27.603.
+	 Executed 42 tests, with 0 failures (0 unexpected) in 0.038 (0.049) seconds
+2023-06-29 16:22:30.105951+0800 MoneyTracker[86376:53646980] [client] Timed out waiting for the exit barrier block. activeSendTransactions=0

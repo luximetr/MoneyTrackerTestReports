@@ -1,5 +1,0 @@
-2023-06-29 08:24:38 +0000: Received worker from worker provider: 0x121a1b6f0 [0: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)]
-2023-06-29 08:24:38 +0000: Worker 0x121a1b6f0 [88000: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished bootstrapping
-2023-06-29 08:24:38 +0000: Parallelization disabled; test execution driven by the test process
-2023-06-29 08:24:39 +0000: Worker 0x121a1b6f0 [88000: Clone 1 of iPhone 14 Pro (7022872D-8BFD-49FE-AF45-E9FF1E917479)] finished successfully
-2023-06-29 08:24:39 +0000: Finished executing tests (cancelled: No)

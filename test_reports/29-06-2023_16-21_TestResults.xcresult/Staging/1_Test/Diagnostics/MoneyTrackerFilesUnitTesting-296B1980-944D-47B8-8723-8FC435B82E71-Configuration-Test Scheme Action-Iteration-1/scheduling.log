@@ -1,5 +1,0 @@
-2023-06-29 08:22:01 +0000: Received worker from worker provider: 0x11232e180 [0: Clone 1 of iPhone 14 Pro (146F0393-DE58-4240-A58E-3C348D95C6C3)]
-2023-06-29 08:22:23 +0000: Worker 0x11232e180 [86334: Clone 1 of iPhone 14 Pro (146F0393-DE58-4240-A58E-3C348D95C6C3)] finished bootstrapping
-2023-06-29 08:22:23 +0000: Parallelization disabled; test execution driven by the test process
-2023-06-29 08:22:24 +0000: Worker 0x11232e180 [86334: Clone 1 of iPhone 14 Pro (146F0393-DE58-4240-A58E-3C348D95C6C3)] finished successfully
-2023-06-29 08:22:24 +0000: Finished executing tests (cancelled: No)
